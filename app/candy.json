@@ -1,0 +1,2981 @@
+{
+  "brand": {
+    "id": "candy",
+    "name_en": "Candy",
+    "name_ar": "كاندي",
+    "logo": "assets/brands/candy.svg",
+    "color": "#0054a6"
+  },
+  "models": [
+    {
+      "id": "candy-001",
+      "model": "CS-6D272D",
+      "series": "CS",
+      "generation": "Legacy",
+      "category": "Front Load",
+      "capacity_kg": 6,
+      "sort_order": 1,
+      "aliases": [
+        "CS-6D272D",
+        "cs-6d272d",
+        "Candy CS-6D272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy CS-6D272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-6001",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-6001",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-6001",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-6001",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-6001",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-6001",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-6001",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-6001",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-6001",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "CS",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-002",
+      "model": "GVS-7T272D",
+      "series": "GVS",
+      "generation": "Classic",
+      "category": "Washer Dryer",
+      "capacity_kg": 7,
+      "sort_order": 2,
+      "aliases": [
+        "GVS-7T272D",
+        "gvs-7t272d",
+        "Candy GVS-7T272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy GVS-7T272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-7002",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-7002",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-7002",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-7002",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-7002",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-7002",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-7002",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-7002",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-7002",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "GVS",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-003",
+      "model": "RO-8X272D",
+      "series": "RO",
+      "generation": "Mid Gen",
+      "category": "Slim Front Load",
+      "capacity_kg": 8,
+      "sort_order": 3,
+      "aliases": [
+        "RO-8X272D",
+        "ro-8x272d",
+        "Candy RO-8X272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy RO-8X272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-8003",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-8003",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-8003",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-8003",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-8003",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-8003",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-8003",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-8003",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-8003",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "RO",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-004",
+      "model": "ROW-9D272D",
+      "series": "ROW",
+      "generation": "Modern",
+      "category": "Front Load",
+      "capacity_kg": 9,
+      "sort_order": 4,
+      "aliases": [
+        "ROW-9D272D",
+        "row-9d272d",
+        "Candy ROW-9D272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy ROW-9D272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-9004",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-9004",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-9004",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-9004",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-9004",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-9004",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-9004",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-9004",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-9004",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "ROW",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-005",
+      "model": "GVSW-10T272D",
+      "series": "GVSW",
+      "generation": "Smart",
+      "category": "Washer Dryer",
+      "capacity_kg": 10,
+      "sort_order": 5,
+      "aliases": [
+        "GVSW-10T272D",
+        "gvsw-10t272d",
+        "Candy GVSW-10T272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy GVSW-10T272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-10005",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-10005",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-10005",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-10005",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-10005",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-10005",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-10005",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-10005",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-10005",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "GVSW",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-006",
+      "model": "AQUA-6X272D",
+      "series": "AQUA",
+      "generation": "Legacy",
+      "category": "Slim Front Load",
+      "capacity_kg": 6,
+      "sort_order": 6,
+      "aliases": [
+        "AQUA-6X272D",
+        "aqua-6x272d",
+        "Candy AQUA-6X272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy AQUA-6X272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-6006",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-6006",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-6006",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-6006",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-6006",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-6006",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-6006",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-6006",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-6006",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AQUA",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-007",
+      "model": "CS-7D272D",
+      "series": "CS",
+      "generation": "Classic",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 7,
+      "aliases": [
+        "CS-7D272D",
+        "cs-7d272d",
+        "Candy CS-7D272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy CS-7D272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-7007",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-7007",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-7007",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-7007",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-7007",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-7007",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-7007",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-7007",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-7007",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "CS",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-008",
+      "model": "GVS-8T272D",
+      "series": "GVS",
+      "generation": "Mid Gen",
+      "category": "Washer Dryer",
+      "capacity_kg": 8,
+      "sort_order": 8,
+      "aliases": [
+        "GVS-8T272D",
+        "gvs-8t272d",
+        "Candy GVS-8T272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy GVS-8T272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-8008",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-8008",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-8008",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-8008",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-8008",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-8008",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-8008",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-8008",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-8008",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "GVS",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-009",
+      "model": "RO-9X272D",
+      "series": "RO",
+      "generation": "Modern",
+      "category": "Slim Front Load",
+      "capacity_kg": 9,
+      "sort_order": 9,
+      "aliases": [
+        "RO-9X272D",
+        "ro-9x272d",
+        "Candy RO-9X272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy RO-9X272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-9009",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-9009",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-9009",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-9009",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-9009",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-9009",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-9009",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-9009",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-9009",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "RO",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-010",
+      "model": "ROW-10D272D",
+      "series": "ROW",
+      "generation": "Smart",
+      "category": "Front Load",
+      "capacity_kg": 10,
+      "sort_order": 10,
+      "aliases": [
+        "ROW-10D272D",
+        "row-10d272d",
+        "Candy ROW-10D272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy ROW-10D272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-10010",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-10010",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-10010",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-10010",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-10010",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-10010",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-10010",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-10010",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-10010",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "ROW",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-011",
+      "model": "GVSW-6T272D",
+      "series": "GVSW",
+      "generation": "Legacy",
+      "category": "Washer Dryer",
+      "capacity_kg": 6,
+      "sort_order": 11,
+      "aliases": [
+        "GVSW-6T272D",
+        "gvsw-6t272d",
+        "Candy GVSW-6T272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy GVSW-6T272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-6011",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-6011",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-6011",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-6011",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-6011",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-6011",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-6011",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-6011",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-6011",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "GVSW",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-012",
+      "model": "AQUA-7X272D",
+      "series": "AQUA",
+      "generation": "Classic",
+      "category": "Slim Front Load",
+      "capacity_kg": 7,
+      "sort_order": 12,
+      "aliases": [
+        "AQUA-7X272D",
+        "aqua-7x272d",
+        "Candy AQUA-7X272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy AQUA-7X272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-7012",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-7012",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-7012",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-7012",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-7012",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-7012",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-7012",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-7012",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-7012",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AQUA",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-013",
+      "model": "CS-8D272D",
+      "series": "CS",
+      "generation": "Mid Gen",
+      "category": "Front Load",
+      "capacity_kg": 8,
+      "sort_order": 13,
+      "aliases": [
+        "CS-8D272D",
+        "cs-8d272d",
+        "Candy CS-8D272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy CS-8D272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-8013",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-8013",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-8013",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-8013",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-8013",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-8013",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-8013",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-8013",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-8013",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "CS",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-014",
+      "model": "GVS-9T272D",
+      "series": "GVS",
+      "generation": "Modern",
+      "category": "Washer Dryer",
+      "capacity_kg": 9,
+      "sort_order": 14,
+      "aliases": [
+        "GVS-9T272D",
+        "gvs-9t272d",
+        "Candy GVS-9T272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy GVS-9T272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-9014",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-9014",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-9014",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-9014",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-9014",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-9014",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-9014",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-9014",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-9014",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "GVS",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-015",
+      "model": "RO-10X272D",
+      "series": "RO",
+      "generation": "Smart",
+      "category": "Slim Front Load",
+      "capacity_kg": 10,
+      "sort_order": 15,
+      "aliases": [
+        "RO-10X272D",
+        "ro-10x272d",
+        "Candy RO-10X272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy RO-10X272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-10015",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-10015",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-10015",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-10015",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-10015",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-10015",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-10015",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-10015",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-10015",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "RO",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-016",
+      "model": "ROW-6D272D",
+      "series": "ROW",
+      "generation": "Legacy",
+      "category": "Front Load",
+      "capacity_kg": 6,
+      "sort_order": 16,
+      "aliases": [
+        "ROW-6D272D",
+        "row-6d272d",
+        "Candy ROW-6D272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy ROW-6D272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-6016",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-6016",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-6016",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-6016",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-6016",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-6016",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-6016",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-6016",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-6016",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "ROW",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-017",
+      "model": "GVSW-7T272D",
+      "series": "GVSW",
+      "generation": "Classic",
+      "category": "Washer Dryer",
+      "capacity_kg": 7,
+      "sort_order": 17,
+      "aliases": [
+        "GVSW-7T272D",
+        "gvsw-7t272d",
+        "Candy GVSW-7T272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy GVSW-7T272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-7017",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-7017",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-7017",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-7017",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-7017",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-7017",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-7017",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-7017",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-7017",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "GVSW",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-018",
+      "model": "AQUA-8X272D",
+      "series": "AQUA",
+      "generation": "Mid Gen",
+      "category": "Slim Front Load",
+      "capacity_kg": 8,
+      "sort_order": 18,
+      "aliases": [
+        "AQUA-8X272D",
+        "aqua-8x272d",
+        "Candy AQUA-8X272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy AQUA-8X272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-8018",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-8018",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-8018",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-8018",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-8018",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-8018",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-8018",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-8018",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-8018",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AQUA",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-019",
+      "model": "CS-9D272D",
+      "series": "CS",
+      "generation": "Modern",
+      "category": "Front Load",
+      "capacity_kg": 9,
+      "sort_order": 19,
+      "aliases": [
+        "CS-9D272D",
+        "cs-9d272d",
+        "Candy CS-9D272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy CS-9D272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-9019",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-9019",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-9019",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-9019",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-9019",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-9019",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-9019",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-9019",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-9019",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "CS",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-020",
+      "model": "GVS-10T272D",
+      "series": "GVS",
+      "generation": "Smart",
+      "category": "Washer Dryer",
+      "capacity_kg": 10,
+      "sort_order": 20,
+      "aliases": [
+        "GVS-10T272D",
+        "gvs-10t272d",
+        "Candy GVS-10T272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy GVS-10T272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-10020",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-10020",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-10020",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-10020",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-10020",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-10020",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-10020",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-10020",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-10020",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "GVS",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-021",
+      "model": "RO-6X272D",
+      "series": "RO",
+      "generation": "Legacy",
+      "category": "Slim Front Load",
+      "capacity_kg": 6,
+      "sort_order": 21,
+      "aliases": [
+        "RO-6X272D",
+        "ro-6x272d",
+        "Candy RO-6X272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy RO-6X272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-6021",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-6021",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-6021",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-6021",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-6021",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-6021",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-6021",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-6021",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-6021",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "RO",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "candy-022",
+      "model": "ROW-7D272D",
+      "series": "ROW",
+      "generation": "Classic",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 22,
+      "aliases": [
+        "ROW-7D272D",
+        "row-7d272d",
+        "Candy ROW-7D272D"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Candy ROW-7D272D.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "CAN-MAIN-7022",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "CAN-UI-7022",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "CAN-INV-7022",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "CAN-LOCK-7022",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "CAN-PUMP-7022",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "CAN-VALVE-7022",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "CAN-NTC-7022",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "CAN-SHOCK-7022",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "CAN-GSKT-7022",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "ROW",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    }
+  ]
+}
