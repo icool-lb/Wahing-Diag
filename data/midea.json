@@ -1,67 +1,24 @@
 {
   "brand": {
-    "id": "lg",
-    "name_en": "LG",
-    "name_ar": "إل جي",
-    "logo": "assets/brands/lg.svg"
+    "id": "midea",
+    "name_en": "Midea",
+    "name_ar": "ميديا",
+    "logo": "assets/brands/midea.svg"
   },
   "models": [
     {
-      "id": "lg-wd-8013c",
-      "model": "WD-8013C",
-      "series": "WD",
-      "generation": "older",
-      "category": "Front Load",
-      "capacity_kg": 5.0,
-      "sort_order": 1,
-      "aliases": [
-        "WD-8013C",
-        "WD-801",
-        "LG 5kg",
-        "LG WD"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-wd-10130n",
-      "model": "WD-10130N",
-      "series": "WD",
+      "id": "midea-mwmfl060an",
+      "model": "MWMFL060AN",
+      "series": "MWMFL",
       "generation": "older",
       "category": "Front Load",
       "capacity_kg": 6.0,
-      "sort_order": 2,
+      "sort_order": 1,
       "aliases": [
-        "WD-10130N",
-        "WD-101",
-        "LG 6kg",
-        "LG WD"
+        "MWMFL060AN",
+        "MWMFL0",
+        "Midea 6kg",
+        "Midea MWMFL"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -93,104 +50,23 @@
       ]
     },
     {
-      "id": "lg-wd-12320rd",
-      "model": "WD-12320RD",
-      "series": "WD",
+      "id": "midea-mwmfl070an",
+      "model": "MWMFL070AN",
+      "series": "MWMFL",
       "generation": "older",
       "category": "Front Load",
       "capacity_kg": 7.0,
-      "sort_order": 3,
+      "sort_order": 2,
       "aliases": [
-        "WD-12320RD",
-        "WD-123",
-        "LG 7kg",
-        "LG WD"
+        "MWMFL070AN",
+        "MWMFL0",
+        "Midea 7kg",
+        "Midea MWMFL"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [
-        {
-          "code": "IE",
-          "title": "Inlet error",
-          "description": "Water not entering correctly; inspect valve, filter screen, tap, and hose."
-        },
-        {
-          "code": "OE",
-          "title": "Drain error",
-          "description": "Check pump filter, drain hose, pump impeller, and standpipe restriction."
-        },
-        {
-          "code": "UE",
-          "title": "Unbalance error",
-          "description": "Redistribute load, check suspension, leveling, and spin basket play."
-        },
-        {
-          "code": "LE",
-          "title": "Motor lock / drive error",
-          "description": "Inspect rotor, hall sensor, stator harness, overload, and seized drum."
-        },
-        {
-          "code": "dE",
-          "title": "Door error",
-          "description": "Inspect door switch/lock, strike, and control harness."
-        },
-        {
-          "code": "PF",
-          "title": "Power failure / restart memory",
-          "description": "Check supply stability, plug, main filter, and power recovery behavior."
-        }
-      ],
-      "boards": [
-        {
-          "name": "Main PCB",
-          "serial": "LG-WD-MAIN-VERIFY",
-          "notes": "Confirm exact board by full model code and version sticker before ordering.",
-          "image": ""
-        },
-        {
-          "name": "Display / UI PCB",
-          "serial": "LG-WD-UI-VERIFY",
-          "notes": "Front panel board; compare connector count and fascia version.",
-          "image": ""
-        },
-        {
-          "name": "Noise Filter / Power Board",
-          "serial": "LG-WD-EMI-VERIFY",
-          "notes": "Check line filter and burn marks if no power symptom.",
-          "image": ""
-        }
-      ],
-      "parts": [
-        {
-          "part_name": "Drain Pump",
-          "part_number": "LG-WD-PUMP-VERIFY",
-          "notes": "Match voltage and connector type."
-        },
-        {
-          "part_name": "Door Lock",
-          "part_number": "LG-WD-LOCK-VERIFY",
-          "notes": "Variant differs by chassis and region."
-        },
-        {
-          "part_name": "Inlet Valve",
-          "part_number": "LG-WD-VALVE-VERIFY",
-          "notes": "Single/double/triple valve depends on configuration."
-        },
-        {
-          "part_name": "Shock Absorber Set",
-          "part_number": "LG-WD-SHOCK-VERIFY",
-          "notes": "Confirm length and end type."
-        },
-        {
-          "part_name": "Hall Sensor",
-          "part_number": "LG-WD-HALL-VERIFY",
-          "notes": "Direct drive models commonly require sensor confirmation."
-        },
-        {
-          "part_name": "Drain Pump Filter Cap",
-          "part_number": "LG-WD-FILTER-VERIFY",
-          "notes": "Useful field-service item."
-        }
-      ],
+      "faults": [],
+      "boards": [],
+      "parts": [],
       "documents": [
         {
           "title": "Service reference",
@@ -217,18 +93,18 @@
       ]
     },
     {
-      "id": "lg-wd-14311rd",
-      "model": "WD-14311RD",
-      "series": "WD",
+      "id": "midea-mwmfl080an",
+      "model": "MWMFL080AN",
+      "series": "MWMFL",
       "generation": "older",
       "category": "Front Load",
       "capacity_kg": 8.0,
-      "sort_order": 4,
+      "sort_order": 3,
       "aliases": [
-        "WD-14311RD",
-        "WD-143",
-        "LG 8kg",
-        "LG WD"
+        "MWMFL080AN",
+        "MWMFL0",
+        "Midea 8kg",
+        "Midea MWMFL"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -260,18 +136,18 @@
       ]
     },
     {
-      "id": "lg-f10b8nda",
-      "model": "F10B8NDA",
-      "series": "F",
+      "id": "midea-abwmfl70s",
+      "model": "ABWMFL70S",
+      "series": "ABWMFL",
       "generation": "older",
       "category": "Front Load",
-      "capacity_kg": 6.0,
-      "sort_order": 5,
+      "capacity_kg": 7.0,
+      "sort_order": 4,
       "aliases": [
-        "F10B8NDA",
-        "F10B8N",
-        "LG 6kg",
-        "LG F"
+        "ABWMFL70S",
+        "ABWMFL",
+        "Midea 7kg",
+        "Midea ABWMFL"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -303,18 +179,61 @@
       ]
     },
     {
-      "id": "lg-f10c3qdp2",
-      "model": "F10C3QDP2",
-      "series": "F",
+      "id": "midea-abwmfl80s",
+      "model": "ABWMFL80S",
+      "series": "ABWMFL",
       "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 5,
+      "aliases": [
+        "ABWMFL80S",
+        "ABWMFL",
+        "Midea 8kg",
+        "Midea ABWMFL"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "midea-mf100w70b",
+      "model": "MF100W70B",
+      "series": "MF100",
+      "generation": "mid",
       "category": "Front Load",
       "capacity_kg": 7.0,
       "sort_order": 6,
       "aliases": [
-        "F10C3QDP2",
-        "F10C3Q",
-        "LG 7kg",
-        "LG F"
+        "MF100W70B",
+        "MF100W",
+        "Midea 7kg",
+        "Midea MF100"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -346,102 +265,96 @@
       ]
     },
     {
-      "id": "lg-f12b8nda",
-      "model": "F12B8NDA",
-      "series": "F",
+      "id": "midea-mf100w80b",
+      "model": "MF100W80B",
+      "series": "MF100",
       "generation": "mid",
       "category": "Front Load",
-      "capacity_kg": 7.0,
+      "capacity_kg": 8.0,
       "sort_order": 7,
       "aliases": [
-        "F12B8NDA",
-        "F12B8N",
-        "LG 7kg",
-        "LG F"
+        "MF100W80B",
+        "MF100W",
+        "Midea 8kg",
+        "Midea MF100"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [
         {
-          "code": "IE",
-          "title": "Inlet error",
-          "description": "Water not entering correctly; inspect valve, filter screen, tap, and hose."
+          "code": "E10",
+          "title": "Water inlet timeout",
+          "description": "Check tap, inlet valve, filter mesh, and supply pressure."
         },
         {
-          "code": "OE",
-          "title": "Drain error",
-          "description": "Check pump filter, drain hose, pump impeller, and standpipe restriction."
+          "code": "E21",
+          "title": "Drain timeout",
+          "description": "Inspect drain pump, hose blockage, standpipe, and filter."
         },
         {
-          "code": "UE",
-          "title": "Unbalance error",
-          "description": "Redistribute load, check suspension, leveling, and spin basket play."
+          "code": "E30",
+          "title": "Door lock fault",
+          "description": "Check door lock, latch, harness, and lock command from main board."
         },
         {
-          "code": "LE",
-          "title": "Motor lock / drive error",
-          "description": "Inspect rotor, hall sensor, stator harness, overload, and seized drum."
+          "code": "E60",
+          "title": "Heating / thermistor family fault",
+          "description": "Inspect heater, NTC, wiring, and control relay."
         },
         {
-          "code": "dE",
-          "title": "Door error",
-          "description": "Inspect door switch/lock, strike, and control harness."
+          "code": "E64",
+          "title": "Motor inverter PCB error",
+          "description": "Check communication between main PCB and inverter PCB on BLDC models."
         },
         {
-          "code": "PF",
-          "title": "Power failure / restart memory",
-          "description": "Check supply stability, plug, main filter, and power recovery behavior."
+          "code": "E12",
+          "title": "Overflow / level abnormal",
+          "description": "Inspect pressure system, valve leak-by, and foam/water level sensing."
         }
       ],
       "boards": [
         {
           "name": "Main PCB",
-          "serial": "LG-F-MAIN-VERIFY",
+          "serial": "MIDEA-MF100-MAIN-VERIFY",
           "notes": "Confirm exact board by full model code and version sticker before ordering.",
           "image": ""
         },
         {
           "name": "Display / UI PCB",
-          "serial": "LG-F-UI-VERIFY",
+          "serial": "MIDEA-MF100-UI-VERIFY",
           "notes": "Front panel board; compare connector count and fascia version.",
-          "image": ""
-        },
-        {
-          "name": "Noise Filter / Power Board",
-          "serial": "LG-F-EMI-VERIFY",
-          "notes": "Check line filter and burn marks if no power symptom.",
           "image": ""
         }
       ],
       "parts": [
         {
           "part_name": "Drain Pump",
-          "part_number": "LG-F-PUMP-VERIFY",
+          "part_number": "MIDEA-MF100-PUMP-VERIFY",
           "notes": "Match voltage and connector type."
         },
         {
           "part_name": "Door Lock",
-          "part_number": "LG-F-LOCK-VERIFY",
+          "part_number": "MIDEA-MF100-LOCK-VERIFY",
           "notes": "Variant differs by chassis and region."
         },
         {
           "part_name": "Inlet Valve",
-          "part_number": "LG-F-VALVE-VERIFY",
+          "part_number": "MIDEA-MF100-VALVE-VERIFY",
           "notes": "Single/double/triple valve depends on configuration."
         },
         {
           "part_name": "Shock Absorber Set",
-          "part_number": "LG-F-SHOCK-VERIFY",
+          "part_number": "MIDEA-MF100-SHOCK-VERIFY",
           "notes": "Confirm length and end type."
         },
         {
-          "part_name": "Hall Sensor",
-          "part_number": "LG-F-HALL-VERIFY",
-          "notes": "Direct drive models commonly require sensor confirmation."
+          "part_name": "NTC Sensor",
+          "part_number": "MIDEA-MF100-NTC-VERIFY",
+          "notes": "Heating models require correct sensor curve."
         },
         {
-          "part_name": "Drain Pump Filter Cap",
-          "part_number": "LG-F-FILTER-VERIFY",
-          "notes": "Useful field-service item."
+          "part_name": "Belt / Pulley Kit",
+          "part_number": "MIDEA-MF100-DRIVE-VERIFY",
+          "notes": "Depends on chassis type."
         }
       ],
       "documents": [
@@ -470,18 +383,18 @@
       ]
     },
     {
-      "id": "lg-f12u1hdm1n",
-      "model": "F12U1HDM1N",
-      "series": "F",
+      "id": "midea-mf100w90b",
+      "model": "MF100W90B",
+      "series": "MF100",
       "generation": "mid",
       "category": "Front Load",
-      "capacity_kg": 8.0,
+      "capacity_kg": 9.0,
       "sort_order": 8,
       "aliases": [
-        "F12U1HDM1N",
-        "F12U1H",
-        "LG 8kg",
-        "LG F"
+        "MF100W90B",
+        "MF100W",
+        "Midea 9kg",
+        "Midea MF100"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -513,18 +426,18 @@
       ]
     },
     {
-      "id": "lg-f14a8tdsa",
-      "model": "F14A8TDSA",
-      "series": "F",
+      "id": "midea-mf200w70wb",
+      "model": "MF200W70WB",
+      "series": "MF200",
       "generation": "mid",
       "category": "Front Load",
-      "capacity_kg": 8.0,
+      "capacity_kg": 7.0,
       "sort_order": 9,
       "aliases": [
-        "F14A8TDSA",
-        "F14A8T",
-        "LG 8kg",
-        "LG F"
+        "MF200W70WB",
+        "MF200W",
+        "Midea 7kg",
+        "Midea MF200"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -556,18 +469,18 @@
       ]
     },
     {
-      "id": "lg-f14u1tbs2",
-      "model": "F14U1TBS2",
-      "series": "F",
+      "id": "midea-mf200w80wb",
+      "model": "MF200W80WB",
+      "series": "MF200",
       "generation": "mid",
       "category": "Front Load",
       "capacity_kg": 8.0,
       "sort_order": 10,
       "aliases": [
-        "F14U1TBS2",
-        "F14U1T",
-        "LG 8kg",
-        "LG F"
+        "MF200W80WB",
+        "MF200W",
+        "Midea 8kg",
+        "Midea MF200"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -599,317 +512,96 @@
       ]
     },
     {
-      "id": "lg-f1496tda3",
-      "model": "F1496TDA3",
-      "series": "F",
-      "generation": "mid",
-      "category": "Front Load",
-      "capacity_kg": 8.0,
-      "sort_order": 11,
-      "aliases": [
-        "F1496TDA3",
-        "F1496T",
-        "LG 8kg",
-        "LG F"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-f1496adp24",
-      "model": "F1496ADP24",
-      "series": "F",
-      "generation": "mid",
-      "category": "Front Load",
-      "capacity_kg": 8.0,
-      "sort_order": 12,
-      "aliases": [
-        "F1496ADP24",
-        "F1496A",
-        "LG 8kg",
-        "LG F"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-f2j5qn3w",
-      "model": "F2J5QN3W",
-      "series": "F2",
-      "generation": "mid",
-      "category": "Front Load",
-      "capacity_kg": 7.0,
-      "sort_order": 13,
-      "aliases": [
-        "F2J5QN3W",
-        "F2J5QN",
-        "LG 7kg",
-        "LG F2"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-f4j6ty0w",
-      "model": "F4J6TY0W",
-      "series": "F4",
-      "generation": "mid",
-      "category": "Front Load",
-      "capacity_kg": 8.0,
-      "sort_order": 14,
-      "aliases": [
-        "F4J6TY0W",
-        "F4J6TY",
-        "LG 8kg",
-        "LG F4"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-f4j7vyp2t",
-      "model": "F4J7VYP2T",
-      "series": "F4",
+      "id": "midea-mf200w90wb",
+      "model": "MF200W90WB",
+      "series": "MF200",
       "generation": "mid",
       "category": "Front Load",
       "capacity_kg": 9.0,
-      "sort_order": 15,
+      "sort_order": 11,
       "aliases": [
-        "F4J7VYP2T",
-        "F4J7VY",
-        "LG 9kg",
-        "LG F4"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-f4v5ryp2t",
-      "model": "F4V5RYP2T",
-      "series": "F4",
-      "generation": "newer",
-      "category": "Front Load",
-      "capacity_kg": 10.5,
-      "sort_order": 16,
-      "aliases": [
-        "F4V5RYP2T",
-        "F4V5RY",
-        "LG 10.5kg",
-        "LG F4"
+        "MF200W90WB",
+        "MF200W",
+        "Midea 9kg",
+        "Midea MF200"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [
         {
-          "code": "IE",
-          "title": "Inlet error",
-          "description": "Water not entering correctly; inspect valve, filter screen, tap, and hose."
+          "code": "E10",
+          "title": "Water inlet timeout",
+          "description": "Check tap, inlet valve, filter mesh, and supply pressure."
         },
         {
-          "code": "OE",
-          "title": "Drain error",
-          "description": "Check pump filter, drain hose, pump impeller, and standpipe restriction."
+          "code": "E21",
+          "title": "Drain timeout",
+          "description": "Inspect drain pump, hose blockage, standpipe, and filter."
         },
         {
-          "code": "UE",
-          "title": "Unbalance error",
-          "description": "Redistribute load, check suspension, leveling, and spin basket play."
+          "code": "E30",
+          "title": "Door lock fault",
+          "description": "Check door lock, latch, harness, and lock command from main board."
         },
         {
-          "code": "LE",
-          "title": "Motor lock / drive error",
-          "description": "Inspect rotor, hall sensor, stator harness, overload, and seized drum."
+          "code": "E60",
+          "title": "Heating / thermistor family fault",
+          "description": "Inspect heater, NTC, wiring, and control relay."
         },
         {
-          "code": "dE",
-          "title": "Door error",
-          "description": "Inspect door switch/lock, strike, and control harness."
+          "code": "E64",
+          "title": "Motor inverter PCB error",
+          "description": "Check communication between main PCB and inverter PCB on BLDC models."
         },
         {
-          "code": "PF",
-          "title": "Power failure / restart memory",
-          "description": "Check supply stability, plug, main filter, and power recovery behavior."
+          "code": "E12",
+          "title": "Overflow / level abnormal",
+          "description": "Inspect pressure system, valve leak-by, and foam/water level sensing."
         }
       ],
       "boards": [
         {
           "name": "Main PCB",
-          "serial": "LG-F4-MAIN-VERIFY",
+          "serial": "MIDEA-MF200-MAIN-VERIFY",
           "notes": "Confirm exact board by full model code and version sticker before ordering.",
           "image": ""
         },
         {
           "name": "Display / UI PCB",
-          "serial": "LG-F4-UI-VERIFY",
+          "serial": "MIDEA-MF200-UI-VERIFY",
           "notes": "Front panel board; compare connector count and fascia version.",
-          "image": ""
-        },
-        {
-          "name": "Noise Filter / Power Board",
-          "serial": "LG-F4-EMI-VERIFY",
-          "notes": "Check line filter and burn marks if no power symptom.",
           "image": ""
         }
       ],
       "parts": [
         {
           "part_name": "Drain Pump",
-          "part_number": "LG-F4-PUMP-VERIFY",
+          "part_number": "MIDEA-MF200-PUMP-VERIFY",
           "notes": "Match voltage and connector type."
         },
         {
           "part_name": "Door Lock",
-          "part_number": "LG-F4-LOCK-VERIFY",
+          "part_number": "MIDEA-MF200-LOCK-VERIFY",
           "notes": "Variant differs by chassis and region."
         },
         {
           "part_name": "Inlet Valve",
-          "part_number": "LG-F4-VALVE-VERIFY",
+          "part_number": "MIDEA-MF200-VALVE-VERIFY",
           "notes": "Single/double/triple valve depends on configuration."
         },
         {
           "part_name": "Shock Absorber Set",
-          "part_number": "LG-F4-SHOCK-VERIFY",
+          "part_number": "MIDEA-MF200-SHOCK-VERIFY",
           "notes": "Confirm length and end type."
         },
         {
-          "part_name": "Hall Sensor",
-          "part_number": "LG-F4-HALL-VERIFY",
-          "notes": "Direct drive models commonly require sensor confirmation."
+          "part_name": "NTC Sensor",
+          "part_number": "MIDEA-MF200-NTC-VERIFY",
+          "notes": "Heating models require correct sensor curve."
         },
         {
-          "part_name": "Drain Pump Filter Cap",
-          "part_number": "LG-F4-FILTER-VERIFY",
-          "notes": "Useful field-service item."
+          "part_name": "Belt / Pulley Kit",
+          "part_number": "MIDEA-MF200-DRIVE-VERIFY",
+          "notes": "Depends on chassis type."
         }
       ],
       "documents": [
@@ -938,190 +630,18 @@
       ]
     },
     {
-      "id": "lg-f4r5vyg2p",
-      "model": "F4R5VYG2P",
-      "series": "F4",
-      "generation": "newer",
-      "category": "Front Load",
-      "capacity_kg": 9.0,
-      "sort_order": 17,
-      "aliases": [
-        "F4R5VYG2P",
-        "F4R5VY",
-        "LG 9kg",
-        "LG F4"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-f4y5eywyj",
-      "model": "F4Y5EYWYJ",
-      "series": "F4",
-      "generation": "newer",
-      "category": "Front Load",
-      "capacity_kg": 11.0,
-      "sort_order": 18,
-      "aliases": [
-        "F4Y5EYWYJ",
-        "F4Y5EY",
-        "LG 11kg",
-        "LG F4"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-f0l2crv2t2",
-      "model": "F0L2CRV2T2",
-      "series": "F0",
-      "generation": "newer",
+      "id": "midea-mf200d80wb",
+      "model": "MF200D80WB",
+      "series": "MF200",
+      "generation": "mid",
       "category": "Washer Dryer",
-      "capacity_kg": 10.5,
-      "sort_order": 19,
-      "aliases": [
-        "F0L2CRV2T2",
-        "F0L2CR",
-        "LG 10.5kg",
-        "LG F0"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-wt7300cw",
-      "model": "WT7300CW",
-      "series": "WT",
-      "generation": "newer",
-      "category": "Top Load",
-      "capacity_kg": 17.0,
-      "sort_order": 20,
-      "aliases": [
-        "WT7300CW",
-        "WT7300",
-        "LG 17kg",
-        "LG WT"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-t2108vs2m",
-      "model": "T2108VS2M",
-      "series": "T",
-      "generation": "mid",
-      "category": "Top Load",
       "capacity_kg": 8.0,
-      "sort_order": 21,
+      "sort_order": 12,
       "aliases": [
-        "T2108VS2M",
-        "T2108V",
-        "LG 8kg",
-        "LG T"
+        "MF200D80WB",
+        "MF200D",
+        "Midea 8kg",
+        "Midea MF200"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -1153,145 +673,263 @@
       ]
     },
     {
-      "id": "lg-t2310vs2b",
-      "model": "T2310VS2B",
-      "series": "T",
+      "id": "midea-mf200d90wb",
+      "model": "MF200D90WB",
+      "series": "MF200",
       "generation": "mid",
-      "category": "Top Load",
-      "capacity_kg": 10.0,
-      "sort_order": 22,
+      "category": "Washer Dryer",
+      "capacity_kg": 9.0,
+      "sort_order": 13,
       "aliases": [
-        "T2310VS2B",
-        "T2310V",
-        "LG 10kg",
-        "LG T"
-      ],
-      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
-      "faults": [],
-      "boards": [],
-      "parts": [],
-      "documents": [
-        {
-          "title": "Service reference",
-          "url": "",
-          "notes": "Add local PDF/manual link when available."
-        },
-        {
-          "title": "Wiring diagram reference",
-          "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
-        }
-      ],
-      "images": [
-        {
-          "title": "Board photo",
-          "url": "",
-          "notes": "Paste image link or local asset for main PCB."
-        },
-        {
-          "title": "Model sticker",
-          "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
-        }
-      ]
-    },
-    {
-      "id": "lg-t2515vs2m",
-      "model": "T2515VS2M",
-      "series": "T",
-      "generation": "newer",
-      "category": "Top Load",
-      "capacity_kg": 15.0,
-      "sort_order": 23,
-      "aliases": [
-        "T2515VS2M",
-        "T2515V",
-        "LG 15kg",
-        "LG T"
+        "MF200D90WB",
+        "MF200D",
+        "Midea 9kg",
+        "Midea MF200"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [
         {
-          "code": "IE",
-          "title": "Inlet error",
-          "description": "Water not entering correctly; inspect valve, filter screen, tap, and hose."
+          "code": "E10",
+          "title": "Water inlet timeout",
+          "description": "Check tap, inlet valve, filter mesh, and supply pressure."
         },
         {
-          "code": "OE",
-          "title": "Drain error",
-          "description": "Check pump filter, drain hose, pump impeller, and standpipe restriction."
+          "code": "E21",
+          "title": "Drain timeout",
+          "description": "Inspect drain pump, hose blockage, standpipe, and filter."
         },
         {
-          "code": "UE",
-          "title": "Unbalance error",
-          "description": "Redistribute load, check suspension, leveling, and spin basket play."
+          "code": "E30",
+          "title": "Door lock fault",
+          "description": "Check door lock, latch, harness, and lock command from main board."
         },
         {
-          "code": "LE",
-          "title": "Motor lock / drive error",
-          "description": "Inspect rotor, hall sensor, stator harness, overload, and seized drum."
+          "code": "E60",
+          "title": "Heating / thermistor family fault",
+          "description": "Inspect heater, NTC, wiring, and control relay."
         },
         {
-          "code": "dE",
-          "title": "Door error",
-          "description": "Inspect door switch/lock, strike, and control harness."
+          "code": "E64",
+          "title": "Motor inverter PCB error",
+          "description": "Check communication between main PCB and inverter PCB on BLDC models."
         },
         {
-          "code": "PF",
-          "title": "Power failure / restart memory",
-          "description": "Check supply stability, plug, main filter, and power recovery behavior."
+          "code": "E12",
+          "title": "Overflow / level abnormal",
+          "description": "Inspect pressure system, valve leak-by, and foam/water level sensing."
         }
       ],
       "boards": [
         {
           "name": "Main PCB",
-          "serial": "LG-T-MAIN-VERIFY",
+          "serial": "MIDEA-MF200-MAIN-VERIFY",
           "notes": "Confirm exact board by full model code and version sticker before ordering.",
           "image": ""
         },
         {
           "name": "Display / UI PCB",
-          "serial": "LG-T-UI-VERIFY",
+          "serial": "MIDEA-MF200-UI-VERIFY",
           "notes": "Front panel board; compare connector count and fascia version.",
           "image": ""
         },
         {
-          "name": "Noise Filter / Power Board",
-          "serial": "LG-T-EMI-VERIFY",
-          "notes": "Check line filter and burn marks if no power symptom.",
+          "name": "Inverter PCB",
+          "serial": "MIDEA-MF200-INV-VERIFY",
+          "notes": "On BLDC/inverter models only.",
           "image": ""
         }
       ],
       "parts": [
         {
           "part_name": "Drain Pump",
-          "part_number": "LG-T-PUMP-VERIFY",
+          "part_number": "MIDEA-MF200-PUMP-VERIFY",
+          "notes": "Match voltage and connector type."
+        },
+        {
+          "part_name": "Door Lock",
+          "part_number": "MIDEA-MF200-LOCK-VERIFY",
+          "notes": "Variant differs by chassis and region."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "MIDEA-MF200-VALVE-VERIFY",
+          "notes": "Single/double/triple valve depends on configuration."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "MIDEA-MF200-SHOCK-VERIFY",
+          "notes": "Confirm length and end type."
+        },
+        {
+          "part_name": "NTC Sensor",
+          "part_number": "MIDEA-MF200-NTC-VERIFY",
+          "notes": "Heating models require correct sensor curve."
+        },
+        {
+          "part_name": "Belt / Pulley Kit",
+          "part_number": "MIDEA-MF200-DRIVE-VERIFY",
+          "notes": "Depends on chassis type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "midea-mf100t70b",
+      "model": "MF100T70B",
+      "series": "MF100T",
+      "generation": "mid",
+      "category": "Top Load",
+      "capacity_kg": 7.0,
+      "sort_order": 14,
+      "aliases": [
+        "MF100T70B",
+        "MF100T",
+        "Midea 7kg",
+        "Midea MF100T"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "midea-mf100t80b",
+      "model": "MF100T80B",
+      "series": "MF100T",
+      "generation": "mid",
+      "category": "Top Load",
+      "capacity_kg": 8.0,
+      "sort_order": 15,
+      "aliases": [
+        "MF100T80B",
+        "MF100T",
+        "Midea 8kg",
+        "Midea MF100T"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [
+        {
+          "code": "E10",
+          "title": "Water inlet timeout",
+          "description": "Check tap, inlet valve, filter mesh, and supply pressure."
+        },
+        {
+          "code": "E21",
+          "title": "Drain timeout",
+          "description": "Inspect drain pump, hose blockage, standpipe, and filter."
+        },
+        {
+          "code": "E30",
+          "title": "Door lock fault",
+          "description": "Check door lock, latch, harness, and lock command from main board."
+        },
+        {
+          "code": "E60",
+          "title": "Heating / thermistor family fault",
+          "description": "Inspect heater, NTC, wiring, and control relay."
+        },
+        {
+          "code": "E64",
+          "title": "Motor inverter PCB error",
+          "description": "Check communication between main PCB and inverter PCB on BLDC models."
+        },
+        {
+          "code": "E12",
+          "title": "Overflow / level abnormal",
+          "description": "Inspect pressure system, valve leak-by, and foam/water level sensing."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "MIDEA-MF100T-MAIN-VERIFY",
+          "notes": "Confirm exact board by full model code and version sticker before ordering.",
+          "image": ""
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "MIDEA-MF100T-UI-VERIFY",
+          "notes": "Front panel board; compare connector count and fascia version.",
+          "image": ""
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Drain Pump",
+          "part_number": "MIDEA-MF100T-PUMP-VERIFY",
           "notes": "Match voltage and connector type."
         },
         {
           "part_name": "Lid Lock",
-          "part_number": "LG-T-LOCK-VERIFY",
+          "part_number": "MIDEA-MF100T-LOCK-VERIFY",
           "notes": "Variant differs by chassis and region."
         },
         {
           "part_name": "Inlet Valve",
-          "part_number": "LG-T-VALVE-VERIFY",
+          "part_number": "MIDEA-MF100T-VALVE-VERIFY",
           "notes": "Single/double/triple valve depends on configuration."
         },
         {
           "part_name": "Suspension Rod Set",
-          "part_number": "LG-T-ROD-VERIFY",
+          "part_number": "MIDEA-MF100T-ROD-VERIFY",
           "notes": "Top load set varies by tub size."
         },
         {
-          "part_name": "Hall Sensor",
-          "part_number": "LG-T-HALL-VERIFY",
-          "notes": "Direct drive models commonly require sensor confirmation."
+          "part_name": "NTC Sensor",
+          "part_number": "MIDEA-MF100T-NTC-VERIFY",
+          "notes": "Heating models require correct sensor curve."
         },
         {
-          "part_name": "Drain Pump Filter Cap",
-          "part_number": "LG-T-FILTER-VERIFY",
-          "notes": "Useful field-service item."
+          "part_name": "Agitator / Pulsator",
+          "part_number": "MIDEA-MF100T-DRIVE-VERIFY",
+          "notes": "Depends on chassis type."
         }
       ],
       "documents": [
@@ -1320,18 +958,18 @@
       ]
     },
     {
-      "id": "lg-t2555vspm",
-      "model": "T2555VSPM",
-      "series": "T",
+      "id": "midea-ma200w85g",
+      "model": "MA200W85G",
+      "series": "MA200",
       "generation": "newer",
-      "category": "Top Load",
-      "capacity_kg": 15.0,
-      "sort_order": 24,
+      "category": "Front Load",
+      "capacity_kg": 8.5,
+      "sort_order": 16,
       "aliases": [
-        "T2555VSPM",
-        "T2555V",
-        "LG 15kg",
-        "LG T"
+        "MA200W85G",
+        "MA200W",
+        "Midea 8.5kg",
+        "Midea MA200"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -1363,18 +1001,18 @@
       ]
     },
     {
-      "id": "lg-fv1409s4w",
-      "model": "FV1409S4W",
-      "series": "FV",
-      "generation": "newest",
+      "id": "midea-ma200w95g",
+      "model": "MA200W95G",
+      "series": "MA200",
+      "generation": "newer",
       "category": "Front Load",
-      "capacity_kg": 9.0,
-      "sort_order": 25,
+      "capacity_kg": 9.5,
+      "sort_order": 17,
       "aliases": [
-        "FV1409S4W",
-        "FV1409",
-        "LG 9kg",
-        "LG FV"
+        "MA200W95G",
+        "MA200W",
+        "Midea 9.5kg",
+        "Midea MA200"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [],
@@ -1406,102 +1044,96 @@
       ]
     },
     {
-      "id": "lg-fv1411s2ba",
-      "model": "FV1411S2BA",
-      "series": "FV",
-      "generation": "newest",
+      "id": "midea-ma500w105g",
+      "model": "MA500W105G",
+      "series": "MA500",
+      "generation": "newer",
       "category": "Front Load",
-      "capacity_kg": 11.0,
-      "sort_order": 26,
+      "capacity_kg": 10.5,
+      "sort_order": 18,
       "aliases": [
-        "FV1411S2BA",
-        "FV1411",
-        "LG 11kg",
-        "LG FV"
+        "MA500W105G",
+        "MA500W",
+        "Midea 10.5kg",
+        "Midea MA500"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [
         {
-          "code": "IE",
-          "title": "Inlet error",
-          "description": "Water not entering correctly; inspect valve, filter screen, tap, and hose."
+          "code": "E10",
+          "title": "Water inlet timeout",
+          "description": "Check tap, inlet valve, filter mesh, and supply pressure."
         },
         {
-          "code": "OE",
-          "title": "Drain error",
-          "description": "Check pump filter, drain hose, pump impeller, and standpipe restriction."
+          "code": "E21",
+          "title": "Drain timeout",
+          "description": "Inspect drain pump, hose blockage, standpipe, and filter."
         },
         {
-          "code": "UE",
-          "title": "Unbalance error",
-          "description": "Redistribute load, check suspension, leveling, and spin basket play."
+          "code": "E30",
+          "title": "Door lock fault",
+          "description": "Check door lock, latch, harness, and lock command from main board."
         },
         {
-          "code": "LE",
-          "title": "Motor lock / drive error",
-          "description": "Inspect rotor, hall sensor, stator harness, overload, and seized drum."
+          "code": "E60",
+          "title": "Heating / thermistor family fault",
+          "description": "Inspect heater, NTC, wiring, and control relay."
         },
         {
-          "code": "dE",
-          "title": "Door error",
-          "description": "Inspect door switch/lock, strike, and control harness."
+          "code": "E64",
+          "title": "Motor inverter PCB error",
+          "description": "Check communication between main PCB and inverter PCB on BLDC models."
         },
         {
-          "code": "PF",
-          "title": "Power failure / restart memory",
-          "description": "Check supply stability, plug, main filter, and power recovery behavior."
+          "code": "E12",
+          "title": "Overflow / level abnormal",
+          "description": "Inspect pressure system, valve leak-by, and foam/water level sensing."
         }
       ],
       "boards": [
         {
           "name": "Main PCB",
-          "serial": "LG-FV-MAIN-VERIFY",
+          "serial": "MIDEA-MA500-MAIN-VERIFY",
           "notes": "Confirm exact board by full model code and version sticker before ordering.",
           "image": ""
         },
         {
           "name": "Display / UI PCB",
-          "serial": "LG-FV-UI-VERIFY",
+          "serial": "MIDEA-MA500-UI-VERIFY",
           "notes": "Front panel board; compare connector count and fascia version.",
-          "image": ""
-        },
-        {
-          "name": "Noise Filter / Power Board",
-          "serial": "LG-FV-EMI-VERIFY",
-          "notes": "Check line filter and burn marks if no power symptom.",
           "image": ""
         }
       ],
       "parts": [
         {
           "part_name": "Drain Pump",
-          "part_number": "LG-FV-PUMP-VERIFY",
+          "part_number": "MIDEA-MA500-PUMP-VERIFY",
           "notes": "Match voltage and connector type."
         },
         {
           "part_name": "Door Lock",
-          "part_number": "LG-FV-LOCK-VERIFY",
+          "part_number": "MIDEA-MA500-LOCK-VERIFY",
           "notes": "Variant differs by chassis and region."
         },
         {
           "part_name": "Inlet Valve",
-          "part_number": "LG-FV-VALVE-VERIFY",
+          "part_number": "MIDEA-MA500-VALVE-VERIFY",
           "notes": "Single/double/triple valve depends on configuration."
         },
         {
           "part_name": "Shock Absorber Set",
-          "part_number": "LG-FV-SHOCK-VERIFY",
+          "part_number": "MIDEA-MA500-SHOCK-VERIFY",
           "notes": "Confirm length and end type."
         },
         {
-          "part_name": "Hall Sensor",
-          "part_number": "LG-FV-HALL-VERIFY",
-          "notes": "Direct drive models commonly require sensor confirmation."
+          "part_name": "NTC Sensor",
+          "part_number": "MIDEA-MA500-NTC-VERIFY",
+          "notes": "Heating models require correct sensor curve."
         },
         {
-          "part_name": "Drain Pump Filter Cap",
-          "part_number": "LG-FV-FILTER-VERIFY",
-          "notes": "Useful field-service item."
+          "part_name": "Belt / Pulley Kit",
+          "part_number": "MIDEA-MA500-DRIVE-VERIFY",
+          "notes": "Depends on chassis type."
         }
       ],
       "documents": [
@@ -1530,104 +1162,319 @@
       ]
     },
     {
-      "id": "lg-fwv796wse",
-      "model": "FWV796WSE",
-      "series": "FWV",
-      "generation": "newest",
+      "id": "midea-ma500w125g",
+      "model": "MA500W125G",
+      "series": "MA500",
+      "generation": "newer",
+      "category": "Front Load",
+      "capacity_kg": 12.5,
+      "sort_order": 19,
+      "aliases": [
+        "MA500W125G",
+        "MA500W",
+        "Midea 12.5kg",
+        "Midea MA500"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "midea-ma200d90g",
+      "model": "MA200D90G",
+      "series": "MA200",
+      "generation": "newer",
       "category": "Washer Dryer",
       "capacity_kg": 9.0,
-      "sort_order": 27,
+      "sort_order": 20,
       "aliases": [
-        "FWV796WSE",
-        "FWV796",
-        "LG 9kg",
-        "LG FWV"
+        "MA200D90G",
+        "MA200D",
+        "Midea 9kg",
+        "Midea MA200"
       ],
       "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
       "faults": [
         {
-          "code": "IE",
-          "title": "Inlet error",
-          "description": "Water not entering correctly; inspect valve, filter screen, tap, and hose."
+          "code": "E10",
+          "title": "Water inlet timeout",
+          "description": "Check tap, inlet valve, filter mesh, and supply pressure."
         },
         {
-          "code": "OE",
-          "title": "Drain error",
-          "description": "Check pump filter, drain hose, pump impeller, and standpipe restriction."
+          "code": "E21",
+          "title": "Drain timeout",
+          "description": "Inspect drain pump, hose blockage, standpipe, and filter."
         },
         {
-          "code": "UE",
-          "title": "Unbalance error",
-          "description": "Redistribute load, check suspension, leveling, and spin basket play."
+          "code": "E30",
+          "title": "Door lock fault",
+          "description": "Check door lock, latch, harness, and lock command from main board."
         },
         {
-          "code": "LE",
-          "title": "Motor lock / drive error",
-          "description": "Inspect rotor, hall sensor, stator harness, overload, and seized drum."
+          "code": "E60",
+          "title": "Heating / thermistor family fault",
+          "description": "Inspect heater, NTC, wiring, and control relay."
         },
         {
-          "code": "dE",
-          "title": "Door error",
-          "description": "Inspect door switch/lock, strike, and control harness."
+          "code": "E64",
+          "title": "Motor inverter PCB error",
+          "description": "Check communication between main PCB and inverter PCB on BLDC models."
         },
         {
-          "code": "PF",
-          "title": "Power failure / restart memory",
-          "description": "Check supply stability, plug, main filter, and power recovery behavior."
+          "code": "E12",
+          "title": "Overflow / level abnormal",
+          "description": "Inspect pressure system, valve leak-by, and foam/water level sensing."
         }
       ],
       "boards": [
         {
           "name": "Main PCB",
-          "serial": "LG-FWV-MAIN-VERIFY",
+          "serial": "MIDEA-MA200-MAIN-VERIFY",
           "notes": "Confirm exact board by full model code and version sticker before ordering.",
           "image": ""
         },
         {
           "name": "Display / UI PCB",
-          "serial": "LG-FWV-UI-VERIFY",
+          "serial": "MIDEA-MA200-UI-VERIFY",
           "notes": "Front panel board; compare connector count and fascia version.",
           "image": ""
         },
         {
-          "name": "Noise Filter / Power Board",
-          "serial": "LG-FWV-EMI-VERIFY",
-          "notes": "Check line filter and burn marks if no power symptom.",
+          "name": "Inverter PCB",
+          "serial": "MIDEA-MA200-INV-VERIFY",
+          "notes": "On BLDC/inverter models only.",
           "image": ""
         }
       ],
       "parts": [
         {
           "part_name": "Drain Pump",
-          "part_number": "LG-FWV-PUMP-VERIFY",
+          "part_number": "MIDEA-MA200-PUMP-VERIFY",
           "notes": "Match voltage and connector type."
         },
         {
           "part_name": "Door Lock",
-          "part_number": "LG-FWV-LOCK-VERIFY",
+          "part_number": "MIDEA-MA200-LOCK-VERIFY",
           "notes": "Variant differs by chassis and region."
         },
         {
           "part_name": "Inlet Valve",
-          "part_number": "LG-FWV-VALVE-VERIFY",
+          "part_number": "MIDEA-MA200-VALVE-VERIFY",
           "notes": "Single/double/triple valve depends on configuration."
         },
         {
           "part_name": "Shock Absorber Set",
-          "part_number": "LG-FWV-SHOCK-VERIFY",
+          "part_number": "MIDEA-MA200-SHOCK-VERIFY",
           "notes": "Confirm length and end type."
         },
         {
-          "part_name": "Hall Sensor",
-          "part_number": "LG-FWV-HALL-VERIFY",
-          "notes": "Direct drive models commonly require sensor confirmation."
+          "part_name": "NTC Sensor",
+          "part_number": "MIDEA-MA200-NTC-VERIFY",
+          "notes": "Heating models require correct sensor curve."
         },
         {
-          "part_name": "Drain Pump Filter Cap",
-          "part_number": "LG-FWV-FILTER-VERIFY",
-          "notes": "Useful field-service item."
+          "part_name": "Belt / Pulley Kit",
+          "part_number": "MIDEA-MA200-DRIVE-VERIFY",
+          "notes": "Depends on chassis type."
         }
       ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "midea-ma500d105g",
+      "model": "MA500D105G",
+      "series": "MA500",
+      "generation": "newer",
+      "category": "Washer Dryer",
+      "capacity_kg": 10.5,
+      "sort_order": 21,
+      "aliases": [
+        "MA500D105G",
+        "MA500D",
+        "Midea 10.5kg",
+        "Midea MA500"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "midea-mft70-s1201b",
+      "model": "MFT70-S1201B",
+      "series": "MFT",
+      "generation": "newer",
+      "category": "Top Load",
+      "capacity_kg": 7.0,
+      "sort_order": 22,
+      "aliases": [
+        "MFT70-S1201B",
+        "MFT70-",
+        "Midea 7kg",
+        "Midea MFT"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "midea-mft80-s1201b",
+      "model": "MFT80-S1201B",
+      "series": "MFT",
+      "generation": "newer",
+      "category": "Top Load",
+      "capacity_kg": 8.0,
+      "sort_order": 23,
+      "aliases": [
+        "MFT80-S1201B",
+        "MFT80-",
+        "Midea 8kg",
+        "Midea MFT"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "midea-mft90-s1201b",
+      "model": "MFT90-S1201B",
+      "series": "MFT",
+      "generation": "newer",
+      "category": "Top Load",
+      "capacity_kg": 9.0,
+      "sort_order": 24,
+      "aliases": [
+        "MFT90-S1201B",
+        "MFT90-",
+        "Midea 9kg",
+        "Midea MFT"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
       "documents": [
         {
           "title": "Service reference",

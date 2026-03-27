@@ -1,0 +1,268 @@
+{
+  "brand": {
+    "id": "vestel",
+    "name_en": "Vestel",
+    "name_ar": "فيستل",
+    "logo": "assets/brands/vestel.svg"
+  },
+  "models": [
+    {
+      "id": "vestel-w6104t1",
+      "model": "W6104T1",
+      "series": "W",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 6.0,
+      "sort_order": 1,
+      "aliases": [
+        "W6104T1",
+        "W6104T",
+        "Vestel 6kg",
+        "Vestel W"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "vestel-w7124t2",
+      "model": "W7124T2",
+      "series": "W",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 7.0,
+      "sort_order": 2,
+      "aliases": [
+        "W7124T2",
+        "W7124T",
+        "Vestel 7kg",
+        "Vestel W"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "vestel-w8144t1",
+      "model": "W8144T1",
+      "series": "W",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 3,
+      "aliases": [
+        "W8144T1",
+        "W8144T",
+        "Vestel 8kg",
+        "Vestel W"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "vestel-w9144t4",
+      "model": "W9144T4",
+      "series": "W",
+      "generation": "newer",
+      "category": "Front Load",
+      "capacity_kg": 9.0,
+      "sort_order": 4,
+      "aliases": [
+        "W9144T4",
+        "W9144T",
+        "Vestel 9kg",
+        "Vestel W"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "vestel-vdt5101",
+      "model": "VDT5101",
+      "series": "VDT",
+      "generation": "older",
+      "category": "Washer Dryer",
+      "capacity_kg": 10.0,
+      "sort_order": 5,
+      "aliases": [
+        "VDT5101",
+        "VDT510",
+        "Vestel 10kg",
+        "Vestel VDT"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "vestel-cmi108222",
+      "model": "CMI108222",
+      "series": "CMI",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 6,
+      "aliases": [
+        "CMI108222",
+        "CMI108",
+        "Vestel 8kg",
+        "Vestel CMI"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    }
+  ]
+}

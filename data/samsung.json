@@ -1,0 +1,2132 @@
+{
+  "brand": {
+    "id": "samsung",
+    "name_en": "Samsung",
+    "name_ar": "سامسونج",
+    "logo": "assets/brands/samsung.svg"
+  },
+  "models": [
+    {
+      "id": "samsung-wf6450s7w",
+      "model": "WF6450S7W",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 6.0,
+      "sort_order": 1,
+      "aliases": [
+        "WF6450S7W",
+        "WF6450",
+        "Samsung 6kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf7350s7v",
+      "model": "WF7350S7V",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 7.0,
+      "sort_order": 2,
+      "aliases": [
+        "WF7350S7V",
+        "WF7350",
+        "Samsung 7kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf7450s8v",
+      "model": "WF7450S8V",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 7.0,
+      "sort_order": 3,
+      "aliases": [
+        "WF7450S8V",
+        "WF7450",
+        "Samsung 7kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [
+        {
+          "code": "4C / 4E",
+          "title": "Water supply error",
+          "description": "Check water tap, inlet valve, mesh filter, hose kink, and water pressure."
+        },
+        {
+          "code": "5C / 5E",
+          "title": "Drain error",
+          "description": "Clean pump filter, check drain pump, hose blockage, and drain height."
+        },
+        {
+          "code": "dC / dE",
+          "title": "Door error",
+          "description": "Inspect door lock, strike, harness, and door alignment."
+        },
+        {
+          "code": "3C",
+          "title": "Motor / drive error",
+          "description": "Inspect motor connector, hall sensor, stator wiring, and overload condition."
+        },
+        {
+          "code": "1C / 1E",
+          "title": "Water level sensor error",
+          "description": "Check pressure sensor tube, sensor wiring, and trapped water/foam condition."
+        },
+        {
+          "code": "Ub",
+          "title": "Unbalance detected",
+          "description": "Check load distribution, suspension, and spin basket movement."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "SAMSUNG-WF-MAIN-VERIFY",
+          "notes": "Confirm exact board by full model code and version sticker before ordering.",
+          "image": ""
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "SAMSUNG-WF-UI-VERIFY",
+          "notes": "Front panel board; compare connector count and fascia version.",
+          "image": ""
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Drain Pump",
+          "part_number": "SAMSUNG-WF-PUMP-VERIFY",
+          "notes": "Match voltage and connector type."
+        },
+        {
+          "part_name": "Door Lock",
+          "part_number": "SAMSUNG-WF-LOCK-VERIFY",
+          "notes": "Variant differs by chassis and region."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "SAMSUNG-WF-VALVE-VERIFY",
+          "notes": "Single/double/triple valve depends on configuration."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "SAMSUNG-WF-SHOCK-VERIFY",
+          "notes": "Confirm length and end type."
+        },
+        {
+          "part_name": "Pressure Sensor",
+          "part_number": "SAMSUNG-WF-PRESS-VERIFY",
+          "notes": "Pair with hose inspection."
+        },
+        {
+          "part_name": "Heater Element",
+          "part_number": "SAMSUNG-WF-HEAT-VERIFY",
+          "notes": "Confirm wattage and NTC arrangement."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf7522s8r",
+      "model": "WF7522S8R",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 7.5,
+      "sort_order": 4,
+      "aliases": [
+        "WF7522S8R",
+        "WF7522",
+        "Samsung 7.5kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf8500nhw",
+      "model": "WF8500NHW",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 5,
+      "aliases": [
+        "WF8500NHW",
+        "WF8500",
+        "Samsung 8kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf8590nfw",
+      "model": "WF8590NFW",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 8.5,
+      "sort_order": 6,
+      "aliases": [
+        "WF8590NFW",
+        "WF8590",
+        "Samsung 8.5kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf1702w5v",
+      "model": "WF1702W5V",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 7.0,
+      "sort_order": 7,
+      "aliases": [
+        "WF1702W5V",
+        "WF1702",
+        "Samsung 7kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf1802xec",
+      "model": "WF1802XEC",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 8,
+      "aliases": [
+        "WF1802XEC",
+        "WF1802",
+        "Samsung 8kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf1802wec",
+      "model": "WF1802WEC",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 9,
+      "aliases": [
+        "WF1802WEC",
+        "WF1802",
+        "Samsung 8kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf1124xac",
+      "model": "WF1124XAC",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 12.0,
+      "sort_order": 10,
+      "aliases": [
+        "WF1124XAC",
+        "WF1124",
+        "Samsung 12kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wf1124xau",
+      "model": "WF1124XAU",
+      "series": "WF",
+      "generation": "older",
+      "category": "Front Load",
+      "capacity_kg": 12.0,
+      "sort_order": 11,
+      "aliases": [
+        "WF1124XAU",
+        "WF1124",
+        "Samsung 12kg",
+        "Samsung WF"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww60j3063kw",
+      "model": "WW60J3063KW",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 6.0,
+      "sort_order": 12,
+      "aliases": [
+        "WW60J3063KW",
+        "WW60J3",
+        "Samsung 6kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww70j3283kw",
+      "model": "WW70J3283KW",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 7.0,
+      "sort_order": 13,
+      "aliases": [
+        "WW70J3283KW",
+        "WW70J3",
+        "Samsung 7kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [
+        {
+          "code": "4C / 4E",
+          "title": "Water supply error",
+          "description": "Check water tap, inlet valve, mesh filter, hose kink, and water pressure."
+        },
+        {
+          "code": "5C / 5E",
+          "title": "Drain error",
+          "description": "Clean pump filter, check drain pump, hose blockage, and drain height."
+        },
+        {
+          "code": "dC / dE",
+          "title": "Door error",
+          "description": "Inspect door lock, strike, harness, and door alignment."
+        },
+        {
+          "code": "3C",
+          "title": "Motor / drive error",
+          "description": "Inspect motor connector, hall sensor, stator wiring, and overload condition."
+        },
+        {
+          "code": "1C / 1E",
+          "title": "Water level sensor error",
+          "description": "Check pressure sensor tube, sensor wiring, and trapped water/foam condition."
+        },
+        {
+          "code": "Ub",
+          "title": "Unbalance detected",
+          "description": "Check load distribution, suspension, and spin basket movement."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "SAMSUNG-WW-MAIN-VERIFY",
+          "notes": "Confirm exact board by full model code and version sticker before ordering.",
+          "image": ""
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "SAMSUNG-WW-UI-VERIFY",
+          "notes": "Front panel board; compare connector count and fascia version.",
+          "image": ""
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Drain Pump",
+          "part_number": "SAMSUNG-WW-PUMP-VERIFY",
+          "notes": "Match voltage and connector type."
+        },
+        {
+          "part_name": "Door Lock",
+          "part_number": "SAMSUNG-WW-LOCK-VERIFY",
+          "notes": "Variant differs by chassis and region."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "SAMSUNG-WW-VALVE-VERIFY",
+          "notes": "Single/double/triple valve depends on configuration."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "SAMSUNG-WW-SHOCK-VERIFY",
+          "notes": "Confirm length and end type."
+        },
+        {
+          "part_name": "Pressure Sensor",
+          "part_number": "SAMSUNG-WW-PRESS-VERIFY",
+          "notes": "Pair with hose inspection."
+        },
+        {
+          "part_name": "Heater Element",
+          "part_number": "SAMSUNG-WW-HEAT-VERIFY",
+          "notes": "Confirm wattage and NTC arrangement."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww80j3283kw",
+      "model": "WW80J3283KW",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 14,
+      "aliases": [
+        "WW80J3283KW",
+        "WW80J3",
+        "Samsung 8kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [
+        {
+          "code": "4C / 4E",
+          "title": "Water supply error",
+          "description": "Check water tap, inlet valve, mesh filter, hose kink, and water pressure."
+        },
+        {
+          "code": "5C / 5E",
+          "title": "Drain error",
+          "description": "Clean pump filter, check drain pump, hose blockage, and drain height."
+        },
+        {
+          "code": "dC / dE",
+          "title": "Door error",
+          "description": "Inspect door lock, strike, harness, and door alignment."
+        },
+        {
+          "code": "3C",
+          "title": "Motor / drive error",
+          "description": "Inspect motor connector, hall sensor, stator wiring, and overload condition."
+        },
+        {
+          "code": "1C / 1E",
+          "title": "Water level sensor error",
+          "description": "Check pressure sensor tube, sensor wiring, and trapped water/foam condition."
+        },
+        {
+          "code": "Ub",
+          "title": "Unbalance detected",
+          "description": "Check load distribution, suspension, and spin basket movement."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "SAMSUNG-WW-MAIN-VERIFY",
+          "notes": "Confirm exact board by full model code and version sticker before ordering.",
+          "image": ""
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "SAMSUNG-WW-UI-VERIFY",
+          "notes": "Front panel board; compare connector count and fascia version.",
+          "image": ""
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Drain Pump",
+          "part_number": "SAMSUNG-WW-PUMP-VERIFY",
+          "notes": "Match voltage and connector type."
+        },
+        {
+          "part_name": "Door Lock",
+          "part_number": "SAMSUNG-WW-LOCK-VERIFY",
+          "notes": "Variant differs by chassis and region."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "SAMSUNG-WW-VALVE-VERIFY",
+          "notes": "Single/double/triple valve depends on configuration."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "SAMSUNG-WW-SHOCK-VERIFY",
+          "notes": "Confirm length and end type."
+        },
+        {
+          "part_name": "Pressure Sensor",
+          "part_number": "SAMSUNG-WW-PRESS-VERIFY",
+          "notes": "Pair with hose inspection."
+        },
+        {
+          "part_name": "Heater Element",
+          "part_number": "SAMSUNG-WW-HEAT-VERIFY",
+          "notes": "Confirm wattage and NTC arrangement."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww80j4213kw",
+      "model": "WW80J4213KW",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 15,
+      "aliases": [
+        "WW80J4213KW",
+        "WW80J4",
+        "Samsung 8kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww80j5555fx",
+      "model": "WW80J5555FX",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 16,
+      "aliases": [
+        "WW80J5555FX",
+        "WW80J5",
+        "Samsung 8kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww90j5456fx",
+      "model": "WW90J5456FX",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 9.0,
+      "sort_order": 17,
+      "aliases": [
+        "WW90J5456FX",
+        "WW90J5",
+        "Samsung 9kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww80k5210uw",
+      "model": "WW80K5210UW",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 18,
+      "aliases": [
+        "WW80K5210UW",
+        "WW80K5",
+        "Samsung 8kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww80k5410uw",
+      "model": "WW80K5410UW",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 19,
+      "aliases": [
+        "WW80K5410UW",
+        "WW80K5",
+        "Samsung 8kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww90k5410ux",
+      "model": "WW90K5410UX",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 9.0,
+      "sort_order": 20,
+      "aliases": [
+        "WW90K5410UX",
+        "WW90K5",
+        "Samsung 9kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww10m86inoo",
+      "model": "WW10M86INOO",
+      "series": "WW",
+      "generation": "mid",
+      "category": "Front Load",
+      "capacity_kg": 10.0,
+      "sort_order": 21,
+      "aliases": [
+        "WW10M86INOO",
+        "WW10M8",
+        "Samsung 10kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wd80j6410aw",
+      "model": "WD80J6410AW",
+      "series": "WD",
+      "generation": "mid",
+      "category": "Washer Dryer",
+      "capacity_kg": 8.0,
+      "sort_order": 22,
+      "aliases": [
+        "WD80J6410AW",
+        "WD80J6",
+        "Samsung 8kg",
+        "Samsung WD"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wd90j6410ax",
+      "model": "WD90J6410AX",
+      "series": "WD",
+      "generation": "mid",
+      "category": "Washer Dryer",
+      "capacity_kg": 9.0,
+      "sort_order": 23,
+      "aliases": [
+        "WD90J6410AX",
+        "WD90J6",
+        "Samsung 9kg",
+        "Samsung WD"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [
+        {
+          "code": "4C / 4E",
+          "title": "Water supply error",
+          "description": "Check water tap, inlet valve, mesh filter, hose kink, and water pressure."
+        },
+        {
+          "code": "5C / 5E",
+          "title": "Drain error",
+          "description": "Clean pump filter, check drain pump, hose blockage, and drain height."
+        },
+        {
+          "code": "dC / dE",
+          "title": "Door error",
+          "description": "Inspect door lock, strike, harness, and door alignment."
+        },
+        {
+          "code": "3C",
+          "title": "Motor / drive error",
+          "description": "Inspect motor connector, hall sensor, stator wiring, and overload condition."
+        },
+        {
+          "code": "1C / 1E",
+          "title": "Water level sensor error",
+          "description": "Check pressure sensor tube, sensor wiring, and trapped water/foam condition."
+        },
+        {
+          "code": "Ub",
+          "title": "Unbalance detected",
+          "description": "Check load distribution, suspension, and spin basket movement."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "SAMSUNG-WD-MAIN-VERIFY",
+          "notes": "Confirm exact board by full model code and version sticker before ordering.",
+          "image": ""
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "SAMSUNG-WD-UI-VERIFY",
+          "notes": "Front panel board; compare connector count and fascia version.",
+          "image": ""
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Drain Pump",
+          "part_number": "SAMSUNG-WD-PUMP-VERIFY",
+          "notes": "Match voltage and connector type."
+        },
+        {
+          "part_name": "Door Lock",
+          "part_number": "SAMSUNG-WD-LOCK-VERIFY",
+          "notes": "Variant differs by chassis and region."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "SAMSUNG-WD-VALVE-VERIFY",
+          "notes": "Single/double/triple valve depends on configuration."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "SAMSUNG-WD-SHOCK-VERIFY",
+          "notes": "Confirm length and end type."
+        },
+        {
+          "part_name": "Pressure Sensor",
+          "part_number": "SAMSUNG-WD-PRESS-VERIFY",
+          "notes": "Pair with hose inspection."
+        },
+        {
+          "part_name": "Heater Element",
+          "part_number": "SAMSUNG-WD-HEAT-VERIFY",
+          "notes": "Confirm wattage and NTC arrangement."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wa10j5710sg",
+      "model": "WA10J5710SG",
+      "series": "WA",
+      "generation": "mid",
+      "category": "Top Load",
+      "capacity_kg": 10.0,
+      "sort_order": 24,
+      "aliases": [
+        "WA10J5710SG",
+        "WA10J5",
+        "Samsung 10kg",
+        "Samsung WA"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wa13j5730ss",
+      "model": "WA13J5730SS",
+      "series": "WA",
+      "generation": "mid",
+      "category": "Top Load",
+      "capacity_kg": 13.0,
+      "sort_order": 25,
+      "aliases": [
+        "WA13J5730SS",
+        "WA13J5",
+        "Samsung 13kg",
+        "Samsung WA"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wa15j5730ss",
+      "model": "WA15J5730SS",
+      "series": "WA",
+      "generation": "mid",
+      "category": "Top Load",
+      "capacity_kg": 15.0,
+      "sort_order": 26,
+      "aliases": [
+        "WA15J5730SS",
+        "WA15J5",
+        "Samsung 15kg",
+        "Samsung WA"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [
+        {
+          "code": "4C / 4E",
+          "title": "Water supply error",
+          "description": "Check water tap, inlet valve, mesh filter, hose kink, and water pressure."
+        },
+        {
+          "code": "5C / 5E",
+          "title": "Drain error",
+          "description": "Clean pump filter, check drain pump, hose blockage, and drain height."
+        },
+        {
+          "code": "dC / dE",
+          "title": "Door error",
+          "description": "Inspect door lock, strike, harness, and door alignment."
+        },
+        {
+          "code": "3C",
+          "title": "Motor / drive error",
+          "description": "Inspect motor connector, hall sensor, stator wiring, and overload condition."
+        },
+        {
+          "code": "1C / 1E",
+          "title": "Water level sensor error",
+          "description": "Check pressure sensor tube, sensor wiring, and trapped water/foam condition."
+        },
+        {
+          "code": "Ub",
+          "title": "Unbalance detected",
+          "description": "Check load distribution, suspension, and spin basket movement."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "SAMSUNG-WA-MAIN-VERIFY",
+          "notes": "Confirm exact board by full model code and version sticker before ordering.",
+          "image": ""
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "SAMSUNG-WA-UI-VERIFY",
+          "notes": "Front panel board; compare connector count and fascia version.",
+          "image": ""
+        },
+        {
+          "name": "Inverter PCB",
+          "serial": "SAMSUNG-WA-INV-VERIFY",
+          "notes": "Only on inverter/direct-drive style top loaders where fitted.",
+          "image": ""
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Drain Pump",
+          "part_number": "SAMSUNG-WA-PUMP-VERIFY",
+          "notes": "Match voltage and connector type."
+        },
+        {
+          "part_name": "Lid Lock",
+          "part_number": "SAMSUNG-WA-LOCK-VERIFY",
+          "notes": "Variant differs by chassis and region."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "SAMSUNG-WA-VALVE-VERIFY",
+          "notes": "Single/double/triple valve depends on configuration."
+        },
+        {
+          "part_name": "Suspension Rod Set",
+          "part_number": "SAMSUNG-WA-ROD-VERIFY",
+          "notes": "Top load set varies by tub size."
+        },
+        {
+          "part_name": "Pressure Sensor",
+          "part_number": "SAMSUNG-WA-PRESS-VERIFY",
+          "notes": "Pair with hose inspection."
+        },
+        {
+          "part_name": "Heater Element",
+          "part_number": "SAMSUNG-WA-HEAT-VERIFY",
+          "notes": "Confirm wattage and NTC arrangement."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wa17m8700gv",
+      "model": "WA17M8700GV",
+      "series": "WA",
+      "generation": "newer",
+      "category": "Top Load",
+      "capacity_kg": 17.0,
+      "sort_order": 27,
+      "aliases": [
+        "WA17M8700GV",
+        "WA17M8",
+        "Samsung 17kg",
+        "Samsung WA"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wa19a3353gy",
+      "model": "WA19A3353GY",
+      "series": "WA",
+      "generation": "newer",
+      "category": "Top Load",
+      "capacity_kg": 19.0,
+      "sort_order": 28,
+      "aliases": [
+        "WA19A3353GY",
+        "WA19A3",
+        "Samsung 19kg",
+        "Samsung WA"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww70t4020ee",
+      "model": "WW70T4020EE",
+      "series": "WW",
+      "generation": "newer",
+      "category": "Front Load",
+      "capacity_kg": 7.0,
+      "sort_order": 29,
+      "aliases": [
+        "WW70T4020EE",
+        "WW70T4",
+        "Samsung 7kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww80ta046ae",
+      "model": "WW80TA046AE",
+      "series": "WW",
+      "generation": "newer",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 30,
+      "aliases": [
+        "WW80TA046AE",
+        "WW80TA",
+        "Samsung 8kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww90ta046ae",
+      "model": "WW90TA046AE",
+      "series": "WW",
+      "generation": "newer",
+      "category": "Front Load",
+      "capacity_kg": 9.0,
+      "sort_order": 31,
+      "aliases": [
+        "WW90TA046AE",
+        "WW90TA",
+        "Samsung 9kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [
+        {
+          "code": "4C / 4E",
+          "title": "Water supply error",
+          "description": "Check water tap, inlet valve, mesh filter, hose kink, and water pressure."
+        },
+        {
+          "code": "5C / 5E",
+          "title": "Drain error",
+          "description": "Clean pump filter, check drain pump, hose blockage, and drain height."
+        },
+        {
+          "code": "dC / dE",
+          "title": "Door error",
+          "description": "Inspect door lock, strike, harness, and door alignment."
+        },
+        {
+          "code": "3C",
+          "title": "Motor / drive error",
+          "description": "Inspect motor connector, hall sensor, stator wiring, and overload condition."
+        },
+        {
+          "code": "1C / 1E",
+          "title": "Water level sensor error",
+          "description": "Check pressure sensor tube, sensor wiring, and trapped water/foam condition."
+        },
+        {
+          "code": "Ub",
+          "title": "Unbalance detected",
+          "description": "Check load distribution, suspension, and spin basket movement."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "SAMSUNG-WW-MAIN-VERIFY",
+          "notes": "Confirm exact board by full model code and version sticker before ordering.",
+          "image": ""
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "SAMSUNG-WW-UI-VERIFY",
+          "notes": "Front panel board; compare connector count and fascia version.",
+          "image": ""
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Drain Pump",
+          "part_number": "SAMSUNG-WW-PUMP-VERIFY",
+          "notes": "Match voltage and connector type."
+        },
+        {
+          "part_name": "Door Lock",
+          "part_number": "SAMSUNG-WW-LOCK-VERIFY",
+          "notes": "Variant differs by chassis and region."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "SAMSUNG-WW-VALVE-VERIFY",
+          "notes": "Single/double/triple valve depends on configuration."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "SAMSUNG-WW-SHOCK-VERIFY",
+          "notes": "Confirm length and end type."
+        },
+        {
+          "part_name": "Pressure Sensor",
+          "part_number": "SAMSUNG-WW-PRESS-VERIFY",
+          "notes": "Pair with hose inspection."
+        },
+        {
+          "part_name": "Heater Element",
+          "part_number": "SAMSUNG-WW-HEAT-VERIFY",
+          "notes": "Confirm wattage and NTC arrangement."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww90t554dan",
+      "model": "WW90T554DAN",
+      "series": "WW",
+      "generation": "newer",
+      "category": "Front Load",
+      "capacity_kg": 9.0,
+      "sort_order": 32,
+      "aliases": [
+        "WW90T554DAN",
+        "WW90T5",
+        "Samsung 9kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww80t554dax",
+      "model": "WW80T554DAX",
+      "series": "WW",
+      "generation": "newer",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 33,
+      "aliases": [
+        "WW80T554DAX",
+        "WW80T5",
+        "Samsung 8kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww11bb944dgh",
+      "model": "WW11BB944DGH",
+      "series": "WW",
+      "generation": "newest",
+      "category": "Front Load",
+      "capacity_kg": 11.0,
+      "sort_order": 34,
+      "aliases": [
+        "WW11BB944DGH",
+        "WW11BB",
+        "Samsung 11kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww90cgc04dae",
+      "model": "WW90CGC04DAE",
+      "series": "WW",
+      "generation": "newest",
+      "category": "Front Load",
+      "capacity_kg": 9.0,
+      "sort_order": 35,
+      "aliases": [
+        "WW90CGC04DAE",
+        "WW90CG",
+        "Samsung 9kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [
+        {
+          "code": "4C / 4E",
+          "title": "Water supply error",
+          "description": "Check water tap, inlet valve, mesh filter, hose kink, and water pressure."
+        },
+        {
+          "code": "5C / 5E",
+          "title": "Drain error",
+          "description": "Clean pump filter, check drain pump, hose blockage, and drain height."
+        },
+        {
+          "code": "dC / dE",
+          "title": "Door error",
+          "description": "Inspect door lock, strike, harness, and door alignment."
+        },
+        {
+          "code": "3C",
+          "title": "Motor / drive error",
+          "description": "Inspect motor connector, hall sensor, stator wiring, and overload condition."
+        },
+        {
+          "code": "1C / 1E",
+          "title": "Water level sensor error",
+          "description": "Check pressure sensor tube, sensor wiring, and trapped water/foam condition."
+        },
+        {
+          "code": "Ub",
+          "title": "Unbalance detected",
+          "description": "Check load distribution, suspension, and spin basket movement."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "SAMSUNG-WW-MAIN-VERIFY",
+          "notes": "Confirm exact board by full model code and version sticker before ordering.",
+          "image": ""
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "SAMSUNG-WW-UI-VERIFY",
+          "notes": "Front panel board; compare connector count and fascia version.",
+          "image": ""
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Drain Pump",
+          "part_number": "SAMSUNG-WW-PUMP-VERIFY",
+          "notes": "Match voltage and connector type."
+        },
+        {
+          "part_name": "Door Lock",
+          "part_number": "SAMSUNG-WW-LOCK-VERIFY",
+          "notes": "Variant differs by chassis and region."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "SAMSUNG-WW-VALVE-VERIFY",
+          "notes": "Single/double/triple valve depends on configuration."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "SAMSUNG-WW-SHOCK-VERIFY",
+          "notes": "Confirm length and end type."
+        },
+        {
+          "part_name": "Pressure Sensor",
+          "part_number": "SAMSUNG-WW-PRESS-VERIFY",
+          "notes": "Pair with hose inspection."
+        },
+        {
+          "part_name": "Heater Element",
+          "part_number": "SAMSUNG-WW-HEAT-VERIFY",
+          "notes": "Confirm wattage and NTC arrangement."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-ww80cgc04dae",
+      "model": "WW80CGC04DAE",
+      "series": "WW",
+      "generation": "newest",
+      "category": "Front Load",
+      "capacity_kg": 8.0,
+      "sort_order": 36,
+      "aliases": [
+        "WW80CGC04DAE",
+        "WW80CG",
+        "Samsung 8kg",
+        "Samsung WW"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    },
+    {
+      "id": "samsung-wd11db7b85gb",
+      "model": "WD11DB7B85GB",
+      "series": "WD",
+      "generation": "newest",
+      "category": "Washer Dryer",
+      "capacity_kg": 11.0,
+      "sort_order": 37,
+      "aliases": [
+        "WD11DB7B85GB",
+        "WD11DB",
+        "Samsung 11kg",
+        "Samsung WD"
+      ],
+      "service_notes": "Use full sticker code, production index, and PCB revision before ordering spare boards.",
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [
+        {
+          "title": "Service reference",
+          "url": "",
+          "notes": "Add local PDF/manual link when available."
+        },
+        {
+          "title": "Wiring diagram reference",
+          "url": "",
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+        }
+      ],
+      "images": [
+        {
+          "title": "Board photo",
+          "url": "",
+          "notes": "Paste image link or local asset for main PCB."
+        },
+        {
+          "title": "Model sticker",
+          "url": "",
+          "notes": "Add sticker photo to lock correct spare parts."
+        }
+      ]
+    }
+  ]
+}
