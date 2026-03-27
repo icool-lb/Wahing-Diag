@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Washer Catalog V2.4 Pro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="loginOverlay" class="login-overlay">
+    <div class="login-box">
+      <img src="assets/logo/icool.svg" class="login-logo" alt="iCOOL">
+      <h2>Washer Catalog V2.4 Pro</h2>
+      <p>Secure technician access</p>
+      <input id="loginUser" type="text" placeholder="Username">
+      <input id="loginPass" type="password" placeholder="Password">
+      <button id="loginBtn">Login</button>
+      <div id="loginMsg" class="login-msg"></div>
+      <div class="small-note">Default demo login is in README.txt</div>
+    </div>
+  </div>
+
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="header-left">
+        <img src="assets/logo/icool.svg" class="icool-logo" alt="iCOOL logo">
+        <div>
+          <h1>Washer Catalog V2.4 Pro</h1>
+          <p>Faults · Boards · Parts · Documents</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <button id="logoutBtn" class="ghost-btn">Logout</button>
+      </div>
+    </header>
+
+    <section class="top-tools">
+      <div class="search-row">
+        <input id="globalSearch" type="text" placeholder="ابحث عن الموديل أو كود العطل أو البورد أو القطعة">
+        <button id="searchBtn">Search</button>
+      </div>
+      <div class="meta-row">
+        <div id="statsBox" class="stat-pill">Loading data...</div>
+        <div id="crumbs" class="crumbs"></div>
+      </div>
+    </section>
+
+    <main class="main-grid">
+      <aside class="sidebar">
+        <div class="side-title">Brands</div>
+        <div id="brandList" class="brand-list"></div>
+      </aside>
+
+      <section class="content">
+        <div id="viewRoot"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
