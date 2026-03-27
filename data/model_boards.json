@@ -1,0 +1,142 @@
+[
+  {
+    "model_id": "sam_ww70j4373ma",
+    "board_id": "brd_sam_main_j4",
+    "role": "main"
+  },
+  {
+    "model_id": "sam_ww70j4373ma",
+    "board_id": "brd_sam_ui_j4",
+    "role": "secondary"
+  },
+  {
+    "model_id": "sam_ww80t554dan",
+    "board_id": "brd_sam_main_t5",
+    "role": "main"
+  },
+  {
+    "model_id": "sam_ww80t554dan",
+    "board_id": "brd_sam_ui_j4",
+    "role": "secondary"
+  },
+  {
+    "model_id": "sam_wf45t6000aw",
+    "board_id": "brd_sam_main_t5",
+    "role": "main"
+  },
+  {
+    "model_id": "sam_wf45t6000aw",
+    "board_id": "brd_sam_inverter_wf45",
+    "role": "secondary"
+  },
+  {
+    "model_id": "sam_wd90ta046be",
+    "board_id": "brd_sam_combo_wd",
+    "role": "main"
+  },
+  {
+    "model_id": "sam_wd90ta046be",
+    "board_id": "brd_sam_ui_j4",
+    "role": "secondary"
+  },
+  {
+    "model_id": "lg_wm4000hwa",
+    "board_id": "brd_lg_main_wm4000",
+    "role": "main"
+  },
+  {
+    "model_id": "lg_wm4000hwa",
+    "board_id": "brd_lg_ui_wm4000",
+    "role": "secondary"
+  },
+  {
+    "model_id": "lg_f4v5vyp2t",
+    "board_id": "brd_lg_main_v5",
+    "role": "main"
+  },
+  {
+    "model_id": "lg_fh4g6vdy6",
+    "board_id": "brd_lg_main_fh4",
+    "role": "main"
+  },
+  {
+    "model_id": "lg_wm3900hwa",
+    "board_id": "brd_lg_main_wm3900",
+    "role": "main"
+  },
+  {
+    "model_id": "mid_l11",
+    "board_id": "brd_mid_main_l11",
+    "role": "main"
+  },
+  {
+    "model_id": "mid_l11",
+    "board_id": "brd_mid_ui_l11",
+    "role": "secondary"
+  },
+  {
+    "model_id": "mid_mf10ew80b",
+    "board_id": "brd_mid_main_mf10",
+    "role": "main"
+  },
+  {
+    "model_id": "mid_mfk70es110",
+    "board_id": "brd_mid_main_mfk70",
+    "role": "main"
+  },
+  {
+    "model_id": "mid_mtwt120w",
+    "board_id": "brd_mid_main_tl12",
+    "role": "main"
+  },
+  {
+    "model_id": "ves_w8144w",
+    "board_id": "brd_ves_main_8kg",
+    "role": "main"
+  },
+  {
+    "model_id": "ves_w8144w",
+    "board_id": "brd_ves_ui_8kg",
+    "role": "secondary"
+  },
+  {
+    "model_id": "ves_w6104",
+    "board_id": "brd_ves_main_6kg",
+    "role": "main"
+  },
+  {
+    "model_id": "ves_wd10701",
+    "board_id": "brd_ves_main_combo",
+    "role": "main"
+  },
+  {
+    "model_id": "ves_tl1001",
+    "board_id": "brd_ves_main_top",
+    "role": "main"
+  },
+  {
+    "model_id": "bos_wat28400uc",
+    "board_id": "brd_bos_main_300",
+    "role": "main"
+  },
+  {
+    "model_id": "bos_wat28400uc",
+    "board_id": "brd_bos_ui_300",
+    "role": "secondary"
+  },
+  {
+    "model_id": "bos_wax32m40gb",
+    "board_id": "brd_bos_main_8",
+    "role": "main"
+  },
+  {
+    "model_id": "bos_wga14400gc",
+    "board_id": "brd_bos_main_4",
+    "role": "main"
+  },
+  {
+    "model_id": "bos_wna144v9gb",
+    "board_id": "brd_bos_main_combo",
+    "role": "main"
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "model_id": "sam_ww70j4373ma",
+    "part_id": "prt_sam_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww70j4373ma",
+    "part_id": "prt_sam_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww70j4373ma",
+    "part_id": "prt_sam_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww70j4373ma",
+    "part_id": "prt_sam_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww70j4373ma",
+    "part_id": "prt_sam_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww70j4373ma",
+    "part_id": "prt_sam_motor",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww80t554dan",
+    "part_id": "prt_sam_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww80t554dan",
+    "part_id": "prt_sam_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww80t554dan",
+    "part_id": "prt_sam_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww80t554dan",
+    "part_id": "prt_sam_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww80t554dan",
+    "part_id": "prt_sam_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_ww80t554dan",
+    "part_id": "prt_sam_motor",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wf45t6000aw",
+    "part_id": "prt_sam_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wf45t6000aw",
+    "part_id": "prt_sam_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wf45t6000aw",
+    "part_id": "prt_sam_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wf45t6000aw",
+    "part_id": "prt_sam_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wf45t6000aw",
+    "part_id": "prt_sam_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wf45t6000aw",
+    "part_id": "prt_sam_motor",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wd90ta046be",
+    "part_id": "prt_sam_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wd90ta046be",
+    "part_id": "prt_sam_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wd90ta046be",
+    "part_id": "prt_sam_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wd90ta046be",
+    "part_id": "prt_sam_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wd90ta046be",
+    "part_id": "prt_sam_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "sam_wd90ta046be",
+    "part_id": "prt_sam_motor",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm4000hwa",
+    "part_id": "prt_lg_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm4000hwa",
+    "part_id": "prt_lg_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm4000hwa",
+    "part_id": "prt_lg_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm4000hwa",
+    "part_id": "prt_lg_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm4000hwa",
+    "part_id": "prt_lg_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm4000hwa",
+    "part_id": "prt_lg_shock",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_f4v5vyp2t",
+    "part_id": "prt_lg_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_f4v5vyp2t",
+    "part_id": "prt_lg_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_f4v5vyp2t",
+    "part_id": "prt_lg_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_f4v5vyp2t",
+    "part_id": "prt_lg_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_f4v5vyp2t",
+    "part_id": "prt_lg_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_f4v5vyp2t",
+    "part_id": "prt_lg_shock",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_fh4g6vdy6",
+    "part_id": "prt_lg_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_fh4g6vdy6",
+    "part_id": "prt_lg_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_fh4g6vdy6",
+    "part_id": "prt_lg_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_fh4g6vdy6",
+    "part_id": "prt_lg_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_fh4g6vdy6",
+    "part_id": "prt_lg_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_fh4g6vdy6",
+    "part_id": "prt_lg_shock",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm3900hwa",
+    "part_id": "prt_lg_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm3900hwa",
+    "part_id": "prt_lg_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm3900hwa",
+    "part_id": "prt_lg_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm3900hwa",
+    "part_id": "prt_lg_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm3900hwa",
+    "part_id": "prt_lg_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "lg_wm3900hwa",
+    "part_id": "prt_lg_shock",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_l11",
+    "part_id": "prt_mid_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_l11",
+    "part_id": "prt_mid_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_l11",
+    "part_id": "prt_mid_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_l11",
+    "part_id": "prt_mid_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_l11",
+    "part_id": "prt_mid_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_l11",
+    "part_id": "prt_mid_pressure",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mf10ew80b",
+    "part_id": "prt_mid_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mf10ew80b",
+    "part_id": "prt_mid_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mf10ew80b",
+    "part_id": "prt_mid_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mf10ew80b",
+    "part_id": "prt_mid_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mf10ew80b",
+    "part_id": "prt_mid_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mf10ew80b",
+    "part_id": "prt_mid_pressure",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mfk70es110",
+    "part_id": "prt_mid_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mfk70es110",
+    "part_id": "prt_mid_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mfk70es110",
+    "part_id": "prt_mid_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mfk70es110",
+    "part_id": "prt_mid_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mfk70es110",
+    "part_id": "prt_mid_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mfk70es110",
+    "part_id": "prt_mid_pressure",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mtwt120w",
+    "part_id": "prt_mid_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mtwt120w",
+    "part_id": "prt_mid_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mtwt120w",
+    "part_id": "prt_mid_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mtwt120w",
+    "part_id": "prt_mid_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mtwt120w",
+    "part_id": "prt_mid_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "mid_mtwt120w",
+    "part_id": "prt_mid_pressure",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w8144w",
+    "part_id": "prt_ves_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w8144w",
+    "part_id": "prt_ves_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w8144w",
+    "part_id": "prt_ves_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w8144w",
+    "part_id": "prt_ves_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w8144w",
+    "part_id": "prt_ves_shock",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w8144w",
+    "part_id": "prt_ves_pressure",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w6104",
+    "part_id": "prt_ves_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w6104",
+    "part_id": "prt_ves_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w6104",
+    "part_id": "prt_ves_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w6104",
+    "part_id": "prt_ves_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w6104",
+    "part_id": "prt_ves_shock",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_w6104",
+    "part_id": "prt_ves_pressure",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_wd10701",
+    "part_id": "prt_ves_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_wd10701",
+    "part_id": "prt_ves_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_wd10701",
+    "part_id": "prt_ves_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_wd10701",
+    "part_id": "prt_ves_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_wd10701",
+    "part_id": "prt_ves_shock",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_wd10701",
+    "part_id": "prt_ves_pressure",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_tl1001",
+    "part_id": "prt_ves_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_tl1001",
+    "part_id": "prt_ves_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_tl1001",
+    "part_id": "prt_ves_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_tl1001",
+    "part_id": "prt_ves_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_tl1001",
+    "part_id": "prt_ves_shock",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "ves_tl1001",
+    "part_id": "prt_ves_pressure",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wat28400uc",
+    "part_id": "prt_bos_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wat28400uc",
+    "part_id": "prt_bos_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wat28400uc",
+    "part_id": "prt_bos_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wat28400uc",
+    "part_id": "prt_bos_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wat28400uc",
+    "part_id": "prt_bos_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wat28400uc",
+    "part_id": "prt_bos_shock",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wax32m40gb",
+    "part_id": "prt_bos_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wax32m40gb",
+    "part_id": "prt_bos_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wax32m40gb",
+    "part_id": "prt_bos_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wax32m40gb",
+    "part_id": "prt_bos_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wax32m40gb",
+    "part_id": "prt_bos_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wax32m40gb",
+    "part_id": "prt_bos_shock",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wga14400gc",
+    "part_id": "prt_bos_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wga14400gc",
+    "part_id": "prt_bos_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wga14400gc",
+    "part_id": "prt_bos_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wga14400gc",
+    "part_id": "prt_bos_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wga14400gc",
+    "part_id": "prt_bos_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wga14400gc",
+    "part_id": "prt_bos_shock",
+    "priority": 6,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wna144v9gb",
+    "part_id": "prt_bos_pump",
+    "priority": 1,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wna144v9gb",
+    "part_id": "prt_bos_lock",
+    "priority": 2,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wna144v9gb",
+    "part_id": "prt_bos_valve",
+    "priority": 3,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wna144v9gb",
+    "part_id": "prt_bos_heater",
+    "priority": 4,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wna144v9gb",
+    "part_id": "prt_bos_ntc",
+    "priority": 5,
+    "note": "Primary linked part"
+  },
+  {
+    "model_id": "bos_wna144v9gb",
+    "part_id": "prt_bos_shock",
+    "priority": 6,
+    "note": "Primary linked part"
+  }
+]

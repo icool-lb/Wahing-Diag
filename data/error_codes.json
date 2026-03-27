@@ -1,0 +1,227 @@
+[
+  {
+    "id": "err_samsung_4e",
+    "brand_id": "samsung",
+    "platform": "",
+    "code": "4E",
+    "title": "Water inlet error",
+    "category": "Water Inlet",
+    "diagnosis": "Water supply low, valve coil, filter, valve output from board"
+  },
+  {
+    "id": "err_samsung_5e",
+    "brand_id": "samsung",
+    "platform": "",
+    "code": "5E",
+    "title": "Drain error",
+    "category": "Drain",
+    "diagnosis": "Pump blockage, drain pump, pressure sensor, pump output"
+  },
+  {
+    "id": "err_samsung_de",
+    "brand_id": "samsung",
+    "platform": "",
+    "code": "dE",
+    "title": "Door error",
+    "category": "Door",
+    "diagnosis": "Door lock, harness, lock sensing, board input"
+  },
+  {
+    "id": "err_samsung_he",
+    "brand_id": "samsung",
+    "platform": "",
+    "code": "HE",
+    "title": "Heating error",
+    "category": "Heating",
+    "diagnosis": "Heater open, NTC issue, heater relay"
+  },
+  {
+    "id": "err_samsung_ue",
+    "brand_id": "samsung",
+    "platform": "",
+    "code": "UE",
+    "title": "Unbalance",
+    "category": "Spin",
+    "diagnosis": "Shock absorber, suspension, load distribution"
+  },
+  {
+    "id": "err_lg_ie",
+    "brand_id": "lg",
+    "platform": "",
+    "code": "IE",
+    "title": "Inlet error",
+    "category": "Water Inlet",
+    "diagnosis": "Supply, valve, filter, valve output"
+  },
+  {
+    "id": "err_lg_oe",
+    "brand_id": "lg",
+    "platform": "",
+    "code": "OE",
+    "title": "Drain error",
+    "category": "Drain",
+    "diagnosis": "Pump, filter, hose, pump output"
+  },
+  {
+    "id": "err_lg_de",
+    "brand_id": "lg",
+    "platform": "",
+    "code": "dE",
+    "title": "Door error",
+    "category": "Door",
+    "diagnosis": "Door lock or sensing issue"
+  },
+  {
+    "id": "err_lg_he",
+    "brand_id": "lg",
+    "platform": "",
+    "code": "HE",
+    "title": "Heating error",
+    "category": "Heating",
+    "diagnosis": "Heater, NTC, relay, board power"
+  },
+  {
+    "id": "err_lg_ue",
+    "brand_id": "lg",
+    "platform": "",
+    "code": "UE",
+    "title": "Unbalance",
+    "category": "Spin",
+    "diagnosis": "Suspension, load, motor speed control"
+  },
+  {
+    "id": "err_midea_e10",
+    "brand_id": "midea",
+    "platform": "",
+    "code": "E10",
+    "title": "Water inlet timeout",
+    "category": "Water Inlet",
+    "diagnosis": "Water supply, valve, pressure switch"
+  },
+  {
+    "id": "err_midea_e21",
+    "brand_id": "midea",
+    "platform": "",
+    "code": "E21",
+    "title": "Drain error",
+    "category": "Drain",
+    "diagnosis": "Pump, filter, hose, board output"
+  },
+  {
+    "id": "err_midea_e30",
+    "brand_id": "midea",
+    "platform": "",
+    "code": "E30",
+    "title": "Door lock error",
+    "category": "Door",
+    "diagnosis": "Lock, harness, door switch sensing"
+  },
+  {
+    "id": "err_midea_e60",
+    "brand_id": "midea",
+    "platform": "",
+    "code": "E60",
+    "title": "Heating error",
+    "category": "Heating",
+    "diagnosis": "Heater, NTC, heater relay"
+  },
+  {
+    "id": "err_midea_e3",
+    "brand_id": "midea",
+    "platform": "",
+    "code": "E3",
+    "title": "Unbalance",
+    "category": "Spin",
+    "diagnosis": "Suspension, load distribution, speed sensing"
+  },
+  {
+    "id": "err_vestel_e01",
+    "brand_id": "vestel",
+    "platform": "",
+    "code": "E01",
+    "title": "Door error",
+    "category": "Door",
+    "diagnosis": "Door lock or sensing line"
+  },
+  {
+    "id": "err_vestel_e02",
+    "brand_id": "vestel",
+    "platform": "",
+    "code": "E02",
+    "title": "Water inlet error",
+    "category": "Water Inlet",
+    "diagnosis": "Valve or supply issue"
+  },
+  {
+    "id": "err_vestel_e03",
+    "brand_id": "vestel",
+    "platform": "",
+    "code": "E03",
+    "title": "Drain error",
+    "category": "Drain",
+    "diagnosis": "Pump blockage or output issue"
+  },
+  {
+    "id": "err_vestel_e05",
+    "brand_id": "vestel",
+    "platform": "",
+    "code": "E05",
+    "title": "NTC/heating error",
+    "category": "Heating",
+    "diagnosis": "NTC, heater, board relay"
+  },
+  {
+    "id": "err_vestel_e07",
+    "brand_id": "vestel",
+    "platform": "",
+    "code": "E07",
+    "title": "Motor/triac error",
+    "category": "Spin",
+    "diagnosis": "Motor drive or triac area"
+  },
+  {
+    "id": "err_bosch_e17",
+    "brand_id": "bosch",
+    "platform": "",
+    "code": "E17",
+    "title": "Water inlet error",
+    "category": "Water Inlet",
+    "diagnosis": "Supply, AquaStop, valve path"
+  },
+  {
+    "id": "err_bosch_e18",
+    "brand_id": "bosch",
+    "platform": "",
+    "code": "E18",
+    "title": "Drain error",
+    "category": "Drain",
+    "diagnosis": "Pump, filter, hose restriction"
+  },
+  {
+    "id": "err_bosch_e16",
+    "brand_id": "bosch",
+    "platform": "",
+    "code": "E16",
+    "title": "Door error",
+    "category": "Door",
+    "diagnosis": "Door not locked properly"
+  },
+  {
+    "id": "err_bosch_e09",
+    "brand_id": "bosch",
+    "platform": "",
+    "code": "E09",
+    "title": "Heating error",
+    "category": "Heating",
+    "diagnosis": "Heater circuit issue"
+  },
+  {
+    "id": "err_bosch_e36",
+    "brand_id": "bosch",
+    "platform": "",
+    "code": "E36",
+    "title": "Leakage / lock family",
+    "category": "Safety",
+    "diagnosis": "Door/lock or protective circuit depending on platform"
+  }
+]

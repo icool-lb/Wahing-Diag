@@ -1,0 +1,162 @@
+[
+  {
+    "id": "sam_ww70j4373ma",
+    "brand_id": "samsung",
+    "model_no": "WW70J4373MA/FH",
+    "platform": "J4 Series",
+    "type": "Front Load",
+    "note": "Reference model linked to Samsung support."
+  },
+  {
+    "id": "sam_ww80t554dan",
+    "brand_id": "samsung",
+    "model_no": "WW80T554DAN/S1",
+    "platform": "T5 Series",
+    "type": "Front Load",
+    "note": "Expanded data row with board/parts/errors."
+  },
+  {
+    "id": "sam_wf45t6000aw",
+    "brand_id": "samsung",
+    "model_no": "WF45T6000AW/A5",
+    "platform": "WF45T Platform",
+    "type": "Front Load",
+    "note": "North America style platform record."
+  },
+  {
+    "id": "sam_wd90ta046be",
+    "brand_id": "samsung",
+    "model_no": "WD90TA046BE/SG",
+    "platform": "WD Combo T",
+    "type": "Washer Dryer",
+    "note": "Combo platform for board and lock mapping."
+  },
+  {
+    "id": "lg_wm4000hwa",
+    "brand_id": "lg",
+    "model_no": "WM4000HWA.ABWEUUS",
+    "platform": "WM4000 Series",
+    "type": "Front Load",
+    "note": "Reference model linked to LG support."
+  },
+  {
+    "id": "lg_f4v5vyp2t",
+    "brand_id": "lg",
+    "model_no": "F4V5VYP2T",
+    "platform": "V5 Platform",
+    "type": "Front Load",
+    "note": "Common AI DD family structure."
+  },
+  {
+    "id": "lg_fh4g6vdy6",
+    "brand_id": "lg",
+    "model_no": "FH4G6VDY6",
+    "platform": "FH4 Platform",
+    "type": "Washer Dryer",
+    "note": "Washer-dryer platform."
+  },
+  {
+    "id": "lg_wm3900hwa",
+    "brand_id": "lg",
+    "model_no": "WM3900HWA",
+    "platform": "WM3900 Series",
+    "type": "Front Load",
+    "note": "Expanded drain/door/heater diagnosis."
+  },
+  {
+    "id": "mid_l11",
+    "brand_id": "midea",
+    "model_no": "L11 Platform",
+    "platform": "L11",
+    "type": "Front Load",
+    "note": "Service-manual based platform entry."
+  },
+  {
+    "id": "mid_mf10ew80b",
+    "brand_id": "midea",
+    "model_no": "MF10EW80B",
+    "platform": "MF10",
+    "type": "Front Load",
+    "note": "Front-load model record with board/parts links."
+  },
+  {
+    "id": "mid_mfk70es110",
+    "brand_id": "midea",
+    "model_no": "MFK70-ES110",
+    "platform": "MFK70",
+    "type": "Front Load",
+    "note": "Expanded fault and parts mapping."
+  },
+  {
+    "id": "mid_mtwt120w",
+    "brand_id": "midea",
+    "model_no": "MTWT120W",
+    "platform": "Top Load 12kg",
+    "type": "Top Load",
+    "note": "Top-load branch with inlet and drain diagnostics."
+  },
+  {
+    "id": "ves_w8144w",
+    "brand_id": "vestel",
+    "model_no": "W8144W",
+    "platform": "Vestel 8kg FL",
+    "type": "Front Load",
+    "note": "Vestel platform starter model."
+  },
+  {
+    "id": "ves_w6104",
+    "brand_id": "vestel",
+    "model_no": "W6104",
+    "platform": "Vestel 6kg FL",
+    "type": "Front Load",
+    "note": "Entry platform."
+  },
+  {
+    "id": "ves_wd10701",
+    "brand_id": "vestel",
+    "model_no": "WD10701",
+    "platform": "Vestel WD Combo",
+    "type": "Washer Dryer",
+    "note": "Washer-dryer platform record."
+  },
+  {
+    "id": "ves_tl1001",
+    "brand_id": "vestel",
+    "model_no": "TL1001",
+    "platform": "Vestel Top Load",
+    "type": "Top Load",
+    "note": "Top-load expansion row."
+  },
+  {
+    "id": "bos_wat28400uc",
+    "brand_id": "bosch",
+    "model_no": "WAT28400UC/24",
+    "platform": "300 Series",
+    "type": "Front Load",
+    "note": "Reference support-linked model."
+  },
+  {
+    "id": "bos_wax32m40gb",
+    "brand_id": "bosch",
+    "model_no": "WAX32M40GB",
+    "platform": "8 Series",
+    "type": "Front Load",
+    "note": "Expanded 8-series row."
+  },
+  {
+    "id": "bos_wga14400gc",
+    "brand_id": "bosch",
+    "model_no": "WGA14400GC",
+    "platform": "4 Series",
+    "type": "Front Load",
+    "note": "4-series fault mapping."
+  },
+  {
+    "id": "bos_wna144v9gb",
+    "brand_id": "bosch",
+    "model_no": "WNA144V9GB",
+    "platform": "Washer Dryer 4",
+    "type": "Washer Dryer",
+    "note": "Combo line record."
+  }
+]

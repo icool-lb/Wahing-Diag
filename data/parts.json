@@ -1,1 +1,242 @@
-
+[
+  {
+    "id": "prt_sam_pump",
+    "brand_id": "samsung",
+    "part_number": "DC31-00054D",
+    "name": "Drain Pump",
+    "category": "Drain",
+    "notes": "Common Samsung front-load drain pump"
+  },
+  {
+    "id": "prt_sam_lock",
+    "brand_id": "samsung",
+    "part_number": "DC64-01538A",
+    "name": "Door Lock",
+    "category": "Door",
+    "notes": "Door interlock assembly"
+  },
+  {
+    "id": "prt_sam_valve",
+    "brand_id": "samsung",
+    "part_number": "DC62-00214M",
+    "name": "Water Inlet Valve",
+    "category": "Water Inlet",
+    "notes": "Dual inlet valve"
+  },
+  {
+    "id": "prt_sam_heater",
+    "brand_id": "samsung",
+    "part_number": "DC47-00034A",
+    "name": "Heater Element",
+    "category": "Heating",
+    "notes": "Tub heater element"
+  },
+  {
+    "id": "prt_sam_ntc",
+    "brand_id": "samsung",
+    "part_number": "DC32-00007A",
+    "name": "NTC Sensor",
+    "category": "Temperature",
+    "notes": "Heater temperature sensor"
+  },
+  {
+    "id": "prt_sam_motor",
+    "brand_id": "samsung",
+    "part_number": "DC31-00111A",
+    "name": "BLDC Motor",
+    "category": "Motor",
+    "notes": "Drive motor"
+  },
+  {
+    "id": "prt_lg_pump",
+    "brand_id": "lg",
+    "part_number": "4681EA2001T",
+    "name": "Drain Pump",
+    "category": "Drain",
+    "notes": "Common LG drain pump"
+  },
+  {
+    "id": "prt_lg_lock",
+    "brand_id": "lg",
+    "part_number": "EBF61315802",
+    "name": "Door Lock",
+    "category": "Door",
+    "notes": "Door interlock assembly"
+  },
+  {
+    "id": "prt_lg_valve",
+    "brand_id": "lg",
+    "part_number": "5220FR2006H",
+    "name": "Water Inlet Valve",
+    "category": "Water Inlet",
+    "notes": "Valve assembly"
+  },
+  {
+    "id": "prt_lg_heater",
+    "brand_id": "lg",
+    "part_number": "5301ER1001Q",
+    "name": "Heater Element",
+    "category": "Heating",
+    "notes": "Heating element"
+  },
+  {
+    "id": "prt_lg_ntc",
+    "brand_id": "lg",
+    "part_number": "6322FR2046C",
+    "name": "NTC Sensor",
+    "category": "Temperature",
+    "notes": "Temperature sensor"
+  },
+  {
+    "id": "prt_lg_shock",
+    "brand_id": "lg",
+    "part_number": "383EER3001V",
+    "name": "Shock Absorber",
+    "category": "Suspension",
+    "notes": "Vibration control"
+  },
+  {
+    "id": "prt_mid_pump",
+    "brand_id": "midea",
+    "part_number": "17476000003819",
+    "name": "Drain Pump",
+    "category": "Drain",
+    "notes": "Midea drain pump"
+  },
+  {
+    "id": "prt_mid_lock",
+    "brand_id": "midea",
+    "part_number": "17138000009445",
+    "name": "Door Lock",
+    "category": "Door",
+    "notes": "Door lock"
+  },
+  {
+    "id": "prt_mid_valve",
+    "brand_id": "midea",
+    "part_number": "17438100004231",
+    "name": "Water Inlet Valve",
+    "category": "Water Inlet",
+    "notes": "Inlet valve"
+  },
+  {
+    "id": "prt_mid_heater",
+    "brand_id": "midea",
+    "part_number": "17438100001219",
+    "name": "Heater Element",
+    "category": "Heating",
+    "notes": "Heater assembly"
+  },
+  {
+    "id": "prt_mid_ntc",
+    "brand_id": "midea",
+    "part_number": "17438100001977",
+    "name": "NTC Sensor",
+    "category": "Temperature",
+    "notes": "Temp sensor"
+  },
+  {
+    "id": "prt_mid_pressure",
+    "brand_id": "midea",
+    "part_number": "17438100003652",
+    "name": "Pressure Sensor",
+    "category": "Water Level",
+    "notes": "Water level switch"
+  },
+  {
+    "id": "prt_ves_pump",
+    "brand_id": "vestel",
+    "part_number": "42002566",
+    "name": "Drain Pump",
+    "category": "Drain",
+    "notes": "Vestel drain pump"
+  },
+  {
+    "id": "prt_ves_lock",
+    "brand_id": "vestel",
+    "part_number": "32018324",
+    "name": "Door Lock",
+    "category": "Door",
+    "notes": "Vestel lock"
+  },
+  {
+    "id": "prt_ves_valve",
+    "brand_id": "vestel",
+    "part_number": "42002502",
+    "name": "Water Inlet Valve",
+    "category": "Water Inlet",
+    "notes": "Vestel valve"
+  },
+  {
+    "id": "prt_ves_heater",
+    "brand_id": "vestel",
+    "part_number": "32027173",
+    "name": "Heater Element",
+    "category": "Heating",
+    "notes": "Vestel heater"
+  },
+  {
+    "id": "prt_ves_shock",
+    "brand_id": "vestel",
+    "part_number": "42019323",
+    "name": "Shock Absorber",
+    "category": "Suspension",
+    "notes": "Vestel shock"
+  },
+  {
+    "id": "prt_ves_pressure",
+    "brand_id": "vestel",
+    "part_number": "42022655",
+    "name": "Pressure Sensor",
+    "category": "Water Level",
+    "notes": "Pressure switch"
+  },
+  {
+    "id": "prt_bos_pump",
+    "brand_id": "bosch",
+    "part_number": "00145787",
+    "name": "Drain Pump",
+    "category": "Drain",
+    "notes": "Bosch drain pump"
+  },
+  {
+    "id": "prt_bos_lock",
+    "brand_id": "bosch",
+    "part_number": "00630783",
+    "name": "Door Lock",
+    "category": "Door",
+    "notes": "Door lock assembly"
+  },
+  {
+    "id": "prt_bos_valve",
+    "brand_id": "bosch",
+    "part_number": "00622058",
+    "name": "Water Inlet Valve",
+    "category": "Water Inlet",
+    "notes": "AquaStop/valve family"
+  },
+  {
+    "id": "prt_bos_heater",
+    "brand_id": "bosch",
+    "part_number": "12004179",
+    "name": "Heater Element",
+    "category": "Heating",
+    "notes": "Heating element"
+  },
+  {
+    "id": "prt_bos_ntc",
+    "brand_id": "bosch",
+    "part_number": "00654575",
+    "name": "NTC Sensor",
+    "category": "Temperature",
+    "notes": "Temperature sensor"
+  },
+  {
+    "id": "prt_bos_shock",
+    "brand_id": "bosch",
+    "part_number": "00742719",
+    "name": "Shock Absorber",
+    "category": "Suspension",
+    "notes": "Suspension damper"
+  }
+]

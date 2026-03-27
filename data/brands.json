@@ -1,0 +1,32 @@
+[
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "name_ar": "سامسونج",
+    "note": "Front-load and selected platforms with fault/board/part structure."
+  },
+  {
+    "id": "lg",
+    "name": "LG",
+    "name_ar": "إل جي",
+    "note": "Focused on common front-load platforms and diagnostic links."
+  },
+  {
+    "id": "midea",
+    "name": "Midea",
+    "name_ar": "ميديا",
+    "note": "Built around service-manual style fault, board, and part mapping."
+  },
+  {
+    "id": "vestel",
+    "name": "Vestel",
+    "name_ar": "فيستل",
+    "note": "Platform-driven structure ready for real model expansion."
+  },
+  {
+    "id": "bosch",
+    "name": "Bosch",
+    "name_ar": "بوش",
+    "note": "Series-based organization with boards, parts, and docs tabs."
+  }
+]
