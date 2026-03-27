@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Washer Catalog V2.3</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Washer Catalog V2.3</h1>
+      <p class="muted">Faults · Boards · Parts · Documents</p>
+    </div>
+    <div class="actions">
+      <input id="globalSearch" type="search" placeholder="ابحث بالموديل أو البورد أو القطعة أو كود العطل" />
+      <button id="reloadBtn">Reload Data</button>
+    </div>
+  </header>
+
+  <section class="sidebar-wrap">
+    <aside class="sidebar">
+      <nav class="main-nav">
+        <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+        <button class="nav-btn" data-view="boards">Boards</button>
+        <button class="nav-btn" data-view="parts">Parts</button>
+        <button class="nav-btn" data-view="symptoms">Faults</button>
+      </nav>
+      <div class="status-box">
+        <div id="dataStatus">جاهز</div>
+      </div>
+      <div class="brand-list" id="brandList"></div>
+    </aside>
+    <main id="app"></main>
+  </section>
+
+  <template id="emptyStateTpl">
+    <div class="card empty"><h3>لا توجد بيانات مطابقة</h3></div>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>
