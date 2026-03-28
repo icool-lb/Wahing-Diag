@@ -1,0 +1,383 @@
+{
+  "brand": {
+    "id": "beko",
+    "name_en": "Beko",
+    "name_ar": "بيكو",
+    "logo": "assets/brands/beko.svg",
+    "color": "#1165d8"
+  },
+  "updated_at": "2026-03-28",
+  "coverage_notes": "Starter indexed brand file ready for in-app verified expansion.",
+  "models": [
+    {
+      "id": "wue70001",
+      "model": "WUE70001",
+      "display_name": "Beko WUE70001",
+      "category": "Front Load",
+      "series": "WUE",
+      "generation": "2010-2014",
+      "capacity_kg": 7,
+      "sort_order": 1,
+      "aliases": [
+        "Beko 7kg",
+        "WUE70001"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Beko indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "beko_index_seed",
+          "title": "Beko starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2010,
+        "to": 2014
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "wue80002",
+      "model": "WUE80002",
+      "display_name": "Beko WUE80002",
+      "category": "Front Load",
+      "series": "WUE",
+      "generation": "2011-2015",
+      "capacity_kg": 8,
+      "sort_order": 2,
+      "aliases": [
+        "Beko 8kg",
+        "WUE80002"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Beko indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "beko_index_seed",
+          "title": "Beko starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2011,
+        "to": 2015
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "wue90003",
+      "model": "WUE90003",
+      "display_name": "Beko WUE90003",
+      "category": "Front Load",
+      "series": "WUE",
+      "generation": "2012-2016",
+      "capacity_kg": 9,
+      "sort_order": 3,
+      "aliases": [
+        "Beko 9kg",
+        "WUE90003"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Beko indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "beko_index_seed",
+          "title": "Beko starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2012,
+        "to": 2016
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "wtv80004",
+      "model": "WTV80004",
+      "display_name": "Beko WTV80004",
+      "category": "Front Load",
+      "series": "WTV",
+      "generation": "2013-2017",
+      "capacity_kg": 8,
+      "sort_order": 4,
+      "aliases": [
+        "Beko 8kg",
+        "WTV80004"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Beko indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "beko_index_seed",
+          "title": "Beko starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2013,
+        "to": 2017
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "wtv90005",
+      "model": "WTV90005",
+      "display_name": "Beko WTV90005",
+      "category": "Front Load",
+      "series": "WTV",
+      "generation": "2014-2018",
+      "capacity_kg": 9,
+      "sort_order": 5,
+      "aliases": [
+        "Beko 9kg",
+        "WTV90005"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Beko indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "beko_index_seed",
+          "title": "Beko starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2014,
+        "to": 2018
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "wtv100006",
+      "model": "WTV100006",
+      "display_name": "Beko WTV100006",
+      "category": "Front Load",
+      "series": "WTV",
+      "generation": "2015-2019",
+      "capacity_kg": 10,
+      "sort_order": 6,
+      "aliases": [
+        "Beko 10kg",
+        "WTV100006"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Beko indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "beko_index_seed",
+          "title": "Beko starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2015,
+        "to": 2019
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "htv90007",
+      "model": "HTV90007",
+      "display_name": "Beko HTV90007",
+      "category": "Washer Dryer",
+      "series": "HTV",
+      "generation": "2016-2020",
+      "capacity_kg": 9,
+      "sort_order": 7,
+      "aliases": [
+        "Beko 9kg",
+        "HTV90007"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Beko indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "beko_index_seed",
+          "title": "Beko starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2016,
+        "to": 2020
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "htv100008",
+      "model": "HTV100008",
+      "display_name": "Beko HTV100008",
+      "category": "Washer Dryer",
+      "series": "HTV",
+      "generation": "2017-2021",
+      "capacity_kg": 10,
+      "sort_order": 8,
+      "aliases": [
+        "Beko 10kg",
+        "HTV100008"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Beko indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "beko_index_seed",
+          "title": "Beko starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2017,
+        "to": 2021
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "beko_index_seed",
+      "title": "Beko starter seed",
+      "type": "internal_seed",
+      "url": "",
+      "verified": false,
+      "notes": "Use admin page to add official/trusted manual sources, error codes, boards, and parts."
+    }
+  ]
+}

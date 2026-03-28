@@ -1,0 +1,383 @@
+{
+  "brand": {
+    "id": "tcl",
+    "name_en": "Tcl",
+    "name_ar": "تي سي إل",
+    "logo": "assets/brands/tcl.svg",
+    "color": "#c40020"
+  },
+  "updated_at": "2026-03-28",
+  "coverage_notes": "Starter indexed brand file ready for in-app verified expansion.",
+  "models": [
+    {
+      "id": "p80001",
+      "model": "P80001",
+      "display_name": "Tcl P80001",
+      "category": "Top Load",
+      "series": "P",
+      "generation": "2010-2014",
+      "capacity_kg": 8,
+      "sort_order": 1,
+      "aliases": [
+        "Tcl 8kg",
+        "P80001"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Tcl indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "tcl_index_seed",
+          "title": "Tcl starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2010,
+        "to": 2014
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "p90002",
+      "model": "P90002",
+      "display_name": "Tcl P90002",
+      "category": "Top Load",
+      "series": "P",
+      "generation": "2011-2015",
+      "capacity_kg": 9,
+      "sort_order": 2,
+      "aliases": [
+        "Tcl 9kg",
+        "P90002"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Tcl indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "tcl_index_seed",
+          "title": "Tcl starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2011,
+        "to": 2015
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "p100003",
+      "model": "P100003",
+      "display_name": "Tcl P100003",
+      "category": "Top Load",
+      "series": "P",
+      "generation": "2012-2016",
+      "capacity_kg": 10,
+      "sort_order": 3,
+      "aliases": [
+        "Tcl 10kg",
+        "P100003"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Tcl indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "tcl_index_seed",
+          "title": "Tcl starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2012,
+        "to": 2016
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "twf80004",
+      "model": "TWF80004",
+      "display_name": "Tcl TWF80004",
+      "category": "Front Load",
+      "series": "TWF",
+      "generation": "2013-2017",
+      "capacity_kg": 8,
+      "sort_order": 4,
+      "aliases": [
+        "Tcl 8kg",
+        "TWF80004"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Tcl indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "tcl_index_seed",
+          "title": "Tcl starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2013,
+        "to": 2017
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "twf90005",
+      "model": "TWF90005",
+      "display_name": "Tcl TWF90005",
+      "category": "Front Load",
+      "series": "TWF",
+      "generation": "2014-2018",
+      "capacity_kg": 9,
+      "sort_order": 5,
+      "aliases": [
+        "Tcl 9kg",
+        "TWF90005"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Tcl indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "tcl_index_seed",
+          "title": "Tcl starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2014,
+        "to": 2018
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "twf100006",
+      "model": "TWF100006",
+      "display_name": "Tcl TWF100006",
+      "category": "Front Load",
+      "series": "TWF",
+      "generation": "2015-2019",
+      "capacity_kg": 10,
+      "sort_order": 6,
+      "aliases": [
+        "Tcl 10kg",
+        "TWF100006"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Tcl indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "tcl_index_seed",
+          "title": "Tcl starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2015,
+        "to": 2019
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "twd90007",
+      "model": "TWD90007",
+      "display_name": "Tcl TWD90007",
+      "category": "Washer Dryer",
+      "series": "TWD",
+      "generation": "2016-2020",
+      "capacity_kg": 9,
+      "sort_order": 7,
+      "aliases": [
+        "Tcl 9kg",
+        "TWD90007"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Tcl indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "tcl_index_seed",
+          "title": "Tcl starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2016,
+        "to": 2020
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "twd100008",
+      "model": "TWD100008",
+      "display_name": "Tcl TWD100008",
+      "category": "Washer Dryer",
+      "series": "TWD",
+      "generation": "2017-2021",
+      "capacity_kg": 10,
+      "sort_order": 8,
+      "aliases": [
+        "Tcl 10kg",
+        "TWD100008"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Tcl indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "tcl_index_seed",
+          "title": "Tcl starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2017,
+        "to": 2021
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "tcl_index_seed",
+      "title": "Tcl starter seed",
+      "type": "internal_seed",
+      "url": "",
+      "verified": false,
+      "notes": "Use admin page to add official/trusted manual sources, error codes, boards, and parts."
+    }
+  ]
+}

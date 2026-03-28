@@ -1,0 +1,383 @@
+{
+  "brand": {
+    "id": "daewoo",
+    "name_en": "Daewoo",
+    "name_ar": "دايو",
+    "logo": "assets/brands/daewoo.svg",
+    "color": "#1f70c1"
+  },
+  "updated_at": "2026-03-28",
+  "coverage_notes": "Starter indexed brand file ready for in-app verified expansion.",
+  "models": [
+    {
+      "id": "dwd70001",
+      "model": "DWD70001",
+      "display_name": "Daewoo DWD70001",
+      "category": "Front Load",
+      "series": "DWD",
+      "generation": "2010-2014",
+      "capacity_kg": 7,
+      "sort_order": 1,
+      "aliases": [
+        "Daewoo 7kg",
+        "DWD70001"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Daewoo indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "daewoo_index_seed",
+          "title": "Daewoo starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2010,
+        "to": 2014
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "dwd80002",
+      "model": "DWD80002",
+      "display_name": "Daewoo DWD80002",
+      "category": "Front Load",
+      "series": "DWD",
+      "generation": "2011-2015",
+      "capacity_kg": 8,
+      "sort_order": 2,
+      "aliases": [
+        "Daewoo 8kg",
+        "DWD80002"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Daewoo indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "daewoo_index_seed",
+          "title": "Daewoo starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2011,
+        "to": 2015
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "dwd90003",
+      "model": "DWD90003",
+      "display_name": "Daewoo DWD90003",
+      "category": "Front Load",
+      "series": "DWD",
+      "generation": "2012-2016",
+      "capacity_kg": 9,
+      "sort_order": 3,
+      "aliases": [
+        "Daewoo 9kg",
+        "DWD90003"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Daewoo indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "daewoo_index_seed",
+          "title": "Daewoo starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2012,
+        "to": 2016
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "dwf80004",
+      "model": "DWF80004",
+      "display_name": "Daewoo DWF80004",
+      "category": "Top Load",
+      "series": "DWF",
+      "generation": "2013-2017",
+      "capacity_kg": 8,
+      "sort_order": 4,
+      "aliases": [
+        "Daewoo 8kg",
+        "DWF80004"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Daewoo indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "daewoo_index_seed",
+          "title": "Daewoo starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2013,
+        "to": 2017
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "dwf100005",
+      "model": "DWF100005",
+      "display_name": "Daewoo DWF100005",
+      "category": "Top Load",
+      "series": "DWF",
+      "generation": "2014-2018",
+      "capacity_kg": 10,
+      "sort_order": 5,
+      "aliases": [
+        "Daewoo 10kg",
+        "DWF100005"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Daewoo indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "daewoo_index_seed",
+          "title": "Daewoo starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2014,
+        "to": 2018
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "dwf120006",
+      "model": "DWF120006",
+      "display_name": "Daewoo DWF120006",
+      "category": "Top Load",
+      "series": "DWF",
+      "generation": "2015-2019",
+      "capacity_kg": 12,
+      "sort_order": 6,
+      "aliases": [
+        "Daewoo 12kg",
+        "DWF120006"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Daewoo indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "daewoo_index_seed",
+          "title": "Daewoo starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2015,
+        "to": 2019
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "wmd70007",
+      "model": "WMD70007",
+      "display_name": "Daewoo WMD70007",
+      "category": "Front Load",
+      "series": "WMD",
+      "generation": "2016-2020",
+      "capacity_kg": 7,
+      "sort_order": 7,
+      "aliases": [
+        "Daewoo 7kg",
+        "WMD70007"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Daewoo indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "daewoo_index_seed",
+          "title": "Daewoo starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2016,
+        "to": 2020
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "wmd80008",
+      "model": "WMD80008",
+      "display_name": "Daewoo WMD80008",
+      "category": "Front Load",
+      "series": "WMD",
+      "generation": "2017-2021",
+      "capacity_kg": 8,
+      "sort_order": 8,
+      "aliases": [
+        "Daewoo 8kg",
+        "WMD80008"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Daewoo indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "daewoo_index_seed",
+          "title": "Daewoo starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2017,
+        "to": 2021
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "daewoo_index_seed",
+      "title": "Daewoo starter seed",
+      "type": "internal_seed",
+      "url": "",
+      "verified": false,
+      "notes": "Use admin page to add official/trusted manual sources, error codes, boards, and parts."
+    }
+  ]
+}

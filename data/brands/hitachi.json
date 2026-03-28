@@ -1,0 +1,428 @@
+{
+  "brand": {
+    "id": "hitachi",
+    "name_en": "Hitachi",
+    "name_ar": "هيتاشي",
+    "logo": "assets/brands/hitachi.svg",
+    "color": "#d71920"
+  },
+  "updated_at": "2026-03-28",
+  "coverage_notes": "Starter indexed brand file ready for in-app verified expansion.",
+  "models": [
+    {
+      "id": "sf80001",
+      "model": "SF80001",
+      "display_name": "Hitachi SF80001",
+      "category": "Top Load",
+      "series": "SF",
+      "generation": "2010-2014",
+      "capacity_kg": 8,
+      "sort_order": 1,
+      "aliases": [
+        "Hitachi 8kg",
+        "SF80001"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2010,
+        "to": 2014
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "sf90002",
+      "model": "SF90002",
+      "display_name": "Hitachi SF90002",
+      "category": "Top Load",
+      "series": "SF",
+      "generation": "2011-2015",
+      "capacity_kg": 9,
+      "sort_order": 2,
+      "aliases": [
+        "Hitachi 9kg",
+        "SF90002"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2011,
+        "to": 2015
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "sf100003",
+      "model": "SF100003",
+      "display_name": "Hitachi SF100003",
+      "category": "Top Load",
+      "series": "SF",
+      "generation": "2012-2016",
+      "capacity_kg": 10,
+      "sort_order": 3,
+      "aliases": [
+        "Hitachi 10kg",
+        "SF100003"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2012,
+        "to": 2016
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "sf120004",
+      "model": "SF120004",
+      "display_name": "Hitachi SF120004",
+      "category": "Top Load",
+      "series": "SF",
+      "generation": "2013-2017",
+      "capacity_kg": 12,
+      "sort_order": 4,
+      "aliases": [
+        "Hitachi 12kg",
+        "SF120004"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2013,
+        "to": 2017
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "bd80005",
+      "model": "BD80005",
+      "display_name": "Hitachi BD80005",
+      "category": "Front Load",
+      "series": "BD",
+      "generation": "2014-2018",
+      "capacity_kg": 8,
+      "sort_order": 5,
+      "aliases": [
+        "Hitachi 8kg",
+        "BD80005"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2014,
+        "to": 2018
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "bd90006",
+      "model": "BD90006",
+      "display_name": "Hitachi BD90006",
+      "category": "Front Load",
+      "series": "BD",
+      "generation": "2015-2019",
+      "capacity_kg": 9,
+      "sort_order": 6,
+      "aliases": [
+        "Hitachi 9kg",
+        "BD90006"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2015,
+        "to": 2019
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "bd100007",
+      "model": "BD100007",
+      "display_name": "Hitachi BD100007",
+      "category": "Front Load",
+      "series": "BD",
+      "generation": "2016-2020",
+      "capacity_kg": 10,
+      "sort_order": 7,
+      "aliases": [
+        "Hitachi 10kg",
+        "BD100007"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2016,
+        "to": 2020
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "bd-w100008",
+      "model": "BD-W100008",
+      "display_name": "Hitachi BD-W100008",
+      "category": "Washer Dryer",
+      "series": "BD-W",
+      "generation": "2017-2021",
+      "capacity_kg": 10,
+      "sort_order": 8,
+      "aliases": [
+        "Hitachi 10kg",
+        "BD-W100008"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2017,
+        "to": 2021
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "bd-w120009",
+      "model": "BD-W120009",
+      "display_name": "Hitachi BD-W120009",
+      "category": "Washer Dryer",
+      "series": "BD-W",
+      "generation": "2018-2022",
+      "capacity_kg": 12,
+      "sort_order": 9,
+      "aliases": [
+        "Hitachi 12kg",
+        "BD-W120009"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Hitachi indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "hitachi_index_seed",
+          "title": "Hitachi starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2018,
+        "to": 2022
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "hitachi_index_seed",
+      "title": "Hitachi starter seed",
+      "type": "internal_seed",
+      "url": "",
+      "verified": false,
+      "notes": "Use admin page to add official/trusted manual sources, error codes, boards, and parts."
+    }
+  ]
+}

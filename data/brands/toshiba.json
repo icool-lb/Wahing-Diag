@@ -1,0 +1,428 @@
+{
+  "brand": {
+    "id": "toshiba",
+    "name_en": "Toshiba",
+    "name_ar": "توشيبا",
+    "logo": "assets/brands/toshiba.svg",
+    "color": "#e60012"
+  },
+  "updated_at": "2026-03-28",
+  "coverage_notes": "Starter indexed brand file ready for in-app verified expansion.",
+  "models": [
+    {
+      "id": "aw70001",
+      "model": "AW70001",
+      "display_name": "Toshiba AW70001",
+      "category": "Top Load",
+      "series": "AW",
+      "generation": "2010-2014",
+      "capacity_kg": 7,
+      "sort_order": 1,
+      "aliases": [
+        "Toshiba 7kg",
+        "AW70001"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2010,
+        "to": 2014
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "aw80002",
+      "model": "AW80002",
+      "display_name": "Toshiba AW80002",
+      "category": "Top Load",
+      "series": "AW",
+      "generation": "2011-2015",
+      "capacity_kg": 8,
+      "sort_order": 2,
+      "aliases": [
+        "Toshiba 8kg",
+        "AW80002"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2011,
+        "to": 2015
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "aw90003",
+      "model": "AW90003",
+      "display_name": "Toshiba AW90003",
+      "category": "Top Load",
+      "series": "AW",
+      "generation": "2012-2016",
+      "capacity_kg": 9,
+      "sort_order": 3,
+      "aliases": [
+        "Toshiba 9kg",
+        "AW90003"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2012,
+        "to": 2016
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "aw100004",
+      "model": "AW100004",
+      "display_name": "Toshiba AW100004",
+      "category": "Top Load",
+      "series": "AW",
+      "generation": "2013-2017",
+      "capacity_kg": 10,
+      "sort_order": 4,
+      "aliases": [
+        "Toshiba 10kg",
+        "AW100004"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2013,
+        "to": 2017
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "tw-bk70005",
+      "model": "TW-BK70005",
+      "display_name": "Toshiba TW-BK70005",
+      "category": "Front Load",
+      "series": "TW-BK",
+      "generation": "2014-2018",
+      "capacity_kg": 7,
+      "sort_order": 5,
+      "aliases": [
+        "Toshiba 7kg",
+        "TW-BK70005"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2014,
+        "to": 2018
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "tw-bk80006",
+      "model": "TW-BK80006",
+      "display_name": "Toshiba TW-BK80006",
+      "category": "Front Load",
+      "series": "TW-BK",
+      "generation": "2015-2019",
+      "capacity_kg": 8,
+      "sort_order": 6,
+      "aliases": [
+        "Toshiba 8kg",
+        "TW-BK80006"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2015,
+        "to": 2019
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "tw-bk90007",
+      "model": "TW-BK90007",
+      "display_name": "Toshiba TW-BK90007",
+      "category": "Front Load",
+      "series": "TW-BK",
+      "generation": "2016-2020",
+      "capacity_kg": 9,
+      "sort_order": 7,
+      "aliases": [
+        "Toshiba 9kg",
+        "TW-BK90007"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2016,
+        "to": 2020
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "twd80008",
+      "model": "TWD80008",
+      "display_name": "Toshiba TWD80008",
+      "category": "Washer Dryer",
+      "series": "TWD",
+      "generation": "2017-2021",
+      "capacity_kg": 8,
+      "sort_order": 8,
+      "aliases": [
+        "Toshiba 8kg",
+        "TWD80008"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2017,
+        "to": 2021
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    },
+    {
+      "id": "twd100009",
+      "model": "TWD100009",
+      "display_name": "Toshiba TWD100009",
+      "category": "Washer Dryer",
+      "series": "TWD",
+      "generation": "2018-2022",
+      "capacity_kg": 10,
+      "sort_order": 9,
+      "aliases": [
+        "Toshiba 10kg",
+        "TWD100009"
+      ],
+      "service_notes": "Starter indexed model. Expand with verified manuals, board labels, and exact parts before field use.",
+      "service_identity": {
+        "platform_family": "Toshiba indexed family",
+        "sticker_required": true,
+        "notes": "Exact board/part ordering requires appliance sticker and board label."
+      },
+      "faults": [],
+      "boards": [],
+      "parts": [],
+      "documents": [],
+      "wiring": [],
+      "images": [],
+      "source_registry": [
+        {
+          "id": "toshiba_index_seed",
+          "title": "Toshiba starter index seed",
+          "type": "internal_seed",
+          "url": "",
+          "verified": false,
+          "notes": "Starter file for in-app expansion. Add exact manual sources from admin page."
+        }
+      ],
+      "years": {
+        "from": 2018,
+        "to": 2022
+      },
+      "data_confidence": {
+        "faults": "seed",
+        "boards": "seed",
+        "parts": "seed"
+      }
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "toshiba_index_seed",
+      "title": "Toshiba starter seed",
+      "type": "internal_seed",
+      "url": "",
+      "verified": false,
+      "notes": "Use admin page to add official/trusted manual sources, error codes, boards, and parts."
+    }
+  ]
+}
