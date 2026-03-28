@@ -1,1 +1,102 @@
-
+{
+  "brands": [
+    {
+      "id": "samsung",
+      "name_en": "Samsung",
+      "name_ar": "سامسونج",
+      "logo": "assets/brands/samsung.svg",
+      "color": "#1f6fff",
+      "data_file": "data/brands/samsung.json"
+    },
+    {
+      "id": "lg",
+      "name_en": "LG",
+      "name_ar": "إل جي",
+      "logo": "assets/brands/lg.svg",
+      "color": "#b0005a",
+      "data_file": "data/brands/lg.json"
+    },
+    {
+      "id": "midea",
+      "name_en": "Midea",
+      "name_ar": "ميديا",
+      "logo": "assets/brands/midea.svg",
+      "color": "#1ca0ff",
+      "data_file": "data/brands/midea.json"
+    },
+    {
+      "id": "bosch",
+      "name_en": "Bosch",
+      "name_ar": "بوش",
+      "logo": "assets/brands/bosch.svg",
+      "color": "#cf0000",
+      "data_file": "data/brands/bosch.json"
+    },
+    {
+      "id": "vestel",
+      "name_en": "Vestel",
+      "name_ar": "فيستل",
+      "logo": "assets/brands/vestel.svg",
+      "color": "#e30613",
+      "data_file": "data/brands/vestel.json"
+    },
+    {
+      "id": "toshiba",
+      "name_en": "Toshiba",
+      "name_ar": "توشيبا",
+      "logo": "assets/brands/toshiba.svg",
+      "color": "#e60012",
+      "data_file": "data/brands/toshiba.json"
+    },
+    {
+      "id": "hitachi",
+      "name_en": "Hitachi",
+      "name_ar": "هيتاشي",
+      "logo": "assets/brands/hitachi.svg",
+      "color": "#d71920",
+      "data_file": "data/brands/hitachi.json"
+    },
+    {
+      "id": "daewoo",
+      "name_en": "Daewoo",
+      "name_ar": "دايو",
+      "logo": "assets/brands/daewoo.svg",
+      "color": "#1f70c1",
+      "data_file": "data/brands/daewoo.json"
+    },
+    {
+      "id": "beko",
+      "name_en": "Beko",
+      "name_ar": "بيكو",
+      "logo": "assets/brands/beko.svg",
+      "color": "#1165d8",
+      "data_file": "data/brands/beko.json"
+    },
+    {
+      "id": "candy",
+      "name_en": "Candy",
+      "name_ar": "كاندي",
+      "logo": "assets/brands/candy.svg",
+      "color": "#1d57c7",
+      "data_file": "data/brands/candy.json"
+    },
+    {
+      "id": "hisense",
+      "name_en": "Hisense",
+      "name_ar": "هايسنس",
+      "logo": "assets/brands/hisense.svg",
+      "color": "#09a65b",
+      "data_file": "data/brands/hisense.json"
+    },
+    {
+      "id": "tcl",
+      "name_en": "Tcl",
+      "name_ar": "تي سي إل",
+      "logo": "assets/brands/tcl.svg",
+      "color": "#c40020",
+      "data_file": "data/brands/tcl.json"
+    }
+  ],
+  "updated_at": "2026-03-28",
+  "notes": "Smart app 12-brand registry. Add more brands from admin page."
+}
