@@ -1,97 +1,112 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>Washer Catalog V2.5 Smart</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div id="loginOverlay" class="login-overlay">
-    <div class="login-box">
-      <img src="assets/logo/icool.svg" class="login-logo" alt="iCOOL">
-      <h2>Washer Catalog V2.5 Smart</h2>
-      <p>Secure technician access</p>
-      <input id="loginUser" type="text" placeholder="Username">
-      <input id="loginPass" type="password" placeholder="Password">
+    <div class="login-card">
+      <img src="assets/logo.svg" alt="iCOOL" class="login-logo" />
+      <h2>iCOOL Access</h2>
+      <p class="dim center">Washer Catalog V2.5 Smart</p>
+      <input id="loginUser" type="text" placeholder="Username" autocomplete="username" />
+      <input id="loginPass" type="password" placeholder="Password" autocomplete="current-password" />
       <button id="loginBtn">Login</button>
-      <div id="loginMsg" class="login-msg"></div>
-      <div class="small-note">Default demo login is in README.txt</div>
+      <div id="loginMsg" class="error-text"></div>
     </div>
   </div>
 
   <div class="app-shell">
-    <header class="app-header">
-      <div class="header-left">
-        <img src="assets/logo/icool.svg" class="icool-logo" alt="iCOOL logo">
-        <div>
-          <h1>Washer Catalog V2.5 Smart</h1>
-          <p>Faults · Boards · Parts · Documents · AI Update · De-duplication · Cloud Sync</p>
+    <header class="hero-card">
+      <div class="hero-top">
+        <div class="hero-brand">
+          <img src="assets/logo.svg" alt="iCOOL" class="hero-logo" />
+          <div class="hero-text">
+            <h1>Washer Catalog V2.5 Smart</h1>
+            <p>Faults · Boards · Parts · Documents · AI Update · De-duplication · Cloud Sync</p>
+          </div>
         </div>
-      </div>
-      <div class="header-right">
-        <button id="goHomeBtn" class="ghost-btn">Home</button>
-        <button id="toggleAdminBtn" class="ghost-btn">Smart Admin</button>
-        <button id="logoutBtn" class="ghost-btn">Logout</button>
+
+        <div class="top-actions">
+          <button id="homeBtn" class="ghost-btn">Home</button>
+          <button id="smartAdminBtn" class="ghost-btn">Smart Admin</button>
+          <button id="logoutBtn" class="ghost-btn">Logout</button>
+        </div>
       </div>
     </header>
 
-    <section class="top-tools">
-      <div class="search-row">
-        <input id="globalSearch" type="text" placeholder="ابحث عن الموديل أو كود العطل أو البورد أو القطعة">
+    <section class="panel-card">
+      <div class="search-wrap">
+        <input
+          id="globalSearch"
+          type="text"
+          placeholder="ابحث عن الموديل أو كود العطل أو البورد أو القطعة"
+        />
         <button id="searchBtn">Search</button>
       </div>
-      <div class="meta-row">
-        <div id="statsBox" class="stat-pill">Loading data...</div>
-        <div id="crumbs" class="crumbs"></div>
+
+      <div class="status-row">
+        <div id="statsBox" class="status-pill">Loading data...</div>
+        <button id="reloadBtn" class="mini-btn" type="button">Reload Data</button>
       </div>
     </section>
 
-    <section id="adminPanel" class="admin-panel hidden">
-      <div class="admin-head">
-        <h2>Smart Admin</h2>
-        <div class="dim">Edit one brand, ask AI to expand one brand or all brands, remove duplicates automatically, and optionally sync to Supabase cloud.</div>
+    <section class="panel-card">
+      <h2 class="section-title">Brands</h2>
+      <div id="brandList" class="brand-list"></div>
+    </section>
+
+    <section id="adminPanel" class="panel-card hidden">
+      <h2 class="section-title">Smart Admin</h2>
+
+      <div class="admin-grid">
+        <div class="field-block">
+          <label for="brandSelect">Brand</label>
+          <select id="brandSelect"></select>
+        </div>
+
+        <div class="field-block wide">
+          <label for="aiInstruction">AI Instruction</label>
+          <textarea
+            id="aiInstruction"
+            rows="7"
+            placeholder="Expand samsung with older and newer models, fuller error families, cleaner aliases, board mapping notes, and more complete parts while preserving the same JSON structure and avoiding duplicates."
+          ></textarea>
+        </div>
       </div>
-      <div class="admin-toolbar wrap">
-        <select id="adminBrandSelect"></select>
-        <span id="adminSourceMeta" class="badge">Source: bundled</span>
-        <label class="file-pill">Import JSON<input id="importBrandFile" type="file" accept="application/json,.json"></label>
-        <button id="dedupeBtn">Normalize & De-duplicate</button>
+
+      <div class="admin-actions">
+        <button id="normalizeBtn">Normalize &amp; De-duplicate</button>
         <button id="saveOverrideBtn">Save Override</button>
-        <button id="resetOverrideBtn" class="ghost-btn">Reset Brand</button>
+        <button id="resetBrandBtn" class="ghost-btn">Reset Brand</button>
         <button id="exportBrandBtn" class="ghost-btn">Export Brand</button>
         <button id="exportAllBtn" class="ghost-btn">Export All</button>
         <button id="cloudLoadBtn" class="ghost-btn">Cloud Load</button>
         <button id="cloudSaveBtn" class="ghost-btn">Cloud Save</button>
+        <button id="importJsonBtn" class="ghost-btn">Import JSON</button>
+        <button id="applyAiBtn">Apply AI Update</button>
+        <button id="updateAllBtn" class="ghost-btn">Update All Brands</button>
       </div>
-      <div class="admin-grid top-gap">
-        <div class="detail-card">
-          <h3>AI Instruction</h3>
-          <textarea id="aiInstruction" class="admin-textarea small"></textarea>
-          <div class="action-row stack-on-mobile">
-            <button id="applyAiBtn">Apply AI Update</button>
-            <button id="applyAiAllBtn" class="ghost-btn">Update All Brands</button>
-          </div>
-          <div class="dim top-gap-sm">Tip: ask for older + newer models, better board mapping notes, full fault families, and cleaner aliases.</div>
-          <div id="adminStatus" class="admin-status"></div>
-        </div>
-        <div class="detail-card admin-json-wrap">
-          <h3>Brand JSON</h3>
-          <textarea id="adminJson" class="admin-textarea"></textarea>
-        </div>
+
+      <input id="importJsonFile" type="file" accept=".json,application/json" hidden />
+
+      <div id="aiStatus" class="admin-status">
+        Tip: ask for older + newer models, better board mapping notes, full fault families, and cleaner aliases.
+      </div>
+
+      <div class="field-block wide">
+        <label for="brandJson">Brand JSON</label>
+        <textarea id="brandJson" rows="20" spellcheck="false"></textarea>
       </div>
     </section>
 
-    <main class="main-grid">
-      <aside class="sidebar">
-        <div class="side-title">Brands</div>
-        <div id="brandList" class="brand-list"></div>
-      </aside>
-
-      <section class="content">
-        <div id="viewRoot"></div>
-      </section>
-    </main>
+    <section class="panel-card">
+      <div id="crumbs" class="crumbs">Home</div>
+      <div id="viewRoot"></div>
+    </section>
   </div>
 
   <script src="app.js"></script>
