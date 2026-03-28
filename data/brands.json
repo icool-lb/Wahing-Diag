@@ -1,0 +1,88 @@
+{
+  "brands": [
+    {
+      "id": "samsung",
+      "name_en": "Samsung",
+      "name_ar": "سامسونج",
+      "logo": "assets/brands/samsung.svg",
+      "color": "#1f6fff"
+    },
+    {
+      "id": "lg",
+      "name_en": "LG",
+      "name_ar": "إل جي",
+      "logo": "assets/brands/lg.svg",
+      "color": "#b3004a"
+    },
+    {
+      "id": "midea",
+      "name_en": "Midea",
+      "name_ar": "ميديا",
+      "logo": "assets/brands/midea.svg",
+      "color": "#00a0df"
+    },
+    {
+      "id": "bosch",
+      "name_en": "Bosch",
+      "name_ar": "بوش",
+      "logo": "assets/brands/bosch.svg",
+      "color": "#d71920"
+    },
+    {
+      "id": "vestel",
+      "name_en": "Vestel",
+      "name_ar": "فستيل",
+      "logo": "assets/brands/vestel.svg",
+      "color": "#e30613"
+    },
+    {
+      "id": "toshiba",
+      "name_en": "Toshiba",
+      "name_ar": "توشيبا",
+      "logo": "assets/brands/toshiba.svg",
+      "color": "#d81f26"
+    },
+    {
+      "id": "hitachi",
+      "name_en": "Hitachi",
+      "name_ar": "هيتاشي",
+      "logo": "assets/brands/hitachi.svg",
+      "color": "#d81f26"
+    },
+    {
+      "id": "daewoo",
+      "name_en": "Daewoo",
+      "name_ar": "دايو",
+      "logo": "assets/brands/daewoo.svg",
+      "color": "#0073cf"
+    },
+    {
+      "id": "beko",
+      "name_en": "Beko",
+      "name_ar": "بيكو",
+      "logo": "assets/brands/beko.svg",
+      "color": "#0098d8"
+    },
+    {
+      "id": "candy",
+      "name_en": "Candy",
+      "name_ar": "كاندي",
+      "logo": "assets/brands/candy.svg",
+      "color": "#0054a6"
+    },
+    {
+      "id": "hisense",
+      "name_en": "Hisense",
+      "name_ar": "هايسنس",
+      "logo": "assets/brands/hisense.svg",
+      "color": "#00a859"
+    },
+    {
+      "id": "tcl",
+      "name_en": "TCL",
+      "name_ar": "تي سي إل",
+      "logo": "assets/brands/tcl.svg",
+      "color": "#e10600"
+    }
+  ]
+}

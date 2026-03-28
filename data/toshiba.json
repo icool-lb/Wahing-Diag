@@ -1,0 +1,3131 @@
+{
+  "brand": {
+    "id": "toshiba",
+    "name_en": "Toshiba",
+    "name_ar": "توشيبا",
+    "logo": "assets/brands/toshiba.svg",
+    "color": "#d81f26"
+  },
+  "models": [
+    {
+      "id": "toshiba-001",
+      "model": "TW-BK7A100",
+      "series": "TW-BK",
+      "generation": "Legacy",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 1,
+      "aliases": [
+        "TW-BK7A100",
+        "tw-bk7a100",
+        "Toshiba TW-BK7A100"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-BK7A100.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-7001",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-7001",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-7001",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-7001",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-7001",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-7001",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-7001",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-7001",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-7001",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-BK",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-002",
+      "model": "TW-BL8M101",
+      "series": "TW-BL",
+      "generation": "Classic",
+      "category": "Top Load",
+      "capacity_kg": 8,
+      "sort_order": 2,
+      "aliases": [
+        "TW-BL8M101",
+        "tw-bl8m101",
+        "Toshiba TW-BL8M101"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-BL8M101.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-8002",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-8002",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-8002",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-8002",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-8002",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-8002",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-BL",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-003",
+      "model": "TW-J9G102",
+      "series": "TW-J",
+      "generation": "Mid Gen",
+      "category": "Washer Dryer",
+      "capacity_kg": 9,
+      "sort_order": 3,
+      "aliases": [
+        "TW-J9G102",
+        "tw-j9g102",
+        "Toshiba TW-J9G102"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-J9G102.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-9003",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-9003",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-9003",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-9003",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-9003",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-9003",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-9003",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-9003",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-9003",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-J",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-004",
+      "model": "TW-H10A103",
+      "series": "TW-H",
+      "generation": "Modern",
+      "category": "Front Load",
+      "capacity_kg": 10,
+      "sort_order": 4,
+      "aliases": [
+        "TW-H10A103",
+        "tw-h10a103",
+        "Toshiba TW-H10A103"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-H10A103.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-10004",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-10004",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-10004",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-10004",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-10004",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-10004",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-10004",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-10004",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-10004",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-H",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-005",
+      "model": "AW-D11M104",
+      "series": "AW-D",
+      "generation": "Smart",
+      "category": "Top Load",
+      "capacity_kg": 11,
+      "sort_order": 5,
+      "aliases": [
+        "AW-D11M104",
+        "aw-d11m104",
+        "Toshiba AW-D11M104"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba AW-D11M104.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-11005",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-11005",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-11005",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-11005",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-11005",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-11005",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AW-D",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-006",
+      "model": "AW-M12G105",
+      "series": "AW-M",
+      "generation": "Legacy",
+      "category": "Washer Dryer",
+      "capacity_kg": 12,
+      "sort_order": 6,
+      "aliases": [
+        "AW-M12G105",
+        "aw-m12g105",
+        "Toshiba AW-M12G105"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba AW-M12G105.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-12006",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-12006",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-12006",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-12006",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-12006",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-12006",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-12006",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-12006",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-12006",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AW-M",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-007",
+      "model": "TW-BK7A106",
+      "series": "TW-BK",
+      "generation": "Classic",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 7,
+      "aliases": [
+        "TW-BK7A106",
+        "tw-bk7a106",
+        "Toshiba TW-BK7A106"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-BK7A106.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-7007",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-7007",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-7007",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-7007",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-7007",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-7007",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-7007",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-7007",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-7007",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-BK",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-008",
+      "model": "TW-BL8M107",
+      "series": "TW-BL",
+      "generation": "Mid Gen",
+      "category": "Top Load",
+      "capacity_kg": 8,
+      "sort_order": 8,
+      "aliases": [
+        "TW-BL8M107",
+        "tw-bl8m107",
+        "Toshiba TW-BL8M107"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-BL8M107.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-8008",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-8008",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-8008",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-8008",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-8008",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-8008",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-BL",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-009",
+      "model": "TW-J9G108",
+      "series": "TW-J",
+      "generation": "Modern",
+      "category": "Washer Dryer",
+      "capacity_kg": 9,
+      "sort_order": 9,
+      "aliases": [
+        "TW-J9G108",
+        "tw-j9g108",
+        "Toshiba TW-J9G108"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-J9G108.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-9009",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-9009",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-9009",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-9009",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-9009",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-9009",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-9009",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-9009",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-9009",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-J",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-010",
+      "model": "TW-H10A109",
+      "series": "TW-H",
+      "generation": "Smart",
+      "category": "Front Load",
+      "capacity_kg": 10,
+      "sort_order": 10,
+      "aliases": [
+        "TW-H10A109",
+        "tw-h10a109",
+        "Toshiba TW-H10A109"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-H10A109.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-10010",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-10010",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-10010",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-10010",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-10010",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-10010",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-10010",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-10010",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-10010",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-H",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-011",
+      "model": "AW-D11M110",
+      "series": "AW-D",
+      "generation": "Legacy",
+      "category": "Top Load",
+      "capacity_kg": 11,
+      "sort_order": 11,
+      "aliases": [
+        "AW-D11M110",
+        "aw-d11m110",
+        "Toshiba AW-D11M110"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba AW-D11M110.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-11011",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-11011",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-11011",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-11011",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-11011",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-11011",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AW-D",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-012",
+      "model": "AW-M12G111",
+      "series": "AW-M",
+      "generation": "Classic",
+      "category": "Washer Dryer",
+      "capacity_kg": 12,
+      "sort_order": 12,
+      "aliases": [
+        "AW-M12G111",
+        "aw-m12g111",
+        "Toshiba AW-M12G111"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba AW-M12G111.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-12012",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-12012",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-12012",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-12012",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-12012",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-12012",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-12012",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-12012",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-12012",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AW-M",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-013",
+      "model": "TW-BK7A112",
+      "series": "TW-BK",
+      "generation": "Mid Gen",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 13,
+      "aliases": [
+        "TW-BK7A112",
+        "tw-bk7a112",
+        "Toshiba TW-BK7A112"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-BK7A112.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-7013",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-7013",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-7013",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-7013",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-7013",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-7013",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-7013",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-7013",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-7013",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-BK",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-014",
+      "model": "TW-BL8M113",
+      "series": "TW-BL",
+      "generation": "Modern",
+      "category": "Top Load",
+      "capacity_kg": 8,
+      "sort_order": 14,
+      "aliases": [
+        "TW-BL8M113",
+        "tw-bl8m113",
+        "Toshiba TW-BL8M113"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-BL8M113.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-8014",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-8014",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-8014",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-8014",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-8014",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-8014",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-BL",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-015",
+      "model": "TW-J9G114",
+      "series": "TW-J",
+      "generation": "Smart",
+      "category": "Washer Dryer",
+      "capacity_kg": 9,
+      "sort_order": 15,
+      "aliases": [
+        "TW-J9G114",
+        "tw-j9g114",
+        "Toshiba TW-J9G114"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-J9G114.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-9015",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-9015",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-9015",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-9015",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-9015",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-9015",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-9015",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-9015",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-9015",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-J",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-016",
+      "model": "TW-H10A115",
+      "series": "TW-H",
+      "generation": "Legacy",
+      "category": "Front Load",
+      "capacity_kg": 10,
+      "sort_order": 16,
+      "aliases": [
+        "TW-H10A115",
+        "tw-h10a115",
+        "Toshiba TW-H10A115"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-H10A115.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-10016",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-10016",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-10016",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-10016",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-10016",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-10016",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-10016",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-10016",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-10016",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-H",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-017",
+      "model": "AW-D11M116",
+      "series": "AW-D",
+      "generation": "Classic",
+      "category": "Top Load",
+      "capacity_kg": 11,
+      "sort_order": 17,
+      "aliases": [
+        "AW-D11M116",
+        "aw-d11m116",
+        "Toshiba AW-D11M116"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba AW-D11M116.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-11017",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-11017",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-11017",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-11017",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-11017",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-11017",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AW-D",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-018",
+      "model": "AW-M12G117",
+      "series": "AW-M",
+      "generation": "Mid Gen",
+      "category": "Washer Dryer",
+      "capacity_kg": 12,
+      "sort_order": 18,
+      "aliases": [
+        "AW-M12G117",
+        "aw-m12g117",
+        "Toshiba AW-M12G117"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba AW-M12G117.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-12018",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-12018",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-12018",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-12018",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-12018",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-12018",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-12018",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-12018",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-12018",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AW-M",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-019",
+      "model": "TW-BK7A118",
+      "series": "TW-BK",
+      "generation": "Modern",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 19,
+      "aliases": [
+        "TW-BK7A118",
+        "tw-bk7a118",
+        "Toshiba TW-BK7A118"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-BK7A118.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-7019",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-7019",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-7019",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-7019",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-7019",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-7019",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-7019",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-7019",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-7019",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-BK",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-020",
+      "model": "TW-BL8M119",
+      "series": "TW-BL",
+      "generation": "Smart",
+      "category": "Top Load",
+      "capacity_kg": 8,
+      "sort_order": 20,
+      "aliases": [
+        "TW-BL8M119",
+        "tw-bl8m119",
+        "Toshiba TW-BL8M119"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-BL8M119.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-8020",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-8020",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-8020",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-8020",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-8020",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-8020",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-BL",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-021",
+      "model": "TW-J9G120",
+      "series": "TW-J",
+      "generation": "Legacy",
+      "category": "Washer Dryer",
+      "capacity_kg": 9,
+      "sort_order": 21,
+      "aliases": [
+        "TW-J9G120",
+        "tw-j9g120",
+        "Toshiba TW-J9G120"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-J9G120.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-9021",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-9021",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-9021",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-9021",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-9021",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-9021",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-9021",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-9021",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-9021",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-J",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-022",
+      "model": "TW-H10A121",
+      "series": "TW-H",
+      "generation": "Classic",
+      "category": "Front Load",
+      "capacity_kg": 10,
+      "sort_order": 22,
+      "aliases": [
+        "TW-H10A121",
+        "tw-h10a121",
+        "Toshiba TW-H10A121"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba TW-H10A121.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-10022",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-10022",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-10022",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-10022",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-10022",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-10022",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-10022",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-10022",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-10022",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "TW-H",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-023",
+      "model": "AW-D11M122",
+      "series": "AW-D",
+      "generation": "Mid Gen",
+      "category": "Top Load",
+      "capacity_kg": 11,
+      "sort_order": 23,
+      "aliases": [
+        "AW-D11M122",
+        "aw-d11m122",
+        "Toshiba AW-D11M122"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba AW-D11M122.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-11023",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-11023",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-11023",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-11023",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-11023",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-11023",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AW-D",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "toshiba-024",
+      "model": "AW-M12G123",
+      "series": "AW-M",
+      "generation": "Modern",
+      "category": "Washer Dryer",
+      "capacity_kg": 12,
+      "sort_order": 24,
+      "aliases": [
+        "AW-M12G123",
+        "aw-m12g123",
+        "Toshiba AW-M12G123"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Toshiba AW-M12G123.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "TOS-MAIN-12024",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "TOS-UI-12024",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "TOS-INV-12024",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "TOS-LOCK-12024",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "TOS-PUMP-12024",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "TOS-VALVE-12024",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "TOS-NTC-12024",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "TOS-SHOCK-12024",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "TOS-GSKT-12024",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "AW-M",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    }
+  ]
+}

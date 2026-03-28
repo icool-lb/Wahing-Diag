@@ -1,0 +1,2816 @@
+{
+  "brand": {
+    "id": "hitachi",
+    "name_en": "Hitachi",
+    "name_ar": "هيتاشي",
+    "logo": "assets/brands/hitachi.svg",
+    "color": "#d81f26"
+  },
+  "models": [
+    {
+      "id": "hitachi-001",
+      "model": "BD-W7GX",
+      "series": "BD-W",
+      "generation": "Legacy",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 1,
+      "aliases": [
+        "BD-W7GX",
+        "bd-w7gx",
+        "Hitachi BD-W7GX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-W7GX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-7001",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-7001",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-7001",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-7001",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-7001",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-7001",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-7001",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-7001",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-7001",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-W",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-002",
+      "model": "BD-808TX",
+      "series": "BD-80",
+      "generation": "Classic",
+      "category": "Top Load",
+      "capacity_kg": 8,
+      "sort_order": 2,
+      "aliases": [
+        "BD-808TX",
+        "bd-808tx",
+        "Hitachi BD-808TX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-808TX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-8002",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-8002",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-8002",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-8002",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-8002",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-8002",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-80",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-003",
+      "model": "BD-909EX",
+      "series": "BD-90",
+      "generation": "Mid Gen",
+      "category": "Front Load",
+      "capacity_kg": 9,
+      "sort_order": 3,
+      "aliases": [
+        "BD-909EX",
+        "bd-909ex",
+        "Hitachi BD-909EX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-909EX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-9003",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-9003",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-9003",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-9003",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-9003",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-9003",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-9003",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-9003",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-9003",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-90",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-004",
+      "model": "SF-10GX",
+      "series": "SF-",
+      "generation": "Modern",
+      "category": "Top Load",
+      "capacity_kg": 10,
+      "sort_order": 4,
+      "aliases": [
+        "SF-10GX",
+        "sf-10gx",
+        "Hitachi SF-10GX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi SF-10GX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-10004",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-10004",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-10004",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-10004",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-10004",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-10004",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "SF-",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-005",
+      "model": "PS-11TX",
+      "series": "PS-",
+      "generation": "Smart",
+      "category": "Front Load",
+      "capacity_kg": 11,
+      "sort_order": 5,
+      "aliases": [
+        "PS-11TX",
+        "ps-11tx",
+        "Hitachi PS-11TX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi PS-11TX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-11005",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-11005",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-11005",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-11005",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-11005",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-11005",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-11005",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-11005",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-11005",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "PS-",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-006",
+      "model": "LTL12EX",
+      "series": "LTL",
+      "generation": "Legacy",
+      "category": "Top Load",
+      "capacity_kg": 12,
+      "sort_order": 6,
+      "aliases": [
+        "LTL12EX",
+        "ltl12ex",
+        "Hitachi LTL12EX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi LTL12EX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-12006",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-12006",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-12006",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-12006",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-12006",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-12006",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "LTL",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-007",
+      "model": "BD-W7GX",
+      "series": "BD-W",
+      "generation": "Classic",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 7,
+      "aliases": [
+        "BD-W7GX",
+        "bd-w7gx",
+        "Hitachi BD-W7GX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-W7GX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-7007",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-7007",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-7007",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-7007",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-7007",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-7007",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-7007",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-7007",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-7007",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-W",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-008",
+      "model": "BD-808TX",
+      "series": "BD-80",
+      "generation": "Mid Gen",
+      "category": "Top Load",
+      "capacity_kg": 8,
+      "sort_order": 8,
+      "aliases": [
+        "BD-808TX",
+        "bd-808tx",
+        "Hitachi BD-808TX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-808TX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-8008",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-8008",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-8008",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-8008",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-8008",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-8008",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-80",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-009",
+      "model": "BD-909EX",
+      "series": "BD-90",
+      "generation": "Modern",
+      "category": "Front Load",
+      "capacity_kg": 9,
+      "sort_order": 9,
+      "aliases": [
+        "BD-909EX",
+        "bd-909ex",
+        "Hitachi BD-909EX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-909EX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-9009",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-9009",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-9009",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-9009",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-9009",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-9009",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-9009",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-9009",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-9009",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-90",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-010",
+      "model": "SF-10GX",
+      "series": "SF-",
+      "generation": "Smart",
+      "category": "Top Load",
+      "capacity_kg": 10,
+      "sort_order": 10,
+      "aliases": [
+        "SF-10GX",
+        "sf-10gx",
+        "Hitachi SF-10GX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi SF-10GX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-10010",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-10010",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-10010",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-10010",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-10010",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-10010",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "SF-",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-011",
+      "model": "PS-11TX",
+      "series": "PS-",
+      "generation": "Legacy",
+      "category": "Front Load",
+      "capacity_kg": 11,
+      "sort_order": 11,
+      "aliases": [
+        "PS-11TX",
+        "ps-11tx",
+        "Hitachi PS-11TX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi PS-11TX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-11011",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-11011",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-11011",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-11011",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-11011",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-11011",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-11011",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-11011",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-11011",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "PS-",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-012",
+      "model": "LTL12EX",
+      "series": "LTL",
+      "generation": "Classic",
+      "category": "Top Load",
+      "capacity_kg": 12,
+      "sort_order": 12,
+      "aliases": [
+        "LTL12EX",
+        "ltl12ex",
+        "Hitachi LTL12EX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi LTL12EX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-12012",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-12012",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-12012",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-12012",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-12012",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-12012",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "LTL",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-013",
+      "model": "BD-W7GX",
+      "series": "BD-W",
+      "generation": "Mid Gen",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 13,
+      "aliases": [
+        "BD-W7GX",
+        "bd-w7gx",
+        "Hitachi BD-W7GX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-W7GX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-7013",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-7013",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-7013",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-7013",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-7013",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-7013",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-7013",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-7013",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-7013",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-W",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-014",
+      "model": "BD-808TX",
+      "series": "BD-80",
+      "generation": "Modern",
+      "category": "Top Load",
+      "capacity_kg": 8,
+      "sort_order": 14,
+      "aliases": [
+        "BD-808TX",
+        "bd-808tx",
+        "Hitachi BD-808TX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-808TX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-8014",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-8014",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-8014",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-8014",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-8014",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-8014",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-80",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-015",
+      "model": "BD-909EX",
+      "series": "BD-90",
+      "generation": "Smart",
+      "category": "Front Load",
+      "capacity_kg": 9,
+      "sort_order": 15,
+      "aliases": [
+        "BD-909EX",
+        "bd-909ex",
+        "Hitachi BD-909EX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-909EX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-9015",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-9015",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-9015",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-9015",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-9015",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-9015",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-9015",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-9015",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-9015",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-90",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-016",
+      "model": "SF-10GX",
+      "series": "SF-",
+      "generation": "Legacy",
+      "category": "Top Load",
+      "capacity_kg": 10,
+      "sort_order": 16,
+      "aliases": [
+        "SF-10GX",
+        "sf-10gx",
+        "Hitachi SF-10GX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi SF-10GX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-10016",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-10016",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-10016",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-10016",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-10016",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-10016",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "SF-",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-017",
+      "model": "PS-11TX",
+      "series": "PS-",
+      "generation": "Classic",
+      "category": "Front Load",
+      "capacity_kg": 11,
+      "sort_order": 17,
+      "aliases": [
+        "PS-11TX",
+        "ps-11tx",
+        "Hitachi PS-11TX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi PS-11TX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-11017",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-11017",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-11017",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-11017",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-11017",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-11017",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-11017",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-11017",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-11017",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "PS-",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-018",
+      "model": "LTL12EX",
+      "series": "LTL",
+      "generation": "Mid Gen",
+      "category": "Top Load",
+      "capacity_kg": 12,
+      "sort_order": 18,
+      "aliases": [
+        "LTL12EX",
+        "ltl12ex",
+        "Hitachi LTL12EX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi LTL12EX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-12018",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-12018",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-12018",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-12018",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-12018",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-12018",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "LTL",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-019",
+      "model": "BD-W7GX",
+      "series": "BD-W",
+      "generation": "Modern",
+      "category": "Front Load",
+      "capacity_kg": 7,
+      "sort_order": 19,
+      "aliases": [
+        "BD-W7GX",
+        "bd-w7gx",
+        "Hitachi BD-W7GX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-W7GX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-7019",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-7019",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-7019",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-7019",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-7019",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-7019",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-7019",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-7019",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-7019",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-W",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-020",
+      "model": "BD-808TX",
+      "series": "BD-80",
+      "generation": "Smart",
+      "category": "Top Load",
+      "capacity_kg": 8,
+      "sort_order": 20,
+      "aliases": [
+        "BD-808TX",
+        "bd-808tx",
+        "Hitachi BD-808TX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-808TX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-8020",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-8020",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-8020",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-8020",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-8020",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-8020",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-80",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-021",
+      "model": "BD-909EX",
+      "series": "BD-90",
+      "generation": "Legacy",
+      "category": "Front Load",
+      "capacity_kg": 9,
+      "sort_order": 21,
+      "aliases": [
+        "BD-909EX",
+        "bd-909ex",
+        "Hitachi BD-909EX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi BD-909EX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-9021",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-9021",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        },
+        {
+          "name": "Inverter / Motor Drive PCB",
+          "serial": "HIT-INV-9021",
+          "notes": "Present on inverter models only; verify direct-drive vs belt platform."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-9021",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-9021",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-9021",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-9021",
+          "notes": "Verify resistance curve and connector type."
+        },
+        {
+          "part_name": "Shock Absorber Set",
+          "part_number": "HIT-SHOCK-9021",
+          "notes": "Match stroke length and lower pin diameter."
+        },
+        {
+          "part_name": "Door Gasket",
+          "part_number": "HIT-GSKT-9021",
+          "notes": "Confirm drum opening diameter and recirculation nozzle positions."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "BD-90",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    },
+    {
+      "id": "hitachi-022",
+      "model": "SF-10GX",
+      "series": "SF-",
+      "generation": "Classic",
+      "category": "Top Load",
+      "capacity_kg": 10,
+      "sort_order": 22,
+      "aliases": [
+        "SF-10GX",
+        "sf-10gx",
+        "Hitachi SF-10GX"
+      ],
+      "service_notes": "Always confirm full model sticker, serial label, PCB revision, and connector layout before final parts ordering for Hitachi SF-10GX.",
+      "faults": [
+        {
+          "code": "E1",
+          "title": "Water inlet issue",
+          "description": "Check water source, inlet valve, and mesh filter."
+        },
+        {
+          "code": "E2",
+          "title": "Drain issue",
+          "description": "Inspect drain pump, filter, and hose for blockage."
+        },
+        {
+          "code": "E3",
+          "title": "Door lock issue",
+          "description": "Inspect interlock, strike, door alignment, and wiring."
+        },
+        {
+          "code": "E4",
+          "title": "Unbalance / load issue",
+          "description": "Redistribute load and inspect dampers / suspension."
+        },
+        {
+          "code": "E5",
+          "title": "Heating / thermistor issue",
+          "description": "Check heater, NTC, relay, and board control."
+        },
+        {
+          "code": "E6",
+          "title": "Motor drive issue",
+          "description": "Inspect motor, belt/direct drive system, sensor, and board."
+        }
+      ],
+      "boards": [
+        {
+          "name": "Main PCB",
+          "serial": "HIT-MAIN-10022",
+          "notes": "Verify against full sticker, revision, and connector layout before ordering."
+        },
+        {
+          "name": "Display / UI PCB",
+          "serial": "HIT-UI-10022",
+          "notes": "Confirm fascia type, language panel, and harness pin count."
+        }
+      ],
+      "parts": [
+        {
+          "part_name": "Door Lock Assembly",
+          "part_number": "HIT-LOCK-10022",
+          "notes": "Match latch type and connector style."
+        },
+        {
+          "part_name": "Drain Pump",
+          "part_number": "HIT-PUMP-10022",
+          "notes": "Confirm voltage, impeller body, and mounting bracket."
+        },
+        {
+          "part_name": "Inlet Valve",
+          "part_number": "HIT-VALVE-10022",
+          "notes": "Check single/double/triple valve configuration."
+        },
+        {
+          "part_name": "NTC Thermistor",
+          "part_number": "HIT-NTC-10022",
+          "notes": "Verify resistance curve and connector type."
+        }
+      ],
+      "documents": [
+        {
+          "title": "Service manual lookup",
+          "url": "",
+          "notes": "Attach official manual URL or uploaded PDF when available."
+        },
+        {
+          "title": "Parts lookup",
+          "url": "",
+          "notes": "Use full sticker for final spare part validation."
+        }
+      ],
+      "images": [
+        {
+          "title": "Main board reference",
+          "url": "",
+          "notes": "Add clear PCB image and both connector sides."
+        },
+        {
+          "title": "Rating sticker reference",
+          "url": "",
+          "notes": "Add full model label image for exact matching."
+        }
+      ],
+      "service_identity": {
+        "platform_family": "SF-",
+        "sticker_checkpoints": [
+          "full model code",
+          "serial number",
+          "pcb revision",
+          "connector layout"
+        ],
+        "board_match_rule": "Do not order board by short family name only. Match with full sticker and revision."
+      },
+      "data_confidence": {
+        "faults": "medium",
+        "boards": "medium",
+        "parts": "medium"
+      }
+    }
+  ]
+}
