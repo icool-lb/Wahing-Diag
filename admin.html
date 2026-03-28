@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>iCOOL Washer Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell admin-shell">
+    <header class="topbar">
+      <div class="brand-main"><img src="assets/logo/icool.svg" class="icool-logo" alt="iCOOL"><div><h1>Admin / AI Update</h1><p>Separate smart page for AI updates, cloud sync, JSON editing, and adding brands.</p></div></div>
+      <div class="row"><button id="homeBtn" class="ghost-btn">Back to App</button></div>
+    </header>
+
+    <section class="admin-grid">
+      <div class="panel">
+        <h2 class="section-title">Brand Editor</h2>
+        <label>Brand</label>
+        <select id="brandSelect"></select>
+        <label>AI Instruction</label>
+        <textarea id="aiInstruction" rows="8" placeholder="Expand this brand with more verified models, full error codes, remedy steps, parts, boards, source refs, and manual links."></textarea>
+        <div class="btn-grid">
+          <button id="applyAiBtn">Apply AI Update</button>
+          <button id="updateAllBtn" class="ghost-btn">Update All Brands</button>
+          <button id="saveOverrideBtn">Save Override</button>
+          <button id="resetOverrideBtn" class="ghost-btn">Reset Override</button>
+          <button id="cloudSaveBtn">Cloud Save</button>
+          <button id="cloudLoadBtn" class="ghost-btn">Cloud Load</button>
+          <button id="exportBrandBtn" class="ghost-btn">Export Brand</button>
+        </div>
+        <div id="adminStatus" class="status-box">Ready.</div>
+      </div>
+
+      <div class="panel">
+        <h2 class="section-title">Add Brand</h2>
+        <label>Brand ID</label><input id="newBrandId" type="text" placeholder="example: whirlpool">
+        <label>English Name</label><input id="newBrandNameEn" type="text" placeholder="Whirlpool">
+        <label>Arabic Name</label><input id="newBrandNameAr" type="text" placeholder="ويرلبول">
+        <label>Theme Color</label><input id="newBrandColor" type="text" value="#3f7cff">
+        <div class="btn-grid"><button id="addBrandBtn">Add Brand Locally</button><button id="saveRegistryCloudBtn" class="ghost-btn">Save Brand Registry to Cloud</button></div>
+        <p class="muted">Added brands are stored locally first, then can be pushed to Supabase brand registry.</p>
+      </div>
+    </section>
+
+    <section class="panel full-panel">
+      <h2 class="section-title">Brand JSON</h2>
+      <textarea id="brandJson" class="json-box" rows="28" spellcheck="false"></textarea>
+    </section>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>

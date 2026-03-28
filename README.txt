@@ -1,82 +1,52 @@
-Washer Catalog V2.4 Pro Plus
+iCOOL Washer Smart Suite
 
-Default login:
-Username: admin
-Password: iCool2026
+What is included:
+- Clean technician app: index.html
+- Separate admin / AI page: admin.html
+- 12-brand registry with local brand-adding support
+- Base data folder with expanded Samsung / LG / Bosch / Vestel, verified-mode Midea, and starter indexed files for Toshiba / Hitachi / Daewoo / Beko / Candy / Hisense / TCL
+- Supabase cloud save/load for each brand and for the brand registry
+- OpenAI AI-update routes for single brand and all brands
 
-What is inside:
-- 12 brands
-- Search by model / error / board / part
-- Brand > model > full details
-- AI Brand Update panel
-- Browser-side per-brand override system
-- Export / import JSON per brand
-
-Added brands:
-Samsung, LG, Midea, Bosch, Vestel, Toshiba, Hitachi, Daewoo, Beko, Candy, Hisense, TCL
-
-Important note about data:
-This package is designed to give you a deep, organized catalog structure across brands.
-Boards and parts are expanded a lot, but exact final ordering for many washer revisions still must be matched by:
-- full model sticker
-- serial label
-- PCB revision
-- connector layout
-
-How AI Brand Update works:
-1) Open AI Brand Update
-2) Select a brand
-3) Write what you want to add or refine
-4) Click Apply AI Update
-5) Review the returned JSON
-6) Click Save Override
-
-What Save Override does:
-- It stores the selected brand JSON in your browser localStorage.
-- The app will load that version first next time.
-- This means you can keep updating a brand without re-uploading the original bundled files.
-
-Deploying AI update on Vercel:
-Add Environment Variables:
-- OPENAI_API_KEY = your secret OpenAI API key
-- OPENAI_MODEL = optional, default is gpt-4.1-mini
-
-Important:
-- Never put OPENAI_API_KEY in client-side JavaScript.
-- The key must stay only on the server / Vercel environment variables.
-
-Files:
-- data/*.json = bundled datasets
-- api/brand-update.js = server route for AI JSON expansion
-- app.js = UI + search + import/export + local override logic
-
-
-V2.5 Smart additions:
-- Normalize & De-duplicate per brand before saving
-- Update All Brands via /api/brand-update-all.js
-- Optional Supabase cloud sync via /api/cloud-brand.js
+Project structure:
+- index.html
+- admin.html
+- app.js
+- admin.js
+- styles.css
+- /api/brand-update.js
+- /api/brand-update-all.js
+- /api/cloud-brand.js
+- /data/brands.json
+- /data/brands/*.json
+- /assets/logo/icool.svg
+- /assets/brands/*.svg
 
 Vercel environment variables:
 - OPENAI_API_KEY
 - OPENAI_MODEL (optional, default gpt-4.1-mini)
-- SUPABASE_URL (optional, for cloud sync)
-- SUPABASE_SERVICE_ROLE_KEY (optional, for cloud sync)
+- SUPABASE_URL
+- SUPABASE_SERVICE_ROLE_KEY
 - SUPABASE_TABLE (optional, default washer_brand_docs)
 
-Suggested Supabase table:
-create table public.washer_brand_docs (
-  brand_id text primary key,
-  brand_doc jsonb not null,
-  updated_at timestamptz not null default now()
+Supabase table:
+create table washer_brand_docs (
+  id uuid primary key default gen_random_uuid(),
+  brand text unique,
+  data jsonb,
+  updated_at timestamp default now()
 );
 
-create or replace function public.set_updated_at() returns trigger as $$
-begin
-  new.updated_at = now();
-  return new;
-end;
-$$ language plpgsql;
+How adding brands works:
+- Open admin.html
+- Fill Add Brand form
+- Click Add Brand Locally
+- This saves a starter brand registry item plus an empty brand JSON as a local override
+- Click Save Brand Registry to Cloud to push the updated brand list to Supabase under brand = __brand_registry__
+- Then use Cloud Save on the new brand doc if you want it shared across devices
 
-create trigger washer_brand_docs_set_updated_at
-before update on public.washer_brand_docs
-for each row execute function public.set_updated_at();
+Notes:
+- Samsung / LG / Bosch / Vestel came from the earlier expanded seed package available in this workspace.
+- Midea was replaced with the deeper verified-mode package available in this workspace.
+- The seven added brands are starter indexed brand files ready for in-app expansion. They are not claimed as fully verified service-manual databases yet.
+- Board and part ordering should still use appliance sticker and board label verification where exact part numbers are not confirmed.
