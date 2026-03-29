@@ -290,19 +290,21 @@
       "model": "MF200W85B",
       "display_name": "Midea MF200 Front Load 8.5KG",
       "category": "front_load",
-      "series": "MF200",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 1,
+      "generation": "2009-2026",
+      "series": "MF200",
       "aliases": [
         "MF200 8.5KG"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF200 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mf200_user_85_95",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -316,9 +318,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -332,9 +334,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -348,9 +350,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -364,9 +366,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -380,9 +382,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -395,9 +397,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -411,9 +413,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -426,9 +428,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -442,9 +444,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -458,9 +460,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -473,9 +475,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -485,7 +487,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -494,12 +495,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF200W85B/MF200W95B User Manual",
@@ -514,23 +523,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -538,19 +543,21 @@
       "model": "MF200W95B",
       "display_name": "Midea MF200 Front Load 9.5KG",
       "category": "front_load",
-      "series": "MF200",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 2,
+      "generation": "2009-2026",
+      "series": "MF200",
       "aliases": [
         "MF200 9.5KG"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF200 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mf200_user_85_95",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -564,9 +571,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -580,9 +587,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -596,9 +603,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -612,9 +619,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -628,9 +635,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -643,9 +650,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -659,9 +666,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -674,9 +681,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -690,9 +697,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -706,9 +713,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -721,9 +728,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -733,7 +740,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -742,12 +748,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF200W85B/MF200W95B User Manual",
@@ -762,23 +776,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -786,19 +796,21 @@
       "model": "MF200W100WB/T",
       "display_name": "Midea MF200 Front Load 10KG",
       "category": "front_load",
-      "series": "MF200",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 3,
+      "generation": "2009-2026",
+      "series": "MF200",
       "aliases": [
         "MF200 10KG"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF200 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mf200w100wbt",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -812,9 +824,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -828,9 +840,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -844,9 +856,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -860,9 +872,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -876,9 +888,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -891,9 +903,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -907,9 +919,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -922,9 +934,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -938,9 +950,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -954,9 +966,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -969,9 +981,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -981,7 +993,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -990,12 +1001,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF200W100WB/T Product Page",
@@ -1010,23 +1029,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -1034,19 +1049,21 @@
       "model": "MF200W120WB",
       "display_name": "Midea MF200 Front Load 12KG",
       "category": "front_load",
-      "series": "MF200",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 4,
+      "generation": "2009-2026",
+      "series": "MF200",
       "aliases": [
         "MF200 12KG"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF200 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mf200w120wb",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -1060,9 +1077,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1076,9 +1093,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1092,9 +1109,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1108,9 +1125,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1124,9 +1141,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1139,9 +1156,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1155,9 +1172,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1170,9 +1187,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1186,9 +1203,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1202,9 +1219,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1217,9 +1234,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -1229,7 +1246,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -1238,12 +1254,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF200W120WB User Manual",
@@ -1258,23 +1282,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -1282,19 +1302,21 @@
       "model": "MF210W100WB/T-GCC",
       "display_name": "Midea MF210 Front Load 10KG",
       "category": "front_load",
-      "series": "MF210",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 5,
+      "generation": "2009-2026",
+      "series": "MF210",
       "aliases": [
         "MF210 10KG GCC"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF210 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mf210w100",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -1308,9 +1330,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1324,9 +1346,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1340,9 +1362,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1356,9 +1378,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1372,9 +1394,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1387,9 +1409,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1403,9 +1425,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1418,9 +1440,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1434,9 +1456,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1450,9 +1472,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1465,9 +1487,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -1477,7 +1499,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -1486,12 +1507,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF210W100WB/T-GCC Product Page",
@@ -1506,23 +1535,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -1530,19 +1555,21 @@
       "model": "MF210D105WB",
       "display_name": "Midea MF210 Washer Dryer 10.5KG",
       "category": "washer_dryer",
-      "series": "MF210D",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 6,
+      "generation": "2009-2026",
+      "series": "MF210D",
       "aliases": [
         "MF210D 10.5/7KG"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF210D family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_frontload_me",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -1556,9 +1583,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1572,9 +1599,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1588,9 +1615,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1604,9 +1631,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1620,9 +1647,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1635,9 +1662,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1651,9 +1678,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1666,9 +1693,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1682,9 +1709,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1698,9 +1725,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1713,9 +1740,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -1725,7 +1752,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -1734,12 +1760,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "Midea Front Load Washer Category",
@@ -1754,23 +1788,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -1778,19 +1808,21 @@
       "model": "MF200D80BE",
       "display_name": "Midea MF200 Washer Dryer 8/6KG",
       "category": "washer_dryer",
-      "series": "MF200D",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 7,
+      "generation": "2009-2026",
+      "series": "MF200D",
       "aliases": [
         "MF200D80B/E"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF200D family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mf200d80",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -1804,9 +1836,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1820,9 +1852,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1836,9 +1868,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1852,9 +1884,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1868,9 +1900,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1883,9 +1915,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1899,9 +1931,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1914,9 +1946,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1930,9 +1962,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1946,9 +1978,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -1961,9 +1993,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -1973,7 +2005,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -1982,12 +2013,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF200D80BE Instruction Booklet",
@@ -2002,23 +2041,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -2026,19 +2061,21 @@
       "model": "MF200D100WB/T",
       "display_name": "Midea MF200 Washer Dryer 10/7KG",
       "category": "washer_dryer",
-      "series": "MF200D",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 8,
+      "generation": "2009-2026",
+      "series": "MF200D",
       "aliases": [
         "MF200D100"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF200D family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mf200d100",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -2052,9 +2089,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2068,9 +2105,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2084,9 +2121,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2100,9 +2137,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2116,9 +2153,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2131,9 +2168,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2147,9 +2184,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2162,9 +2199,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2178,9 +2215,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2194,9 +2231,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2209,9 +2246,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -2221,7 +2258,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -2230,12 +2266,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF200D100/120 User Manual",
@@ -2250,23 +2294,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -2274,19 +2314,21 @@
       "model": "MF200D120WB/T",
       "display_name": "Midea MF200 Washer Dryer 12/8KG",
       "category": "washer_dryer",
-      "series": "MF200D",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 9,
+      "generation": "2009-2026",
+      "series": "MF200D",
       "aliases": [
         "MF200D120"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF200D family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mf200d100",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -2300,9 +2342,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2316,9 +2358,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2332,9 +2374,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2348,9 +2390,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2364,9 +2406,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2379,9 +2421,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2395,9 +2437,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2410,9 +2452,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2426,9 +2468,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2442,9 +2484,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2457,9 +2499,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -2469,7 +2511,6 @@
           "serial": "unknown",
           "notes": "Use board sticker to match revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -2478,12 +2519,20 @@
           "serial": "unknown",
           "notes": "BLDC/inverter board reference at platform level; verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Platform-level wiring and PCB layout",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF200D100/120 User Manual",
@@ -2498,23 +2547,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Platform-level wiring and PCB layout",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -2522,19 +2567,21 @@
       "model": "MF10EW80B",
       "display_name": "Midea MF10EW80B Front Load",
       "category": "front_load",
-      "series": "MF10E",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 10,
+      "generation": "2009-2026",
+      "series": "MF10E",
       "aliases": [
         "MF10EW80"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF10E family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "midea_mf10ew80b_official",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -2548,9 +2595,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2564,9 +2611,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2580,9 +2627,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2596,9 +2643,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2612,9 +2659,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2627,9 +2674,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2643,9 +2690,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2658,9 +2705,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2674,9 +2721,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2690,9 +2737,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2705,9 +2752,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -2717,7 +2764,6 @@
           "serial": "unknown",
           "notes": "Exact-model service manual available; still match sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_mf10ew80b_official",
           "verified": true
         },
@@ -2726,26 +2772,11 @@
           "serial": "unknown",
           "notes": "Check exact motor-drive revision on board sticker",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "MF10EW80B Service Manual",
-          "url": "https://www.midea.com/content/dam/midea-aem/it/lavaggio/lavatrici-carica-frontale/mf10ew80b/documenti/Service-manual-of-MF10EW80B.pdf",
-          "source_ref": "midea_mf10ew80b_official",
-          "verified": true
-        },
-        {
-          "title": "L11 Service Manual",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "MF10EW80B Service Manual",
@@ -2762,14 +2793,33 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "MF10EW80B Service Manual",
+          "url": "https://www.midea.com/content/dam/midea-aem/it/lavaggio/lavatrici-carica-frontale/mf10ew80b/documenti/Service-manual-of-MF10EW80B.pdf",
+          "source_ref": "midea_mf10ew80b_official",
+          "verified": true
+        },
+        {
+          "title": "L11 Service Manual",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -2777,19 +2827,20 @@
       "model": "MF10EW70B",
       "display_name": "Midea MF10EW70B Front Load",
       "category": "front_load",
-      "series": "MF10E",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 11,
+      "generation": "2009-2026",
+      "series": "MF10E",
       "aliases": [
         "MF10EW70"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF10E family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -2803,9 +2854,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2819,9 +2870,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2835,9 +2886,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2851,9 +2902,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2867,9 +2918,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2882,9 +2933,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2898,9 +2949,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2913,9 +2964,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2929,9 +2980,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2945,9 +2996,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -2960,9 +3011,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -2972,7 +3023,6 @@
           "serial": "unknown",
           "notes": "Public service PDF not included in this pack; use platform + sticker match",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -2981,20 +3031,11 @@
           "serial": "unknown",
           "notes": "Verify sticker before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "L11 Service Manual",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "L11 Wiring Diagram / PCB Layout",
@@ -3004,14 +3045,27 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "L11 Service Manual",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -3019,19 +3073,21 @@
       "model": "MF100W70B",
       "display_name": "Midea MF100 Front Load 7KG",
       "category": "front_load",
-      "series": "MF100",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 12,
+      "generation": "2009-2026",
+      "series": "MF100",
       "aliases": [
         "MF100W70B Series"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF100 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mf100_series",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -3045,9 +3101,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3061,9 +3117,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3077,9 +3133,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3093,9 +3149,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3109,9 +3165,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3124,9 +3180,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3140,9 +3196,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3155,9 +3211,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3171,9 +3227,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3187,9 +3243,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3202,9 +3258,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -3214,7 +3270,6 @@
           "serial": "unknown",
           "notes": "Use sticker match for exact revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -3223,12 +3278,20 @@
           "serial": "unknown",
           "notes": "If inverter-equipped variant; verify exact machine label first",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Nearest verified service-platform reference",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF100 Series User Manual",
@@ -3243,23 +3306,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Nearest verified service-platform reference",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -3267,19 +3326,21 @@
       "model": "MF100W80B",
       "display_name": "Midea MF100 Front Load 8KG",
       "category": "front_load",
-      "series": "MF100",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 13,
+      "generation": "2009-2026",
+      "series": "MF100",
       "aliases": [
         "MF100W80B Series"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF100 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mf100_series",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -3293,9 +3354,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3309,9 +3370,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3325,9 +3386,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3341,9 +3402,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3357,9 +3418,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3372,9 +3433,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3388,9 +3449,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3403,9 +3464,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3419,9 +3480,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3435,9 +3496,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3450,9 +3511,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -3462,7 +3523,6 @@
           "serial": "unknown",
           "notes": "Use sticker match for exact revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -3471,12 +3531,20 @@
           "serial": "unknown",
           "notes": "If inverter-equipped variant; verify exact machine label first",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Nearest verified service-platform reference",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF100 Series User Manual",
@@ -3491,23 +3559,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Nearest verified service-platform reference",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -3515,19 +3579,21 @@
       "model": "MF100W90B",
       "display_name": "Midea MF100 Front Load 9KG",
       "category": "front_load",
-      "series": "MF100",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 14,
+      "generation": "2009-2026",
+      "series": "MF100",
       "aliases": [
         "MF100W90B Series"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MF100 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mf100_series",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -3541,9 +3607,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3557,9 +3623,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3573,9 +3639,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3589,9 +3655,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3605,9 +3671,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3620,9 +3686,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3636,9 +3702,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3651,9 +3717,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3667,9 +3733,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3683,9 +3749,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3698,9 +3764,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -3710,7 +3776,6 @@
           "serial": "unknown",
           "notes": "Use sticker match for exact revision",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         },
@@ -3719,12 +3784,20 @@
           "serial": "unknown",
           "notes": "If inverter-equipped variant; verify exact machine label first",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "L11 Wiring Diagram / PCB Layout",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "notes": "Nearest verified service-platform reference",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MF100 Series User Manual",
@@ -3739,23 +3812,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "L11 Wiring Diagram / PCB Layout",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "notes": "Nearest verified service-platform reference",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -3763,19 +3832,20 @@
       "model": "L712WMB16",
       "display_name": "Midea L712WMB16 Front Load",
       "category": "front_load",
-      "series": "L712",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 15,
+      "generation": "2009-2026",
+      "series": "L712",
       "aliases": [
         "L712"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea L712 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_l712"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -3789,9 +3859,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3805,9 +3875,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3821,9 +3891,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3837,9 +3907,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3853,9 +3923,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3868,9 +3938,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3884,9 +3954,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3899,9 +3969,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3915,9 +3985,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3931,9 +4001,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3946,9 +4016,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -3962,9 +4032,9 @@
             "Check pressure switch",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_l712",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -3974,20 +4044,11 @@
           "serial": "unknown",
           "notes": "Circuit diagram and fault-tree service manual available",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_l712",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "L712WMB16 Service Manual",
-          "url": "https://www.manualslib.com/manual/1174324/Midea-L712wmb16.html",
-          "source_ref": "manualslib_l712",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "L712WMB16 Circuit Diagram",
@@ -3997,14 +4058,27 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "L712WMB16 Service Manual",
+          "url": "https://www.manualslib.com/manual/1174324/Midea-L712wmb16.html",
+          "source_ref": "manualslib_l712",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -4012,19 +4086,21 @@
       "model": "MG-52-10508",
       "display_name": "Midea MG-52-10508 Front Load",
       "category": "front_load",
-      "series": "MG",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 16,
+      "generation": "2009-2026",
+      "series": "MG",
       "aliases": [
         "MG5210508"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MG family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mg5210508",
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -4038,9 +4114,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4054,9 +4130,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4070,9 +4146,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4086,9 +4162,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4102,9 +4178,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4117,9 +4193,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4133,9 +4209,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4148,9 +4224,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4164,9 +4240,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4180,9 +4256,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4195,9 +4271,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -4207,12 +4283,20 @@
           "serial": "unknown",
           "notes": "PCB wiring figure available in service manual",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_mg5210508",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "MG-52-10508 PCB Wiring Figure",
+          "url": "https://www.manualslib.com/manual/998611/Midea-Mg-52-10508.html?page=46",
+          "notes": "",
+          "source_ref": "manualslib_mg5210508",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "MG-52-10508 Service Manual",
@@ -4227,23 +4311,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "MG-52-10508 PCB Wiring Figure",
-          "url": "https://www.manualslib.com/manual/998611/Midea-Mg-52-10508.html?page=46",
-          "notes": "",
-          "source_ref": "manualslib_mg5210508",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -4251,19 +4331,20 @@
       "model": "G01",
       "display_name": "Midea G01 Drum Washer Platform",
       "category": "front_load",
-      "series": "G01",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 17,
+      "generation": "2009-2026",
+      "series": "G01",
       "aliases": [
         "G01 platform"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea G01 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_g01"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -4277,9 +4358,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4293,9 +4374,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4309,9 +4390,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4325,9 +4406,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4341,9 +4422,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4356,9 +4437,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4372,9 +4453,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4387,9 +4468,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -4399,20 +4480,11 @@
           "serial": "unknown",
           "notes": "Platform family manual available; match board label before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_g01",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "G01/G02/G03 Service Manual",
-          "url": "https://www.manualslib.com/manual/919888/Midea-G01.html",
-          "source_ref": "manualslib_g01",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "G01/G02/G03 Service Manual",
@@ -4422,14 +4494,27 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "G01/G02/G03 Service Manual",
+          "url": "https://www.manualslib.com/manual/919888/Midea-G01.html",
+          "source_ref": "manualslib_g01",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -4437,19 +4522,20 @@
       "model": "G02",
       "display_name": "Midea G02 Drum Washer Platform",
       "category": "front_load",
-      "series": "G02",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 18,
+      "generation": "2009-2026",
+      "series": "G02",
       "aliases": [
         "G02 platform"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea G02 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_g01"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -4463,9 +4549,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4479,9 +4565,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4495,9 +4581,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4511,9 +4597,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4527,9 +4613,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4542,9 +4628,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4558,9 +4644,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4573,9 +4659,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -4585,20 +4671,11 @@
           "serial": "unknown",
           "notes": "Platform family manual available; match board label before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_g01",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "G01/G02/G03 Service Manual",
-          "url": "https://www.manualslib.com/manual/919888/Midea-G01.html",
-          "source_ref": "manualslib_g01",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "G01/G02/G03 Service Manual",
@@ -4608,14 +4685,27 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "G01/G02/G03 Service Manual",
+          "url": "https://www.manualslib.com/manual/919888/Midea-G01.html",
+          "source_ref": "manualslib_g01",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -4623,19 +4713,20 @@
       "model": "G03",
       "display_name": "Midea G03 Drum Washer Platform",
       "category": "front_load",
-      "series": "G03",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 19,
+      "generation": "2009-2026",
+      "series": "G03",
       "aliases": [
         "G03 platform"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea G03 family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_g01"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -4649,9 +4740,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4665,9 +4756,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4681,9 +4772,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4697,9 +4788,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4713,9 +4804,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4728,9 +4819,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4744,9 +4835,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4759,9 +4850,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -4771,20 +4862,11 @@
           "serial": "unknown",
           "notes": "Platform family manual available; match board label before ordering",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_g01",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "G01/G02/G03 Service Manual",
-          "url": "https://www.manualslib.com/manual/919888/Midea-G01.html",
-          "source_ref": "manualslib_g01",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "G01/G02/G03 Service Manual",
@@ -4794,14 +4876,27 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "G01/G02/G03 Service Manual",
+          "url": "https://www.manualslib.com/manual/919888/Midea-G01.html",
+          "source_ref": "manualslib_g01",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -4809,19 +4904,20 @@
       "model": "C01",
       "display_name": "Midea C01 Front Load Platform",
       "category": "front_load",
-      "series": "C01",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 20,
+      "generation": "2009-2026",
+      "series": "C01",
       "aliases": [
         "C01 platform"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea C01 platform / verified mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_c01_faults"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -4835,9 +4931,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4851,9 +4947,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4867,9 +4963,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4883,9 +4979,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4899,9 +4995,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4914,9 +5010,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4930,9 +5026,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4945,9 +5041,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4961,9 +5057,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4977,9 +5073,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -4992,9 +5088,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -5004,12 +5100,12 @@
           "serial": "unknown",
           "notes": "Platform-level fault-code manual; exact board number not extracted in this pass",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_c01_faults",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [],
       "documents": [
         {
           "title": "C01 Service Manual Fault Codes",
@@ -5018,15 +5114,19 @@
           "verified": true
         }
       ],
-      "wiring": [],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -5034,19 +5134,21 @@
       "model": "C03",
       "display_name": "Midea C03 Front Load Platform",
       "category": "front_load",
-      "series": "C03",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 21,
+      "generation": "2009-2026",
+      "series": "C03",
       "aliases": [
         "C03 platform"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea C03 platform / verified mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_c03",
+        "manualslib_c03_faults"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -5060,9 +5162,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5076,9 +5178,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5092,9 +5194,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5108,9 +5210,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5124,9 +5226,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5139,9 +5241,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5155,9 +5257,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5170,9 +5272,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5186,9 +5288,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5202,9 +5304,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5217,9 +5319,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -5229,12 +5331,20 @@
           "serial": "unknown",
           "notes": "C03 service manual includes PCB layout page",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_c03",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [
+        {
+          "title": "C03 Wiring Diagram / PCB Layout",
+          "url": "https://www.manualslib.com/manual/1230836/Midea-C03.html?page=18",
+          "notes": "",
+          "source_ref": "manualslib_c03",
+          "verified": true
+        }
+      ],
       "documents": [
         {
           "title": "C03 Wiring / PCB Layout",
@@ -5249,23 +5359,19 @@
           "verified": true
         }
       ],
-      "wiring": [
-        {
-          "title": "C03 Wiring Diagram / PCB Layout",
-          "url": "https://www.manualslib.com/manual/1230836/Midea-C03.html?page=18",
-          "notes": "",
-          "source_ref": "manualslib_c03",
-          "verified": true
-        }
-      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -5273,19 +5379,20 @@
       "model": "MTE150-P2004S",
       "display_name": "Midea MTE150-P2004S Front Load",
       "category": "front_load",
-      "series": "MTE",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 22,
+      "generation": "2009-2026",
+      "series": "MTE",
       "aliases": [
         "MTE150"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MTE family / verified platform mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "midea_l11_official"
+      ],
       "faults": [
         {
           "code": "E10",
@@ -5299,9 +5406,9 @@
             "Check inlet valve",
             "Check PCB-to-level-sensor wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5315,9 +5422,9 @@
             "Check air pipe",
             "Inspect PCB"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5331,9 +5438,9 @@
             "Check harness continuity",
             "Inspect PCB input"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5347,9 +5454,9 @@
             "Check pump impeller",
             "Check pump supply and PCB output"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5363,9 +5470,9 @@
             "Inspect door-lock wiring",
             "Inspect PCB lock drive"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5378,9 +5485,9 @@
             "Inspect harness",
             "Check PCB control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5394,9 +5501,9 @@
             "Test water-level sensor",
             "Check PCB wiring"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5409,9 +5516,9 @@
             "Inspect heater harness",
             "Check PCB connector"
           ],
-          "repair": [],
           "source_ref": "manualslib_c03_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5425,9 +5532,9 @@
             "Check supply voltage",
             "Inspect motor connector"
           ],
-          "repair": [],
           "source_ref": "midea_l11_official",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5441,9 +5548,9 @@
             "Inspect relay / PCB",
             "Check harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5456,9 +5563,9 @@
             "Check NTC",
             "Inspect PCB heater control"
           ],
-          "repair": [],
           "source_ref": "manualslib_c01_faults",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -5468,20 +5575,11 @@
           "serial": "unknown",
           "notes": "Related service-manual family links point to L11/C03 content; verify exact sticker",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "midea_l11_official",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "L11 Service Manual",
-          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
-          "source_ref": "midea_l11_official",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "L11 Wiring Diagram / PCB Layout",
@@ -5491,14 +5589,27 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "L11 Service Manual",
+          "url": "https://www.midea.com/content/dam/midea-aem/fr/service-manual/lad/LAD-Front-Loading-Service-Manual-L11.pdf",
+          "source_ref": "midea_l11_official",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -5506,19 +5617,20 @@
       "model": "MLTW45M4BWW",
       "display_name": "Midea Smart Top Load 4.5 cu.ft",
       "category": "top_load",
-      "series": "MLTW",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 30,
+      "generation": "2009-2026",
+      "series": "MLTW",
       "aliases": [
         "MLTW45"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MLTW family / verified top-load mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mltw45"
+      ],
       "faults": [
         {
           "code": "E1",
@@ -5530,9 +5642,9 @@
             "Check pressure",
             "Inspect inlet hose and filter"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5545,9 +5657,9 @@
             "Inspect lid switch",
             "Check lid harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5560,9 +5672,9 @@
             "Check leveling",
             "Inspect suspension"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5575,9 +5687,9 @@
             "Check drain pump",
             "Check blockage"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -5587,20 +5699,11 @@
           "serial": "unknown",
           "notes": "Service manual mentions PCB checks and wiring diagram / terminals",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_mltw45",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "MLTW45M4BWW Service Manual",
-          "url": "https://www.manualslib.com/manual/3483672/Midea-Mltw45m4bww.html",
-          "source_ref": "manualslib_mltw45",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "MLTW45M4BWW Wiring Diagram and Terminals",
@@ -5610,14 +5713,27 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "MLTW45M4BWW Service Manual",
+          "url": "https://www.manualslib.com/manual/3483672/Midea-Mltw45m4bww.html",
+          "source_ref": "manualslib_mltw45",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -5625,19 +5741,20 @@
       "model": "MLTW41A1BWW",
       "display_name": "Midea Top Load 4.1 cu.ft",
       "category": "top_load",
-      "series": "MLTW",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 31,
+      "generation": "2009-2026",
+      "series": "MLTW",
       "aliases": [
         "MLTW41"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MLTW family / verified top-load mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mltw41"
+      ],
       "faults": [
         {
           "code": "E1",
@@ -5649,9 +5766,9 @@
             "Check pressure",
             "Inspect inlet hose and filter"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5664,9 +5781,9 @@
             "Inspect lid switch",
             "Check lid harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5679,9 +5796,9 @@
             "Check leveling",
             "Inspect suspension"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5694,9 +5811,9 @@
             "Check drain pump",
             "Check blockage"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -5706,20 +5823,11 @@
           "serial": "unknown",
           "notes": "Service manual availability confirmed with wiring and error-code sections",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_mltw41",
           "verified": true
         }
       ],
       "parts": [],
-      "documents": [
-        {
-          "title": "MLTW41A1BWW Service Manual",
-          "url": "https://www.manualslib.com/manual/3936926/Midea-Mltw41a1bww.html?page=19",
-          "source_ref": "manualslib_mltw41",
-          "verified": true
-        }
-      ],
       "wiring": [
         {
           "title": "MLTW41A1BWW Wiring Diagram and Terminals",
@@ -5729,14 +5837,27 @@
           "verified": true
         }
       ],
+      "documents": [
+        {
+          "title": "MLTW41A1BWW Service Manual",
+          "url": "https://www.manualslib.com/manual/3936926/Midea-Mltw41a1bww.html?page=19",
+          "source_ref": "manualslib_mltw41",
+          "verified": true
+        }
+      ],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -5744,19 +5865,21 @@
       "model": "MLV45N3BWW",
       "display_name": "Midea Top Load 4.5 cu.ft",
       "category": "top_load",
-      "series": "MLV45N3",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 32,
+      "generation": "2009-2026",
+      "series": "MLV45N3",
       "aliases": [
         "MLV45N3"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MLV45N3 family / verified top-load mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mlv45n3bww",
+        "manualslib_mseries"
+      ],
       "faults": [
         {
           "code": "E1",
@@ -5768,9 +5891,9 @@
             "Check pressure",
             "Inspect inlet hose and filter"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5783,9 +5906,9 @@
             "Inspect lid switch",
             "Check lid harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5798,9 +5921,9 @@
             "Check leveling",
             "Inspect suspension"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5813,9 +5936,9 @@
             "Check drain pump",
             "Check blockage"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5827,9 +5950,9 @@
             "Check user-manual troubleshooting section",
             "Inspect control PCB and harness"
           ],
-          "repair": [],
           "source_ref": "official_mlv45n3bww",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -5839,12 +5962,12 @@
           "serial": "unknown",
           "notes": "User manual plus M-Series service-code mapping; verify sticker for exact board",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_mseries",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [],
       "documents": [
         {
           "title": "MLV45N3BWW User Manual",
@@ -5859,15 +5982,19 @@
           "verified": true
         }
       ],
-      "wiring": [],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -5875,19 +6002,21 @@
       "model": "MLV45N3BMG",
       "display_name": "Midea Top Load 4.5 cu.ft Gray",
       "category": "top_load",
-      "series": "MLV45N3",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 33,
+      "generation": "2009-2026",
+      "series": "MLV45N3",
       "aliases": [
         "MLV45N3BMG STAR"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MLV45N3 family / verified top-load mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "official_mlv45n3bww",
+        "manualslib_mseries"
+      ],
       "faults": [
         {
           "code": "E1",
@@ -5899,9 +6028,9 @@
             "Check pressure",
             "Inspect inlet hose and filter"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5914,9 +6043,9 @@
             "Inspect lid switch",
             "Check lid harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5929,9 +6058,9 @@
             "Check leveling",
             "Inspect suspension"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -5944,9 +6073,9 @@
             "Check drain pump",
             "Check blockage"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -5956,12 +6085,12 @@
           "serial": "unknown",
           "notes": "Shared user-manual family and M-series fault mapping; verify label",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_mseries",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [],
       "documents": [
         {
           "title": "MLV45N3BWW User Manual",
@@ -5976,15 +6105,19 @@
           "verified": true
         }
       ],
-      "wiring": [],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -5992,19 +6125,20 @@
       "model": "MLV45N1BWW",
       "display_name": "Midea Top Load 4.5 cu.ft",
       "category": "top_load",
-      "series": "MLV45N1",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 34,
+      "generation": "2009-2026",
+      "series": "MLV45N1",
       "aliases": [
         "MLV45N1"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MLV45N1 family / verified top-load mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mseries"
+      ],
       "faults": [
         {
           "code": "E1",
@@ -6016,9 +6150,9 @@
             "Check pressure",
             "Inspect inlet hose and filter"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6031,9 +6165,9 @@
             "Inspect lid switch",
             "Check lid harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6046,9 +6180,9 @@
             "Check leveling",
             "Inspect suspension"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6061,9 +6195,9 @@
             "Check drain pump",
             "Check blockage"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -6073,12 +6207,12 @@
           "serial": "unknown",
           "notes": "Use M-series service-code mapping with exact board sticker verification",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_mseries",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [],
       "documents": [
         {
           "title": "M Series Service Manual",
@@ -6087,15 +6221,19 @@
           "verified": true
         }
       ],
-      "wiring": [],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -6103,19 +6241,20 @@
       "model": "MLV45N1BWWC",
       "display_name": "Midea Top Load 5.2 cu.ft Canada",
       "category": "top_load",
-      "series": "MLV45N1",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 35,
+      "generation": "2009-2026",
+      "series": "MLV45N1",
       "aliases": [
         "MLV45N1BWWC"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MLV45N1 family / verified top-load mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mseries"
+      ],
       "faults": [
         {
           "code": "E1",
@@ -6127,9 +6266,9 @@
             "Check pressure",
             "Inspect inlet hose and filter"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6142,9 +6281,9 @@
             "Inspect lid switch",
             "Check lid harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6157,9 +6296,9 @@
             "Check leveling",
             "Inspect suspension"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6172,9 +6311,9 @@
             "Check drain pump",
             "Check blockage"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -6184,12 +6323,12 @@
           "serial": "unknown",
           "notes": "Canadian top-load model; exact service-manual content not expanded in this pass",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_mseries",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [],
       "documents": [
         {
           "title": "M Series Service Manual",
@@ -6198,15 +6337,19 @@
           "verified": true
         }
       ],
-      "wiring": [],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     },
     {
@@ -6214,19 +6357,21 @@
       "model": "MLV41N1AWWC",
       "display_name": "Midea Top Load 4.1 cu.ft Canada",
       "category": "top_load",
-      "series": "MLV41N1",
-      "generation": "2009-2026",
-      "capacity_kg": "",
       "sort_order": 36,
+      "generation": "2009-2026",
+      "series": "MLV41N1",
       "aliases": [
         "MLV41N1AWWC"
       ],
-      "service_notes": "",
       "service_identity": {
         "platform_family": "Midea MLV41N1 family / verified top-load mapping",
         "sticker_required": true,
         "notes": "Verified Mode: only sourced faults and service references included; board ordering still requires full appliance sticker and PCB label."
       },
+      "source_refs": [
+        "manualslib_mlv41n1awwc",
+        "manualslib_mseries"
+      ],
       "faults": [
         {
           "code": "E1",
@@ -6238,9 +6383,9 @@
             "Check pressure",
             "Inspect inlet hose and filter"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6253,9 +6398,9 @@
             "Inspect lid switch",
             "Check lid harness"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6268,9 +6413,9 @@
             "Check leveling",
             "Inspect suspension"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         },
         {
@@ -6283,9 +6428,9 @@
             "Check drain pump",
             "Check blockage"
           ],
-          "repair": [],
           "source_ref": "manualslib_mseries",
           "verified": true,
+          "repair": [],
           "confidence": ""
         }
       ],
@@ -6295,12 +6440,12 @@
           "serial": "unknown",
           "notes": "ManualsLib lists both user manual and service manual availability; verify sticker before parts order",
           "verify_by_sticker": true,
-          "image": "",
           "source_ref": "manualslib_mlv41n1awwc",
           "verified": true
         }
       ],
       "parts": [],
+      "wiring": [],
       "documents": [
         {
           "title": "MLV41N1AWWC Manuals Listing",
@@ -6315,18 +6460,22 @@
           "verified": true
         }
       ],
-      "wiring": [],
       "images": [],
-      "source_registry": [],
-      "years": {},
       "data_confidence": {
         "faults": "verified",
         "boards": "partial_verified",
         "parts": "low_or_unfilled",
-        "wiring": "verified"
+        "wiring": "verified",
+        "manuals": ""
+      },
+      "capacity_kg": "",
+      "service_notes": "",
+      "years": {
+        "from": 0,
+        "to": 0
       }
     }
   ],
-  "updated_at": "2026-03-28",
-  "coverage_notes": "Verified-mode Midea service-manual linked dataset."
+  "updated_at": "2026-03-29",
+  "coverage_notes": "Brand dataset loaded in smart suite."
 }

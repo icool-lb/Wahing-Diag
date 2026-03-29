@@ -39,7 +39,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -258,27 +261,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -286,37 +294,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-awm-1045s",
@@ -348,7 +370,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -567,27 +592,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -595,37 +625,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-awm-6102",
@@ -657,7 +701,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -876,27 +923,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -904,37 +956,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-awm-7140",
@@ -966,7 +1032,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -1185,27 +1254,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -1213,37 +1287,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-cmi-7600",
@@ -1275,7 +1363,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -1494,27 +1585,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -1522,37 +1618,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-w6104t",
@@ -1584,7 +1694,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -1803,27 +1916,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -1831,37 +1949,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-w6104s",
@@ -1893,7 +2025,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -2112,27 +2247,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -2140,37 +2280,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-w7104t",
@@ -2202,7 +2356,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -2421,27 +2578,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -2449,37 +2611,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-w7104s",
@@ -2511,7 +2687,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -2730,27 +2909,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -2758,37 +2942,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-w8144t1",
@@ -2820,7 +3018,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -3039,27 +3240,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -3067,37 +3273,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-w8144t2",
@@ -3129,7 +3349,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -3348,27 +3571,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -3376,37 +3604,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-w9144t",
@@ -3438,7 +3680,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -3657,27 +3902,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -3685,37 +3935,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-w9144s",
@@ -3747,7 +4011,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -3966,27 +4233,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -3994,37 +4266,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-cmi-108122",
@@ -4056,7 +4342,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -4275,27 +4564,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -4303,37 +4597,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-cmi-128122",
@@ -4365,7 +4673,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -4584,27 +4895,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -4612,37 +4928,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-wmi-81441",
@@ -4674,7 +5004,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -4911,27 +5244,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -4939,37 +5277,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-wmi-91441",
@@ -5001,7 +5353,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -5238,27 +5593,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -5266,37 +5626,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-wvf-814t2",
@@ -5328,7 +5702,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -5565,27 +5942,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -5593,37 +5975,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-wvf-914t2",
@@ -5655,7 +6051,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -5892,27 +6291,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -5920,37 +6324,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "vestel-wvf-1014t2",
@@ -5982,7 +6400,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Check inner door frame or rear rating plate depending on OEM chassis.",
-        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first."
+        "parts_ordering_rule": "Vestel platforms often share cabinets but differ in software and wiring; confirm chassis and sticker first.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -6219,27 +6640,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -6247,37 +6673,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     }
   ],
   "brand_support_refs": [

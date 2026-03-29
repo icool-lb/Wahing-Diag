@@ -51,7 +51,8 @@
       "data_confidence": {
         "faults": "seed",
         "boards": "seed",
-        "parts": "seed"
+        "parts": "seed",
+        "manuals": ""
       }
     },
     {
@@ -96,7 +97,8 @@
       "data_confidence": {
         "faults": "seed",
         "boards": "seed",
-        "parts": "seed"
+        "parts": "seed",
+        "manuals": ""
       }
     },
     {
@@ -141,7 +143,8 @@
       "data_confidence": {
         "faults": "seed",
         "boards": "seed",
-        "parts": "seed"
+        "parts": "seed",
+        "manuals": ""
       }
     },
     {
@@ -186,7 +189,8 @@
       "data_confidence": {
         "faults": "seed",
         "boards": "seed",
-        "parts": "seed"
+        "parts": "seed",
+        "manuals": ""
       }
     },
     {
@@ -231,7 +235,8 @@
       "data_confidence": {
         "faults": "seed",
         "boards": "seed",
-        "parts": "seed"
+        "parts": "seed",
+        "manuals": ""
       }
     },
     {
@@ -276,7 +281,8 @@
       "data_confidence": {
         "faults": "seed",
         "boards": "seed",
-        "parts": "seed"
+        "parts": "seed",
+        "manuals": ""
       }
     },
     {
@@ -321,7 +327,8 @@
       "data_confidence": {
         "faults": "seed",
         "boards": "seed",
-        "parts": "seed"
+        "parts": "seed",
+        "manuals": ""
       }
     }
   ],

@@ -39,7 +39,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -258,27 +261,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -286,37 +294,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-waa20260gc",
@@ -348,7 +370,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -567,27 +592,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -595,37 +625,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wae16060gc",
@@ -657,7 +701,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -876,27 +923,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -904,37 +956,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wae20260gc",
@@ -966,7 +1032,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -1185,27 +1254,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -1213,37 +1287,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wae24460gc",
@@ -1275,7 +1363,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -1494,27 +1585,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -1522,37 +1618,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wak20260gc",
@@ -1584,7 +1694,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -1803,27 +1916,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -1831,37 +1949,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wak24260gc",
@@ -1893,7 +2025,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -2112,27 +2247,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -2140,37 +2280,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wan20060gc",
@@ -2202,7 +2356,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -2439,27 +2596,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -2467,37 +2629,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wan24120gc",
@@ -2529,7 +2705,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -2766,27 +2945,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -2794,37 +2978,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wan28281gb",
@@ -2856,7 +3054,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -3093,27 +3294,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -3121,37 +3327,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wat24460gc",
@@ -3183,7 +3403,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -3420,27 +3643,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -3448,37 +3676,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wat28482gc",
@@ -3510,7 +3752,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -3747,27 +3992,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -3775,37 +4025,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wga142xvgc",
@@ -3837,7 +4101,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -4074,27 +4341,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -4102,37 +4374,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wga244a0gc",
@@ -4164,7 +4450,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -4401,27 +4690,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -4429,37 +4723,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wga254a0gc",
@@ -4491,7 +4799,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -4728,27 +5039,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -4756,37 +5072,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wgg244a0gc",
@@ -4818,7 +5148,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -5055,27 +5388,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -5083,37 +5421,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wgg254a0gc",
@@ -5145,7 +5497,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -5382,27 +5737,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -5410,37 +5770,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wuu28t60me",
@@ -5472,7 +5846,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -5709,27 +6086,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -5737,37 +6119,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wax32mh0gc",
@@ -5799,7 +6195,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -6036,27 +6435,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -6064,37 +6468,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wna14400gc",
@@ -6126,7 +6544,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -6396,27 +6817,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -6424,37 +6850,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     },
     {
       "id": "bosch-wna254u0gc",
@@ -6486,7 +6926,10 @@
           "market/region label"
         ],
         "sticker_location_hint": "Use the type plate / rating plate around the inner door area.",
-        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well."
+        "parts_ordering_rule": "Bosch/BSH spare parts must be matched by E-Nr and often FD/Z-Nr as well.",
+        "platform_family": "",
+        "sticker_required": false,
+        "notes": ""
       },
       "faults": [
         {
@@ -6756,27 +7199,32 @@
         {
           "title": "Service reference",
           "url": "",
-          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available."
+          "notes": "Attach the exact PDF/manual for this precise model or sticker version when available.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram reference",
           "url": "",
-          "notes": "Attach scanned sheet or cloud link for this exact model/revision."
+          "notes": "Attach scanned sheet or cloud link for this exact model/revision.",
+          "source_ref": ""
         },
         {
           "title": "Exploded parts view",
           "url": "",
-          "notes": "Attach or link model-specific parts diagram when available."
+          "notes": "Attach or link model-specific parts diagram when available.",
+          "source_ref": ""
         },
         {
           "title": "Technical sheet / test mode",
           "url": "",
-          "notes": "Add service mode steps and resistance values if available for this exact family."
+          "notes": "Add service mode steps and resistance values if available for this exact family.",
+          "source_ref": ""
         },
         {
           "title": "Exact parts lookup source",
           "url": "",
-          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation."
+          "notes": "Store the vendor or official parts lookup URL used for final board/part confirmation.",
+          "source_ref": ""
         }
       ],
       "wiring": [],
@@ -6784,37 +7232,51 @@
         {
           "title": "Board photo",
           "url": "",
-          "notes": "Paste image link or local asset for main PCB."
+          "notes": "Paste image link or local asset for main PCB.",
+          "source_ref": ""
         },
         {
           "title": "Model sticker",
           "url": "",
-          "notes": "Add sticker photo to lock correct spare parts."
+          "notes": "Add sticker photo to lock correct spare parts.",
+          "source_ref": ""
         },
         {
           "title": "Wiring diagram",
           "url": "",
-          "notes": "Attach exact diagram scan or hosted image when available."
+          "notes": "Attach exact diagram scan or hosted image when available.",
+          "source_ref": ""
         },
         {
           "title": "Control panel photo",
           "url": "",
-          "notes": "Add front fascia photo for exact UI board matching."
+          "notes": "Add front fascia photo for exact UI board matching.",
+          "source_ref": ""
         },
         {
           "title": "Rear / internal board layout",
           "url": "",
-          "notes": "Add internal chassis or PCB mounting photo when available."
+          "notes": "Add internal chassis or PCB mounting photo when available.",
+          "source_ref": ""
         },
         {
           "title": "Error code table",
           "url": "",
-          "notes": "Attach family-specific code chart image if available."
+          "notes": "Attach family-specific code chart image if available.",
+          "source_ref": ""
         }
       ],
       "source_registry": [],
-      "years": {},
-      "data_confidence": "mixed: family-confirmed faults + model-structured parts/boards requiring sticker confirmation for exact ordering"
+      "years": {
+        "from": 0,
+        "to": 0
+      },
+      "data_confidence": {
+        "faults": "",
+        "boards": "",
+        "parts": "",
+        "manuals": ""
+      }
     }
   ],
   "brand_support_refs": [
