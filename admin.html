@@ -2,52 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>iCOOL Washer Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>iCOOL Washer Pro Admin</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="shell admin-shell">
-    <header class="topbar">
-      <div class="brand-main"><img src="assets/logo/icool.svg" class="icool-logo" alt="iCOOL"><div><h1>Admin / AI Update</h1><p>Separate smart page for AI updates, cloud sync, JSON editing, and adding brands.</p></div></div>
-      <div class="row"><button id="homeBtn" class="ghost-btn">Back to App</button></div>
+  <div id="loginOverlay" class="login-overlay">
+    <div class="login-card">
+      <img src="assets/logo/icool.svg" alt="iCOOL" class="login-logo" />
+      <h2>Smart Admin</h2>
+      <p class="muted center">AI, update, cloud, and brand management</p>
+      <input id="loginUser" type="text" placeholder="Username" autocomplete="username" />
+      <input id="loginPass" type="password" placeholder="Password" autocomplete="current-password" />
+      <button id="loginBtn">Login</button>
+      <p id="loginMsg" class="error-text"></p>
+    </div>
+  </div>
+
+  <div class="app-shell admin-shell">
+    <header class="topbar panel-card">
+      <div class="brand-head">
+        <img src="assets/logo/icool.svg" alt="iCOOL" class="logo-main" />
+        <div>
+          <h1>iCOOL Smart Admin</h1>
+          <p class="muted">Verified AI update, cloud save, brand registry, and JSON review</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button id="homeBtn" class="ghost-btn">App</button>
+        <button id="logoutBtn" class="ghost-btn">Logout</button>
+      </div>
     </header>
 
-    <section class="admin-grid">
-      <div class="panel">
-        <h2 class="section-title">Brand Editor</h2>
-        <label>Brand</label>
-        <select id="brandSelect"></select>
-        <label>AI Instruction</label>
-        <textarea id="aiInstruction" rows="8" placeholder="Expand this brand with more verified models, full error codes, remedy steps, parts, boards, source refs, and manual links."></textarea>
-        <div class="btn-grid">
-          <button id="applyAiBtn">Apply AI Update</button>
-          <button id="updateAllBtn" class="ghost-btn">Update All Brands</button>
-          <button id="saveOverrideBtn">Save Override</button>
-          <button id="resetOverrideBtn" class="ghost-btn">Reset Override</button>
-          <button id="cloudSaveBtn">Cloud Save</button>
-          <button id="cloudLoadBtn" class="ghost-btn">Cloud Load</button>
-          <button id="exportBrandBtn" class="ghost-btn">Export Brand</button>
+    <section class="panel-card admin-toolbar">
+      <div class="toolbar-grid">
+        <div class="field-block">
+          <label for="brandSelect">Brand</label>
+          <select id="brandSelect"></select>
         </div>
-        <div id="adminStatus" class="status-box">Ready.</div>
+        <div class="field-block wide">
+          <label for="aiInstruction">AI instruction</label>
+          <textarea id="aiInstruction" rows="6">Add 8 to 12 additional verified models for the selected brand. Use official support pages, official service manuals, and trusted manual repositories. Keep each fault, board, part, wiring entry, and manual linked to a source_ref. Avoid duplicates. Prefer verified exact data over generic filler.</textarea>
+        </div>
       </div>
-
-      <div class="panel">
-        <h2 class="section-title">Add Brand</h2>
-        <label>Brand ID</label><input id="newBrandId" type="text" placeholder="example: whirlpool">
-        <label>English Name</label><input id="newBrandNameEn" type="text" placeholder="Whirlpool">
-        <label>Arabic Name</label><input id="newBrandNameAr" type="text" placeholder="ويرلبول">
-        <label>Theme Color</label><input id="newBrandColor" type="text" value="#3f7cff">
-        <div class="btn-grid"><button id="addBrandBtn">Add Brand Locally</button><button id="saveRegistryCloudBtn" class="ghost-btn">Save Brand Registry to Cloud</button></div>
-        <p class="muted">Added brands are stored locally first, then can be pushed to Supabase brand registry.</p>
+      <div class="admin-actions sticky-actions">
+        <button id="applyAiBtn">Apply AI Update</button>
+        <button id="updateAllBtn" class="ghost-btn">Update All Brands</button>
+        <button id="saveOverrideBtn">Save Override</button>
+        <button id="resetOverrideBtn" class="ghost-btn">Reset Override</button>
+        <button id="cloudSaveBtn" class="ghost-btn">Cloud Save</button>
+        <button id="cloudLoadBtn" class="ghost-btn">Cloud Load</button>
+        <button id="exportBrandBtn" class="ghost-btn">Export Brand</button>
+        <button id="saveRegistryCloudBtn" class="ghost-btn">Save Brand List</button>
       </div>
+      <div id="adminStatus" class="status-pill">Ready.</div>
     </section>
 
-    <section class="panel full-panel">
-      <h2 class="section-title">Brand JSON</h2>
-      <textarea id="brandJson" class="json-box" rows="28" spellcheck="false"></textarea>
+    <section class="panel-card">
+      <h2 class="section-title">Add Brand</h2>
+      <div class="toolbar-grid compact-grid">
+        <div class="field-block"><label for="newBrandId">Brand id</label><input id="newBrandId" placeholder="sharp" /></div>
+        <div class="field-block"><label for="newBrandNameEn">English name</label><input id="newBrandNameEn" placeholder="Sharp" /></div>
+        <div class="field-block"><label for="newBrandNameAr">Arabic name</label><input id="newBrandNameAr" placeholder="شارب" /></div>
+        <div class="field-block"><label for="newBrandColor">Color</label><input id="newBrandColor" placeholder="#1f6fff" value="#1f6fff" /></div>
+      </div>
+      <div class="admin-actions"><button id="addBrandBtn">Add Brand</button></div>
+    </section>
+
+    <section class="panel-card main-panel">
+      <div class="json-head">
+        <h2 class="section-title">Brand JSON</h2>
+      </div>
+      <textarea id="brandJson" class="json-editor" spellcheck="false"></textarea>
     </section>
   </div>
+
   <script src="admin.js"></script>
 </body>
 </html>

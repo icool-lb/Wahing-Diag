@@ -2,19 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>iCOOL Washer Smart Suite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>iCOOL Washer Pro</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="shell">
-    <header class="topbar">
-      <div class="brand-main"><img src="assets/logo/icool.svg" class="icool-logo" alt="iCOOL"><div><h1>Washer Smart Suite</h1><p>Clean technician view for search, brands, models, faults, parts, manuals, and wiring.</p></div></div>
-      <div class="row"><button id="homeBtn" class="ghost-btn">Home</button><button id="adminBtn" class="ghost-btn">Admin / AI</button></div>
-    </header>
-    <section class="search-panel"><div class="search-row"><input id="globalSearch" type="text" placeholder="Search model, error code, board, part, or manual"><button id="searchBtn">Search</button></div><div class="subrow"><div id="statsBox" class="pill">Loading...</div><div id="crumbs" class="crumbs">Home</div></div></section>
-    <main class="layout"><aside class="sidebar"><h2>Brands</h2><div id="brandList" class="brand-list"></div></aside><section class="mainview"><div id="viewRoot"></div></section></main>
+  <div id="loginOverlay" class="login-overlay">
+    <div class="login-card">
+      <img src="assets/logo/icool.svg" alt="iCOOL" class="login-logo" />
+      <h2>iCOOL Washer Pro</h2>
+      <p class="muted center">Technician access</p>
+      <input id="loginUser" type="text" placeholder="Username" autocomplete="username" />
+      <input id="loginPass" type="password" placeholder="Password" autocomplete="current-password" />
+      <button id="loginBtn">Login</button>
+      <p id="loginMsg" class="error-text"></p>
+    </div>
   </div>
+
+  <div class="app-shell">
+    <header class="topbar panel-card">
+      <div class="brand-head">
+        <img src="assets/logo/icool.svg" alt="iCOOL" class="logo-main" />
+        <div>
+          <h1>iCOOL Washer Pro</h1>
+          <p class="muted">Verified models, errors, boards, parts, manuals, and wiring</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button id="homeBtn" class="ghost-btn">Home</button>
+        <button id="adminBtn" class="ghost-btn">Admin</button>
+        <button id="logoutBtn" class="ghost-btn">Logout</button>
+      </div>
+    </header>
+
+    <section class="panel-card search-panel">
+      <div class="search-wrap">
+        <input id="globalSearch" type="text" placeholder="Search by model, error code, board, part, platform, or manual" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div class="status-row">
+        <div id="statsBox" class="status-pill">Loading…</div>
+      </div>
+    </section>
+
+    <section class="panel-card">
+      <h2 class="section-title">Brands</h2>
+      <div id="brandList" class="brand-list"></div>
+    </section>
+
+    <section class="panel-card main-panel">
+      <div id="crumbs" class="crumbs">Home</div>
+      <div id="viewRoot"></div>
+    </section>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
